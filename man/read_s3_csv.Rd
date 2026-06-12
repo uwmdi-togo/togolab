@@ -22,6 +22,6 @@ are already configured via \code{\link{togo_setup_s3}} or \code{\link{togo_paths
 }
 \examples{
 \dontrun{
-df <- read_s3_csv("clean/harmonized_data.csv", bucket = "bpt-data")
+df <- read_s3_csv("clean/harmonized_data.csv", bucket = "togo-data")
 }
 }

@@ -49,14 +49,14 @@ installs immediately, but Step 4 regenerates them.)
 In R, from the parent directory where you want the package to live:
 
 ```r
-usethis::create_package("~/GitHub/CHCO-Code/togolab")
+usethis::create_package("~/GitHub/uwmdi-togo/togolab")
 ```
 
 This makes the folder, `DESCRIPTION`, `NAMESPACE`, and an `.Rproj`. Then set up
 the basics:
 
 ```r
-usethis::use_mit_license("BPT Lab")    # writes LICENSE + LICENSE.md
+usethis::use_mit_license("togo Lab")    # writes LICENSE + LICENSE.md
 usethis::use_testthat()                # creates tests/ scaffolding
 usethis::use_readme_md()               # creates README.md
 ```
@@ -72,7 +72,7 @@ usethis::use_package("aws.s3", "Suggests")
 ```
 
 > **Why the path logic becomes a function, not a sourced script.** Sourcing
-> `bpt_usr_paths.R` dumps variables into the global environment and breaks if
+> `togo_usr_paths.R` dumps variables into the global environment and breaks if
 > the file moves. A package function is versioned, documented, testable, and
 > callable as `togolab::togo_paths()` from anywhere.
 
@@ -99,7 +99,7 @@ Each function is preceded by a roxygen comment block (`#'`). The `@export` tag
 is what makes a function public:
 
 ```r
-#' Resolve BPT lab paths for the current user
+#' Resolve togo lab paths for the current user
 #' @param user OS username. Defaults to the current user.
 #' @return A list with root_path, git_path, keys, ...
 #' @export
@@ -136,16 +136,16 @@ togo_paths()             # should return your paths and configure S3
 
 ## 5. Put it on GitHub
 
-Initialize git and push. You already have the lab org `CHCO-Code`, so either
-make a new repo there or add this package as a subfolder/repo.
+Initialize git and push. This package lives at `uwmdi-togo/togolab`, so create
+the repo under the `uwmdi-togo` org (or push to an existing empty one).
 
 ```r
 usethis::use_git()                          # git init + first commit
-usethis::use_github(organisation = "CHCO-Code")   # creates the remote repo
+usethis::use_github(organisation = "uwmdi-togo")   # creates the remote repo
 ```
 
 (If you prefer the command line / GitHub web UI, create an empty repo named
-`togolab` under CHCO-Code and `git push` to it — same result.)
+`togolab` under uwmdi-togo and `git push` to it — same result.)
 
 **Important — secrets:** the `.gitignore` excludes `keys.json` and `.Renviron`.
 The config file only stores the *path* to each person's keys, never the keys.
@@ -159,7 +159,7 @@ Anyone in the lab now runs, once:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("CHCO-Code/togolab")
+remotes::install_github("uwmdi-togo/togolab")
 ```
 
 Then in any script:
@@ -218,5 +218,5 @@ Step 6), add an entry keyed by their `Sys.info()[["user"]]`, commit, push.
 | Load without installing | `devtools::load_all()` |
 | Run tests | `devtools::test()` |
 | Full validation | `devtools::check()` |
-| Publish to GitHub | `usethis::use_github(organisation = "CHCO-Code")` |
-| Install (members) | `remotes::install_github("CHCO-Code/togolab")` |
+| Publish to GitHub | `usethis::use_github(organisation = "uwmdi-togo")` |
+| Install (members) | `remotes::install_github("uwmdi-togo/togolab")` |

@@ -1,4 +1,4 @@
-#' Locate the BPT path configuration file
+#' Locate the togo path configuration file
 #'
 #' Resolves which `togo_paths.yml` to use, in priority order:
 #' \enumerate{
@@ -37,7 +37,7 @@ togo_config_path <- function(path = NULL) {
   normalizePath(candidate, mustWork = TRUE)
 }
 
-#' Resolve BPT lab paths for the current user
+#' Resolve togo lab paths for the current user
 #'
 #' Reads the external YAML configuration, matches the current operating-system
 #' user (`Sys.info()[["user"]]`), expands `~`, and returns that user's paths.
@@ -49,7 +49,7 @@ togo_config_path <- function(path = NULL) {
 #'   variables via [togo_setup_s3()] using this user's `keys` file.
 #' @param assign_globals If `TRUE`, assign `root_path`, `git_path`, and `keys`
 #'   into the calling environment (mimics the old `source()`-based workflow).
-#'   Defaults to `FALSE`; prefer using the returned list.
+#'   Defaults to `TRUE`.
 #'
 #' @return Invisibly, a list with elements `user`, `root_path`, `git_path`,
 #'   `keys_path`, and `keys` (the parsed contents of the keys JSON, or `NULL`).
@@ -63,7 +63,7 @@ togo_config_path <- function(path = NULL) {
 togo_paths <- function(user = Sys.info()[["user"]],
                       config = NULL,
                       setup_s3 = TRUE,
-                      assign_globals = FALSE) {
+                      assign_globals = TRUE) {
 
   cfg_file <- togo_config_path(config)
   cfg <- yaml::read_yaml(cfg_file)

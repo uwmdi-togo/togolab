@@ -2,7 +2,7 @@
 % Please edit documentation in R/data.R
 \name{togo_load_harmonized}
 \alias{togo_load_harmonized}
-\title{Load the BPT harmonized dataset}
+\title{Load the togo harmonized dataset}
 \usage{
 togo_load_harmonized(summarize = TRUE, char_fun = "last", num_fun = "mean",
   by = c("record_id", "visit"), root_path = NULL, path = NULL,

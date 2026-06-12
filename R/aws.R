@@ -43,7 +43,7 @@ togo_setup_s3 <- function(keys, aws = NULL) {
 #' @export
 #' @examples
 #' \dontrun{
-#' df <- read_s3_csv("clean/harmonized_data.csv", bucket = "bpt-data")
+#' df <- read_s3_csv("clean/harmonized_data.csv", bucket = "togo-data")
 #' }
 read_s3_csv <- function(object, bucket, ...) {
   if (!requireNamespace("aws.s3", quietly = TRUE)) {
@@ -56,4 +56,44 @@ read_s3_csv <- function(object, bucket, ...) {
     bucket = bucket,
     ...
   )
+}
+
+#' Read an RDS object from the lab S3 store
+#'
+#' Wrapper around `aws.s3::s3readRDS()`. Assumes credentials are configured via
+#' [togo_setup_s3()] or [togo_paths()].
+#'
+#' @param object Object key, e.g. `"associations/nebula/result.rds"`.
+#' @param bucket Bucket name.
+#' @param region S3 region (empty string for Kopah). Default `""`.
+#' @return The deserialized R object.
+#' @export
+togo_s3_read_rds <- function(object, bucket, region = "") {
+  .togo_need("aws.s3")
+  aws.s3::s3readRDS(object = object, bucket = bucket, region = region)
+}
+
+#' Save a ggplot (or any object) to the lab S3 store
+#'
+#' Writes an object to S3 using `aws.s3::s3write_using()`. By default it saves a
+#' ggplot via [ggplot2::ggsave()]; pass a different `FUN` (e.g. `saveRDS`) for
+#' other objects. Generalizes the lab's `s3write_using_region` helper.
+#'
+#' @param x Object to write (e.g. a ggplot).
+#' @param object Destination object key (including extension).
+#' @param bucket Bucket name.
+#' @param FUN Writer function. Default [ggplot2::ggsave()].
+#' @param region S3 region (empty string for Kopah). Default `""`.
+#' @param ... Passed to `FUN` (e.g. `width`, `height` for ggsave).
+#' @return Invisibly the result of the write.
+#' @export
+#' @examples
+#' \dontrun{
+#' togo_s3_save_plot(p, "figures/umap.png", bucket = "scrna", width = 10, height = 10)
+#' }
+togo_s3_save_plot <- function(x, object, bucket, FUN = ggplot2::ggsave,
+                              region = "", ...) {
+  .togo_need("aws.s3")
+  aws.s3::s3write_using(x, FUN = FUN, object = object, bucket = bucket,
+                        opts = list(region = region), ...)
 }

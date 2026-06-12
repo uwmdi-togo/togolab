@@ -72,10 +72,10 @@ togo_collapse <- function(data,
   )
 }
 
-#' Load the BPT harmonized dataset
+#' Load the togo harmonized dataset
 #'
 #' Reads `harmonized_dataset.csv` from the standard location under the current
-#' user's `root_path` (`Data Harmonization/Data Clean/harmonized_dataset.csv`)
+#' user's `root_path` (`PHI_data/harmonized_dataset.csv`)
 #' and, by default, collapses it to one row per `record_id` x `visit` via
 #' [togo_collapse()].
 #'
@@ -117,7 +117,7 @@ togo_load_harmonized <- function(summarize = TRUE,
            "togo_paths.yml or pass `path=`.", call. = FALSE)
     }
     path <- file.path(root_path,
-                      "Data Harmonization", "Data Clean",
+                      "PHI_data", 
                       "harmonized_dataset.csv")
   }
   if (!file.exists(path)) {

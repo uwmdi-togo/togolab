@@ -2,7 +2,7 @@
 % Please edit documentation in R/togo_paths.R
 \name{togo_config_path}
 \alias{togo_config_path}
-\title{Locate the BPT path configuration file}
+\title{Locate the togo path configuration file}
 \usage{
 togo_config_path(path = NULL)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/togo_paths.R
 \name{togo_paths}
 \alias{togo_paths}
-\title{Resolve BPT lab paths for the current user}
+\title{Resolve togo lab paths for the current user}
 \usage{
 togo_paths(
   user = Sys.info()[["user"]],
