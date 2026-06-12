@@ -1,8 +1,8 @@
-# Building the `bptlab` R package from scratch
+# Building the `togolab` R package from scratch
 
 This guide takes you from an empty folder to a lab-wide R package on GitHub
 that any member can install with one line. A complete, working skeleton is in
-the `bptlab/` folder next to this file — you can either follow along and build
+the `togolab/` folder next to this file — you can either follow along and build
 it yourself, or just drop that folder into your repo and skip to Step 5.
 
 ---
@@ -25,7 +25,7 @@ comments above your functions into the help pages and the `NAMESPACE` file.
 A package is just a folder with a required structure:
 
 ```
-bptlab/
+togolab/
 ├── DESCRIPTION        # metadata: name, version, dependencies (REQUIRED)
 ├── NAMESPACE          # what the package exports/imports (auto-generated)
 ├── LICENSE            # license terms
@@ -33,7 +33,7 @@ bptlab/
 ├── man/               # help pages (.Rd) — auto-generated from comments
 ├── inst/              # arbitrary files installed alongside the package
 │   └── config/
-│       └── bpt_paths.yml   # the user-paths config
+│       └── togo_paths.yml   # the user-paths config
 ├── tests/             # automated tests
 └── README.md
 ```
@@ -49,7 +49,7 @@ installs immediately, but Step 4 regenerates them.)
 In R, from the parent directory where you want the package to live:
 
 ```r
-usethis::create_package("~/GitHub/CHCO-Code/bptlab")
+usethis::create_package("~/GitHub/CHCO-Code/togolab")
 ```
 
 This makes the folder, `DESCRIPTION`, `NAMESPACE`, and an `.Rproj`. Then set up
@@ -74,7 +74,7 @@ usethis::use_package("aws.s3", "Suggests")
 > **Why the path logic becomes a function, not a sourced script.** Sourcing
 > `bpt_usr_paths.R` dumps variables into the global environment and breaks if
 > the file moves. A package function is versioned, documented, testable, and
-> callable as `bptlab::bpt_paths()` from anywhere.
+> callable as `togolab::togo_paths()` from anywhere.
 
 ---
 
@@ -83,17 +83,17 @@ usethis::use_package("aws.s3", "Suggests")
 Put `.R` files in `R/`. The key design choice we made: **paths live in an
 external YAML file, not hard-coded in the function.** That means when someone's
 path changes, you edit a YAML file and commit — no code edit, and (if you use
-the `BPT_PATHS_CONFIG` option in Step 6) no reinstall.
+the `TOGO_PATHS_CONFIG` option in Step 6) no reinstall.
 
 The skeleton splits the code into:
 
-- `R/bpt_paths.R` — `bpt_config_path()` finds the YAML; `bpt_paths()` reads it,
+- `R/togo_paths.R` — `togo_config_path()` finds the YAML; `togo_paths()` reads it,
   matches `Sys.info()[["user"]]`, expands `~`, loads `keys.json`, and returns a
   list. This is the direct replacement for your old `if (user == ...)` block.
-- `R/aws.R` — `bpt_setup_s3()` sets the AWS env vars (called automatically by
-  `bpt_paths()`); `read_s3_csv()` is an example shared helper.
+- `R/aws.R` — `togo_setup_s3()` sets the AWS env vars (called automatically by
+  `togo_paths()`); `read_s3_csv()` is an example shared helper.
 - `R/utils.R` — small helpers like `%||%`.
-- `inst/config/bpt_paths.yml` — the per-user path table, one entry per username.
+- `inst/config/togo_paths.yml` — the per-user path table, one entry per username.
 
 Each function is preceded by a roxygen comment block (`#'`). The `@export` tag
 is what makes a function public:
@@ -103,7 +103,7 @@ is what makes a function public:
 #' @param user OS username. Defaults to the current user.
 #' @return A list with root_path, git_path, keys, ...
 #' @export
-bpt_paths <- function(user = Sys.info()[["user"]], ...) { ... }
+togo_paths <- function(user = Sys.info()[["user"]], ...) { ... }
 ```
 
 Anything you reference from another package inside your code should be either
@@ -129,7 +129,7 @@ flags. Test it really works on your machine:
 
 ```r
 devtools::load_all()
-bpt_paths()             # should return your paths and configure S3
+togo_paths()             # should return your paths and configure S3
 ```
 
 ---
@@ -145,7 +145,7 @@ usethis::use_github(organisation = "CHCO-Code")   # creates the remote repo
 ```
 
 (If you prefer the command line / GitHub web UI, create an empty repo named
-`bptlab` under CHCO-Code and `git push` to it — same result.)
+`togolab` under CHCO-Code and `git push` to it — same result.)
 
 **Important — secrets:** the `.gitignore` excludes `keys.json` and `.Renviron`.
 The config file only stores the *path* to each person's keys, never the keys.
@@ -159,27 +159,27 @@ Anyone in the lab now runs, once:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("CHCO-Code/bptlab")
+remotes::install_github("CHCO-Code/togolab")
 ```
 
 Then in any script:
 
 ```r
-library(bptlab)
-p <- bpt_paths()        # paths for the current user + S3 configured
+library(togolab)
+p <- togo_paths()        # paths for the current user + S3 configured
 p$root_path; p$git_path; p$keys
 ```
 
 Or, to mimic the old sourced-variable style exactly:
 
 ```r
-bptlab::bpt_paths(assign_globals = TRUE)   # creates root_path, git_path, keys
+togolab::togo_paths(assign_globals = TRUE)   # creates root_path, git_path, keys
 ```
 
 ### Recommended: no-reinstall path edits
 
 So that editing paths doesn't require everyone to reinstall, keep the canonical
-`bpt_paths.yml` in the lab repo (e.g. in `CHCO-Code/Petter Bjornstad`) and have
+`togo_paths.yml` in the lab repo (e.g. in `CHCO-Code/Petter Bjornstad`) and have
 each person point at it once in their `~/.Renviron`:
 
 ```r
@@ -187,17 +187,17 @@ usethis::edit_r_environ()    # opens ~/.Renviron; add the line below, then resta
 ```
 
 ```
-BPT_PATHS_CONFIG=/full/path/to/CHCO-Code/Petter Bjornstad/bpt_paths.yml
+TOGO_PATHS_CONFIG=/full/path/to/CHCO-Code/Petter Bjornstad/togo_paths.yml
 ```
 
-Now `bpt_paths()` reads the live repo file. To change a path, edit that YAML,
+Now `togo_paths()` reads the live repo file. To change a path, edit that YAML,
 `git pull`/`push`, done — no `install_github` needed.
 
 ---
 
 ## 7. Adding a new person or a new function later
 
-**New person / path:** edit `inst/config/bpt_paths.yml` (or the repo copy from
+**New person / path:** edit `inst/config/togo_paths.yml` (or the repo copy from
 Step 6), add an entry keyed by their `Sys.info()[["user"]]`, commit, push.
 
 **New shared function:**
@@ -219,4 +219,4 @@ Step 6), add an entry keyed by their `Sys.info()[["user"]]`, commit, push.
 | Run tests | `devtools::test()` |
 | Full validation | `devtools::check()` |
 | Publish to GitHub | `usethis::use_github(organisation = "CHCO-Code")` |
-| Install (members) | `remotes::install_github("CHCO-Code/bptlab")` |
+| Install (members) | `remotes::install_github("CHCO-Code/togolab")` |

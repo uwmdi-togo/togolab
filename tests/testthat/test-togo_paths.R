@@ -1,5 +1,5 @@
 test_that("the shipped config parses and contains expected users", {
-  cfg_file <- bpt_config_path()
+  cfg_file <- togo_config_path()
   expect_true(file.exists(cfg_file))
 
   cfg <- yaml::read_yaml(cfg_file)
@@ -8,8 +8,8 @@ test_that("the shipped config parses and contains expected users", {
   expect_equal(cfg$aws$endpoint, "s3.kopah.uw.edu")
 })
 
-test_that("bpt_paths resolves a known user and expands ~", {
-  res <- bpt_paths(user = "choiyej", setup_s3 = FALSE)
+test_that("togo_paths resolves a known user and expands ~", {
+  res <- togo_paths(user = "choiyej", setup_s3 = FALSE)
   expect_equal(res$user, "choiyej")
   expect_false(grepl("^~", res$root_path))   # ~ was expanded
   expect_true(grepl("Petter Bjornstad", res$git_path))
@@ -17,7 +17,7 @@ test_that("bpt_paths resolves a known user and expands ~", {
 
 test_that("unknown users raise a clear error", {
   expect_error(
-    bpt_paths(user = "not_a_real_user", setup_s3 = FALSE),
+    togo_paths(user = "not_a_real_user", setup_s3 = FALSE),
     "Unknown user"
   )
 })

@@ -1,6 +1,6 @@
 # togolab
 
-Shared utilities for the Bjornstad-Pyle-Tommerdahl (BPT) lab. Resolves
+Shared utilities for the Bjornstad-Pyle Translational (BPT) lab. Resolves
 per-user file paths from a config file, sets up access to the lab S3 (Kopah)
 store, loads/collapses the harmonized dataset, and bundles helpers the lab
 reuses across projects.
