@@ -1,0 +1,64 @@
+# ============================================================================
+#                     USER PATHS FOR BPT LAB MEMBERS
+#            SPECIFY YOUR PATH BELOW IF MISSING / INCORRECT
+#         REMEMBER TO SAVE AND COMMIT CHANGES TO GITHUB IF EDITED
+#                     ONLY EDIT YOUR OWN ENTRY
+#   If a user works on more than one machine with different paths, add a
+#   separate entry keyed by that machine's system username (Sys.info()[["user"]]).
+# ============================================================================
+
+# AWS / S3 (Kopah) settings shared by everyone.
+aws:
+  region: ""
+  endpoint: "s3.kopah.uw.edu"
+
+# Per-user paths. The top-level key MUST match the OS username returned by
+# R's Sys.info()[["user"]]. `keys` is the path to that user's keys.json.
+users:
+
+  choiyej:                 # Ye Ji Choi - Mac Studio / MacBook Pro
+    root_path: "~/Library/CloudStorage/OneDrive-UW/BPT SharePoint/Data Science"
+    git_path:  "~/GitHub/CHCO-Code/Petter Bjornstad"
+    keys:      "~/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Bjornstad Pyle Lab/keys.json"
+
+  yejichoi:                # Ye Ji Choi - Hyak
+    root_path: "/mmfs1/gscratch/togo/yejichoi/"
+    git_path:  "/mmfs1/gscratch/togo/yejichoi/CHCO-Code/Petter Bjornstad"
+    keys:      "/mmfs1/home/yejichoi/keys.json"
+
+  rameshsh:                # Shivani Ramesh
+    root_path: ""
+    git_path:  "/mmfs1/gscratch/togo/rameshsh/CHCO-Code/Petter Bjornstad"
+    keys:      ""
+
+  pylell:                  # Laura Pyle
+    root_path: "/Users/pylell/Library/CloudStorage/OneDrive-SharedLibraries-UW/Bjornstad/Biostatistics Core Shared Drive"
+    git_path:  "/Users/pylell/Documents/GitHub/CHCO-Code/Petter Bjornstad"
+    keys:      "/Users/pylell/Library/CloudStorage/OneDrive-UW/keys.json"
+
+  # ---- Add your entry below. Replace USERNAME with your Sys.info()[["user"]] ----
+
+  # kmiller:               # Kristen Miller
+  #   root_path: ""
+  #   git_path:  ""
+  #   keys:      ""
+
+  # tvigers:               # Tim Vigers
+  #   root_path: ""
+  #   git_path:  ""
+  #   keys:      ""
+
+  # mdantonio:             # Matteo D'Antonio
+  #   root_path: ""
+  #   git_path:  ""
+  #   keys:      ""
+
+  # dweissenkampen:        # Dylan Weissenkampen
+  #   root_path: ""
+  #   git_path:  ""
+  #   keys:      ""
+
+  # sleidholt:             # Savanah Leidholt
+  #   root_path: ""
+  #   git_path:  ""
+  #   keys:      ""
