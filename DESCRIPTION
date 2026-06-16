@@ -1,12 +1,12 @@
 Package: togolab
-Title: Shared Utilities for the Togo Lab
+Title: Shared Utilities for the Bjornstad-Pyle (BPT) Lab
 Version: 0.1.0
 Authors@R: c(
     person("Ye Ji", "Choi", email = "yejichoi@uw.edu", role = c("aut", "cre")),
-    person("Togo Lab", role = "cph")
+    person("BPT Lab", role = "cph")
   )
-Description: Lab-wide helper functions for the Bjornstad-Pyle-Tommerdahl (Togo)
-    lab. Resolves per-user file system paths from an external
+Description: Lab-wide helper functions for the Bjornstad-Pyle Translational
+    research group. Resolves per-user file system paths from an external
     configuration file, configures access to the lab S3 (Kopah) store, loads
     and collapses the harmonized dataset, and bundles miscellaneous utilities
     the lab uses across projects.
@@ -19,31 +19,8 @@ Depends:
 Imports:
     dplyr (>= 1.1.0),
     jsonlite,
-    rlang,
     yaml
 Suggests:
     aws.s3,
-    DoubletFinder,
-    fgsea,
-    forcats,
-    foreach,
-    doParallel,
-    ggplot2,
-    ggrepel,
-    ggtext,
-    igraph,
-    purrr,
-    RColorBrewer,
-    S4Vectors,
-    scales,
-    Seurat,
-    SingleCellExperiment,
-    slingshot,
-    stringr,
-    SummarizedExperiment,
-    nebula,
-    tibble,
-    tidyr,
-    uwot,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3

@@ -86,38 +86,27 @@ TOGO_PATHS_CONFIG=/path/to/CHCO-Code/Petter Bjornstad/togo_paths.yml
 Resolution order: `config=` argument → `options(togolab.config=)` →
 `TOGO_PATHS_CONFIG` env var → the copy shipped in the package.
 
-## Analysis & plotting helpers
+## What's in this package
 
-Generalized from the lab's `attempt_functions.R`, these work for both the
-ATTEMPT (treatment x visit) and PB90 (disease-group) designs. Heavy packages
-(Seurat, nebula, fgsea, slingshot, ggplot2, ggrepel, ggtext, …) are **Suggests**:
-they're only needed when you call a function that uses them, and each function
-errors with a clear install message if its package is missing.
+`togolab` is the lightweight core: paths, S3 access, the harmonized dataset,
+lab color palettes, and small utilities. It stays cheap to install (no Seurat,
+nebula, fgsea, etc.).
 
 Palettes & theme: `togo_pal_disease`, `togo_pal_treatment`, `togo_colors_5/9`,
 `togo_scale_color_disease()` / `_fill_` / `_treatment` scales, and
 `theme_togo_transparent()`.
 
-scRNA: `togo_make_subsets()`, `togo_run_doubletfinder()`, `togo_run_nebula()`
-(single formula-driven NEBULA fit), `togo_run_nebula_parallel()`,
-`togo_process_nebula_results()`.
-
-UMAP & composition: `togo_prepare_umap_metadata()`, `togo_plot_feature_umap()`,
-`togo_celltype_proportions()`, `togo_celltype_pie()`.
-
-Volcano & pathways: `togo_plot_volcano()`, `togo_prepare_gmt()`,
-`togo_matrix_to_list()`, `togo_clean_pathway_names()`,
-`togo_filter_redundant_pathways()`, `togo_plot_fgsea()`.
-
-Trajectory: `togo_slingshot_setup()`, `togo_run_slingshot()`.
-
 S3: `togo_s3_read_rds()`, `togo_s3_save_plot()` (plus `read_s3_csv()`).
 
 Utilities: `togo_unregister_dopar()`, `togo_get_legend()`, `%||%`.
 
-> Not ported (too ATTEMPT-specific to generalize): the SomaScan/limma
-> proteomics functions and the PRE/POST-by-treatment pseudotime *plots*. Ask if
-> you want generalized versions.
+### Single-cell analysis lives in `togolab.scrna`
+
+scRNA/-omics analysis helpers (NEBULA differential expression, feature UMAPs,
+cell-type composition, GSEA/pathway tools, volcano plots, Slingshot trajectory)
+live in the separate **`togolab.scrna`** package so their heavy dependencies
+(Seurat, nebula, fgsea, slingshot, …) don't burden the core. Install it with
+`remotes::install_github("uwmdi-togo/togolab_scrna")`; it depends on `togolab`.
 
 After adding/editing functions, run `devtools::document()` to regenerate the
 `man/` help pages and `NAMESPACE` from the roxygen comments.

@@ -35,8 +35,8 @@ NULL
 #' Clear the foreach/doParallel backend registration
 #'
 #' Removes the registered parallel backend so a fresh one can be registered.
-#' Useful between parallel runs (e.g. repeated [togo_run_nebula_parallel()]
-#' calls) to avoid stale-cluster errors.
+#' Useful between repeated parallel runs (e.g. NEBULA fits) to avoid
+#' stale-cluster errors.
 #'
 #' @return Invisibly `NULL`.
 #' @export
