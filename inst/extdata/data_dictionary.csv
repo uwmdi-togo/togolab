@@ -1,0 +1,3523 @@
+variable_name,label
+record_id,Study ID
+attempt_id,ATTEMPT ID
+casper_id,CASPER ID
+coffee_id,COFFEE ID
+croc_id,CROCODILE ID
+improve_id,IMPROVE ID
+penguin_id,PENGUIN ID
+rh_id,RENAL-HEIR ID
+rh2_id,RENAL-HEIRitage ID
+panther_id,PANTHER ID
+panda_id,PANDA ID
+rpc2_id,RPC2 ID
+swht_id,SWEETHEART ID
+ultra_id,ULTRA ID
+co_enroll_id,Study Name (if co-enrolled)
+date,Date
+screen_date,Date of Screen
+study,Study Name
+dob,Date of Birth
+diabetes_dx_date,Diabetes Diagnosed Date
+sex,Sex
+race,Race
+ethnicity,Ethnicity
+visit,Study Visit
+procedure,Procedure
+group,Group
+ab40_avg_conc,Ab40 Average Concentration (pg/mL)
+ab42_avg_conc,Ab42 Average Concentration (pg/mL)
+abd_elasto,Abdominal MRI: Mean Hepatic Stiffness
+abd_fat_frac,Abdominal MRI: Mean Hepatic Fat Fraction (%)
+abd_mean_t2,Abdominal MRI: Mean T2
+abd_stiffness_sd,Abdominal MRI: Mean Heptic Stiffness SD
+abo,ABO
+abo_rh,Rh
+abs_basophil,Absolute Basophil Count: (K/uL)
+abs_egc,Absolute Early Granulocyte Count: (K/uL)
+abs_eosin,Absolute Eosinophil Count: (K/uL)
+abs_lymph,Absolute Lymphocyte Count: (K/uL)
+abs_monocyte,Absolute Monocyte Count: (K/uL)
+abs_neut,Absolute Neutrophil Count: (K/uL)
+ac107,acyl-C5-OH (hydroxyisovalerylcarnitine)
+ac109,acyl-C6-DC
+ac111,octenoyl-l-carnitine (acyl-C8:1)
+ac123,acyl-C18:2-OH
+ac124,acyl-C20
+ac125,acyl-C20:4
+acan,Acanthosis Nigricans
+acan_sev,Acanthosis Nigricans Severity
+acca_2_0,AcCa(2:0)
+acca_3_0,AcCa(3:0)
+acca_4_0,AcCa(4:0)
+acca_8_0_h,AcCa(8:0)+H
+acca_10_0_h,AcCa(10:0)+H
+acca_10_1_h,AcCa(10:1)+H
+acca_12_0_h,AcCa(12:0)+H
+acca_12_1_h,AcCa(12:1)+H
+acca_14_1_h,AcCa(14:1)+H
+acca_14_2_h,AcCa(14:2)+H
+acca_16_0,AcCa(16:0)
+acca_16_0_h,AcCa(16:0)+H
+acca_18_0_h,AcCa(18:0)+H
+acca_18_1,AcCa(18:1)
+acca_18_1_h,AcCa(18:1)+H
+acca_18_2_h,AcCa(18:2)+H
+acca_24_0_h,AcCa(24:0)+H
+acca_26_0,AcCa(26:0)
+acca_26_8,AcCa(26:8)
+ace_inhibitor,ACE Inhibitor
+achexsie_20_1,AcHexSiE (20:1)
+aconitic_acid_tissue,Aconitic acid
+acpr,ACPR
+acpr_max,ACPR max
+acprg,Acute C-peptide response to glucose
+acr_u,Urine Albumin-Creatinine Ratio (mg/g)
+acr_u_pm,Urine Albumin-Creatinine Ratio (250 min)
+ad_ac,Administered Activity (mCi)
+ad_tm,Adminstration Time
+adc_left,Left Kidney: ADC (cortex) (mm2/s)
+adc_right,Right Kidney: ADC (cortex)
+addl_hld_meds___3,Additional Lipid-lowering Meds (choice 3)
+addl_hld_meds___4,Additional Lipid-lowering Meds (choice 4)
+adipo_base,Adiponectin (baseline)
+adipo_ir_meq_l_iu_ml,ADIPO-IR (mEq/L/µIU/mL)
+adipo_ir_mmol_l_pmol_l,ADIPO-IR (mmol/L/pmol/L)
+adipose_ir,Adipose IR
+adnine_tissue,Adnine
+adpkd_classification,ADPKD Classification
+aea_15_1_nh4,AEA(15:1)+NH4
+aer_4_coltime,Albumin excretion rate (4hr) collection time
+aer_24,Albumin excretion rate (24hr)
+af_high5pctwss,4D aortic flow (ROI: thoracic aorta) Median of 5% highest wall shear stress (Pa)
+af_meanwss,4D aortic flow (ROI: thoracic aorta) Mean wall shear stress (Pa)
+af_medianwss,4D aortic flow (ROI: thoracic aorta) Median wall shear stress (Pa)
+af_pwv,Pulse wave velocity
+ag_base,Baseline A/G Ratio
+age,Age (years)
+air,AIR
+air_max,AIR max
+airg,AIRg
+alanine,Alanine
+alanine_tissue,Alanine
+alb_base,Baseline Albumin (g/dL)
+albumin,Albumin: (g/dL)
+albuminuria_cat,Albuminuria Category
+alk_phos,Alk Phos (U/L)
+alkphos_base,Baseline Alkaline Phosphatase (U/L)
+alpha_ketoglutaric_acid_tissue,Alpha-ketoglutaric acid
+angiotensin_receptor_blocker,Angiotensin Receptor Blocker
+angiotensinogen_u,Urine angiotensinogen
+ann_uacr,Urine Albumin-Creatinine Ratio
+annual_pi_p,Plasma PI Samples Collected
+annual_pi_s,Serum PI Samples Collected
+annual_pi_u,Urine PI Samples Collected
+annual_year,Annual Lab Visit
+aorta_forward_flow,Aorta Forward Flow
+aorta_net_flow,Aorta Net Flow
+aorta_qp_qs,Aorta Qp:Qs
+aorta_regurgitant_fraction,Aorta Regurgitant Fraction
+aorta_reverse_flow,Aorta Reverse Flow
+apnea,Does patient have sleep apnea
+arachidic_acid_tissue,Arachidic acid
+arginine,Arginine
+art_intima,% Artery/arteriolar Intima:
+art_media,% Artery/arteriolar Media:
+arteriolohyalinosis_sev,Arteriolar Hyalinosis Severity
+arteriosclerosis_sev,Arteriosclerosis Severity
+asparagine_tissue,Asparagine
+aspartate,Aspartate
+aspartic_acid_tissue,Aspartic acid
+associated_study,Associated Study
+avg_c_adc,Average cortical ADC
+avg_c_f,Average cortical F
+avg_c_fsoc,Average cortical FSOC
+avg_c_k1,Average cortical k1
+avg_c_k2,Average cortical k2
+avg_c_k2_wo_cyst_vw,Average cortical k2 (w/o cyst)
+avg_c_r2,Average cortical R2*
+avg_c_t1,Average cortical T1*
+avg_k_fsoc,Average kidney FSOC
+avg_k_r2,Average kidney R2*
+avg_k_t1,Average kidney T1*
+avg_m_f,Average medulla F
+avg_m_fsoc,Average medulla FSOC
+avg_m_k1,Average medulla k1
+avg_m_k2,Average medulla k2
+avg_m_k2_wo_cyst_vw,Average medulla k2 (w/o cyst)
+avg_m_r2,Average medulla R2*
+avg_pcascl,Average pcASL
+avg_plasma_iohexol,Average Plasma Concentration -- Iohexol (ug/ml)
+avg_plasma_pah,Average Plasma Concentration -- PAH (ug/ml)
+az_1_mna_p,1 MNA (+)
+az_2_aminoadipic_acid_p,2 Aminoadipic acid (+)
+az_2_deoxyadenosine_p,2 Deoxyadenosine (+)
+az_3_aminobutyric_acid_n,3 aminobutyric acid (-)
+az_3_methylxanthine_p,3 Methylxanthine (+)
+az_4_hydroxyproline_p,4 hydroxyproline (+)
+az_5_aminoimidazole_4_carboxamide_ribonucleoside_n,5 Aminoimidazole 4 carboxamide ribonucleoside (-)
+az_5_methyl_tetrahydro_folic_acid_n,5 methyl tetrahydro folic acid (-)
+az_6_phospho_gluconic_acid_n,6 phospho gluconic acid (-)
+az_7_methylxanthine_p,7 Methylxanthine (+)
+az_acetyl_neuraminic_acid_n,Acetyl neuraminic acid (-)
+az_acyl_carnitine_2_0_p,acyl carnitine 2 0 (+)
+az_acyl_carnitine_3_0_p,acyl carnitine 3 0 (+)
+az_acyl_carnitine_4_0_p,acyl carnitine 4 0 (+)
+az_acyl_carnitine_5_0_p,acyl carnitine 5 0 (+)
+az_acyl_carnitine_6_0_p,acyl carnitine 6 0 (+)
+az_acyl_carnitine_8_0_p,acyl carnitine 8 0 (+)
+az_acyl_carnitine_10_0_p,acyl carnitine 10 0 (+)
+az_acyl_carnitine_12_0_p,acyl carnitine 12 0 (+)
+az_adenine_n,adenine (-)
+az_adenosine_diphosphate_n,Adenosine diphosphate (-)
+az_adenosine_diphosphate_ribose_n,Adenosine diphosphate ribose (-)
+az_adenosine_monophosphate_n,Adenosine monophosphate (-)
+az_adenosine_p,Adenosine (+)
+az_adenylosuccinate_n,adenylosuccinate (-)
+az_adma_p,ADMA (+)
+az_alanine_p,Alanine (+)
+az_alanyl_glutamine_n,Alanyl glutamine (-)
+az_anserine_p,Anserine (+)
+az_arginine_n,Arginine (-)
+az_arginine_p,Arginine (+)
+az_argininosuccinate_n,Argininosuccinate (-)
+az_asparagine_p,Asparagine (+)
+az_aspartic_acid_n,Aspartic acid (-)
+az_betaine_p,Betaine (+)
+az_carnitine_p,carnitine (+)
+az_choline_p,Choline (+)
+az_cis_aconitic_acid_n,cis aconitic acid (-)
+az_citramalic_acid_n,citramalic acid (-)
+az_citrate_sp_n,citrate sp (-)
+az_citrulline_n,citrulline (-)
+az_cmp_acetylneuraminic_acid_n,CMP acetylneuraminic acid (-)
+az_coenzyme_a_n,Coenzyme A (-)
+az_coumaric_acid_n,coumaric acid (-)
+az_creatine_p,Creatine (+)
+az_cyclic_adenosine_monophosphate_n,cyclic Adenosine monophosphate (-)
+az_cyclic_di_guanosine_monophosphate_n,cyclic di Guanosine monophosphate (-)
+az_cyclic_guanosine_monophosphate_n,cyclic Guanosine monophosphate (-)
+az_cystine_n,Cystine (-)
+az_cytidine_diphosphate_ethanolamine_n,Cytidine diphosphate Ethanolamine (-)
+az_cytidine_monophosphate_n,Cytidine monophosphate (-)
+az_cytidine_n,cytidine (-)
+az_cytosine_n,cytosine (-)
+az_deoxy_adenosine_monophosphate_n,deoxy Adenosine monophosphate (-)
+az_deoxy_cytidine_diphosphate_n,deoxy Cytidine diphosphate (-)
+az_deoxy_methylthiol_adenosine_n,deoxy methylthiol adenosine (-)
+az_deoxy_uridine_monophosphate_n,deoxy uridine monophosphate (-)
+az_deoxycarnitine_p,Deoxycarnitine (+)
+az_deoxycytidine_n,Deoxycytidine (-)
+az_dihydro_orotic_acid_n,Dihydro orotic acid (-)
+az_dihydrofolic_acid_n,Dihydrofolic acid (-)
+az_dihydromethyluracil_n,dihydromethyluracil (-)
+az_dihydroxy_phenyl_acetic_acid_n,dihydroxy phenyl acetic acid (-)
+az_fructose_1_phosphate_n,Fructose 1 Phosphate (-)
+az_fructose_6_phosphate_n,Fructose 6 Phosphate (-)
+az_fumarate_n,fumarate (-)
+az_galactose_1_phosphate_n,Galactose 1 Phosphate (-)
+az_gluconic_acid_n,Gluconic acid (-)
+az_glucosamine_6_phosphate_n,glucosamine 6 phosphate (-)
+az_glucose_1_phosphate_n,Glucose 1 Phosphate (-)
+az_glucose_6_phosphate_n,Glucose 6 Phosphate (-)
+az_glucuronic_acid_n,glucuronic acid (-)
+az_glutamate_n,glutamate (-)
+az_glutamine_p,Glutamine (+)
+az_glutamyl_alanine_n,Glutamyl alanine (-)
+az_glutaric_acid_n,glutaric acid (-)
+az_glutathione_ox_n,glutathione ox (-)
+az_glutathione_red_n,glutathione red (-)
+az_glyceralaldehyde_phosphate_n,Glyceralaldehyde phosphate (-)
+az_glycerate_3_phosphate_n,Glycerate 3 phosphate (-)
+az_glycerate_bisphosphate_n,Glycerate bisphosphate (-)
+az_guanine_n,guanine (-)
+az_guanosine_diphosphate_mannose_n,Guanosine diphosphate mannose (-)
+az_guanosine_monophosphate_n,Guanosine monophosphate (-)
+az_guanosine_n,guanosine (-)
+az_hippuric_acid_p,Hippuric Acid (+)
+az_histidine_p,Histidine (+)
+az_hydroxy_glutaric_acid_n,Hydroxy glutaric Acid (-)
+az_hydroxy_phenyl_acetic_acid_n,Hydroxy phenyl acetic acid (-)
+az_hydroxy_phenyl_lactic_acid_n,Hydroxy phenyl lactic acid (-)
+az_hydroxy_phenyl_propionic_acid_n,Hydroxy phenyl propionic acid (-)
+az_hydroxy_proline_n,Hydroxy proline (-)
+az_hydroxyisocaproic_acid_n,Hydroxyisocaproic acid (-)
+az_hydroxymethyldeoxy_uridine_n,Hydroxymethyldeoxy uridine (-)
+az_hypoxanthine_p,Hypoxanthine (+)
+az_indole_lactic_acid_n,Indole lactic acid (-)
+az_isocitrate_sp_n,isocitrate sp (-)
+az_isoleucine_n,Isoleucine (-)
+az_isovaleryl_coa_n,Isovaleryl CoA (-)
+az_itaconic_acid_n,itaconic acid (-)
+az_kynurenic_acid_n,Kynurenic acid (-)
+az_kynurenine_p,Kynurenine (+)
+az_lactic_acid_n,lactic acid (-)
+az_leucine_n,Leucine (-)
+az_lysine_p,Lysine (+)
+az_malate_n,malate (-)
+az_maleic_acid_n,maleic acid (-)
+az_malonic_acid_n,malonic acid (-)
+az_mannose_6_phosphate_n,Mannose 6 phosphate (-)
+az_mercapturic_acid_n,Mercapturic acid (-)
+az_mesaconic_acid_n,Mesaconic Acid (-)
+az_methionine_n,Methionine (-)
+az_methylxanthine_n,methylxanthine (-)
+az_mevalonic_acid_n,Mevalonic acid (-)
+az_n1_methyl_2_pyridone_5_carboxamide_2py_p,N1 Methyl 2 pyridone 5 carboxamide 2PY (+)
+az_n1_methyl_4_pyridone_5_carboxamide_4py_p,N1 Methyl 4 pyridone 5 carboxamide 4PY (+)
+az_n_acetyl_aspartate_n,N acetyl aspartate (-)
+az_n_acetyl_glucosamine_n,N acetyl glucosamine (-)
+az_n_acetylglutamic_acid_n,N acetylglutamic acid (-)
+az_nicotinamide_adenine_dinucleotide_hydrogen_n,Nicotinamide adenine dinucleotide hydrogen (-)
+az_nicotinamide_adenine_dinucleotide_n,Nicotinamide adenine dinucleotide (-)
+az_nicotinamide_adenine_dinucleotide_phosphate_hydrogen_n,Nicotinamide adenine dinucleotide phosphate hydrogen (-)
+az_nicotinamide_p,Nicotinamide (+)
+az_nicotinic_acid_n,nicotinic acid (-)
+az_ophthalmic_acid_n,Ophthalmic acid (-)
+az_orotic_acid_n,orotic acid (-)
+az_oxalic_acid_n,Oxalic acid (-)
+az_pantothenic_acid_n,pantothenic acid (-)
+az_pcreatine_n,Pcreatine (-)
+az_phenyl_pyruvate_n,Phenyl pyruvate (-)
+az_phenylalanine_p,Phenylalanine (+)
+az_phospho_enol_pyruvic_acid_n,Phospho enol pyruvic acid (-)
+az_phospho_serine_n,Phospho serine (-)
+az_phosphoethanolamine_n,Phosphoethanolamine (-)
+az_pimelic_acid_n,Pimelic Acid (-)
+az_proline_n,Proline (-)
+az_pyridoxal_5_phosphate_n,Pyridoxal 5 Phosphate (-)
+az_pyridoxal_n,Pyridoxal (-)
+az_pyroglutamic_acid_n,Pyroglutamic acid (-)
+az_pyruvic_acid_n,pyruvic acid (-)
+az_quinolinic_acid_n,Quinolinic acid (-)
+az_ribose_5_phosphate_n,Ribose 5 Phosphate (-)
+az_s_5_adenosyl_l_custeine_n,S 5 Adenosyl L Custeine (-)
+az_s_adenosyl_l_homocysteine_p,S Adenosyl L Homocysteine (+)
+az_s_adenosyl_l_methionine_p,S Adenosyl L Methionine (+)
+az_salicylic_acid_n,salicylic acid (-)
+az_sarcosine_p,Sarcosine (+)
+az_sdma_p,SDMA (+)
+az_serine_p,Serine (+)
+az_shikimic_acid_n,shikimic acid (-)
+az_sorbitol_mannitol_n,sorbitol mannitol (-)
+az_succinic_acid_n,succinic acid (-)
+az_taurine_p,Taurine (+)
+az_thiamine_n,Thiamine (-)
+az_threonine_p,Threonine (+)
+az_thymidine_monophosphate_n,Thymidine monophosphate (-)
+az_thymidine_n,Thymidine (-)
+az_thymine_n,thymine (-)
+az_trimethylamine_n_oxide_tmao_p,Trimethylamine N oxide TMAO (+)
+az_tryptophan_p,Tryptophan (+)
+az_tyrosine_n,tyrosine (-)
+az_uracil_n,uracil (-)
+az_ureidopropionic_acid_n,Ureidopropionic acid (-)
+az_ureidosuccinic_acid_n,Ureidosuccinic acid (-)
+az_uridine_diphosphate_galactose_n,Uridine diphosphate galactose (-)
+az_uridine_diphosphate_glucose_n,Uridine diphosphate glucose (-)
+az_uridine_diphosphate_glucuronic_acid_n,Uridine diphosphate glucuronic acid (-)
+az_uridine_diphosphate_n,Uridine diphosphate (-)
+az_uridine_n,uridine (-)
+az_urocanic_acid_n,Urocanic acid (-)
+az_valine_p,Valine (+)
+az_xanthine_n,Xanthine (-)
+az_xanthurenic_acid_n,Xanthurenic acid (-)
+baseline_ffa,Free Fatty Acid (Baseline Avg)
+baseline_insulin,Baseline insulin
+basophil,Basophil %
+bc_tm1,PET Scan Blood Count Time (sample 1)
+bc_tm2,PET Scan Blood Count Time (sample 2)
+bckgd,PET Scan Background
+bd_tm,PET Scan Blood Draw Time
+beta_blocker,Beta Blocker
+bg,Blood Glucose
+bg_30,Blood glucose (30 min)
+bg_60,Blood glucose (60 min)
+bg_90,Blood glucose (90 min)
+bg_120,Blood glucose (120 min)
+bg_150,Blood glucose (150 min)
+bg_180,Blood glucose (180 min)
+bia_body_fat,Body Fat (%)
+bia_complete,Handheld BIA Complete
+bia_fat_mass_kg,Fat Mass (kg)
+bia_lean_mass,Lean Mass (%)
+bia_lean_mass_kg,Lean Mass (kg)
+bicarb_base,Baseline Bicarbonate/HCO3 (nmol/L)
+bili,Bilirubin
+bili_base,Baseline Total Bilirubin (mg/dL)
+birthweight,Birth weight
+bl_androst,Androstenedione (ng/dL)
+bl_dheas,DHEA-S (ng/dL)
+blac_adp_1_25_10_min,BLAC ADP 1.25 10 min
+blac_baseline,BLAC Baseline
+blac_conv_50_3_min,BLAC Conv 50 3 min
+blac_th_0_075_2_min,BLAC TH 0.075 2 min
+blac_th_0_075_5_min,BLAC TH 0.075 5 min
+bls_insulin_st,Baseline Insulin (steady state)
+bmi,Body Mass Index (kg/m^2)
+bod_pod_body_fat,Body fat percentage (BOD POD) (%)
+bod_pod_est_rmr,Estimated Resting Metabolic Rate (BOD POD)
+bod_pod_fat_kg,Fat mass (BOD POD) (kg)
+bod_pod_lean_kg,Lean mass (BOD POD) (kg)
+bod_pod_lean_mass,Lean mass percentage (BOD POD) (%)
+bold_l_bl_cortex,Left cortex R2*
+bold_l_bl_kidney,Left kidney R2*
+bold_l_bl_medulla,Left medulla R2*
+bold_l_pf_cortex,LEFT: Post-furosemide R2* (cortex)
+bold_l_pf_kidney,LEFT: Post-furosemide R2* (kidney)
+bold_l_pf_medulla,LEFT: Post-furosemide R2* (medulla)
+bold_l_t1_cortex,LEFT: T1 (cortex) (ms)
+bold_l_t1_kidney,LEFT: T1 (kidney) (ms)
+bold_r_bl_cortex,Right cortex R2*
+bold_r_bl_kidney,Right kidney R2*
+bold_r_bl_medulla,Right medulla R2*
+bold_r_pf_cortex,RIGHT: Post-furosemide R2* (cortex)
+bold_r_pf_kidney,RIGHT: Post-furosemide R2* (kidney)
+bold_r_pf_medulla,RIGHT: Post-furosemide R2* (medulla)
+bold_r_t1_cortex,RIGHT: T1 (cortex) (ms)
+bold_r_t1_kidney,RIGHT: T1 (kidney) (ms)
+bolus_dex,Dextran bolus volume? (mL)
+bolus_ioh,Iohexol bolus volume? (mL)
+bolus_pah,PAH bolus volume? (mL)
+breast_tanner,Breast - Tanner Stage
+brmr_co,Carbohydrate Oxidation
+brmr_fo,Fat Oxidation
+brmr_ree,Resting Energy Expenditure (REE)
+brmr_rq,Respiratory Quotient (RQ)
+brmr_vco2,VCO2 - Baseline (L/min)
+brmr_vo2_l,VO2 - Baseline (L/min)
+brmr_vo2_ml,VO2 - Baseline (mL/kg/min)
+bsa,BSA
+bsa_dubois,BSA (Dubois)
+bun,Blood Urea Nitrogen (mg/dL)
+bun_base,Baseline Blood Urea Nitrogen (mg/dL)
+bun_s,Serum BUN (mg/dL)
+bx_labs_yn,Biopsy Screening Labs complete
+c00002,ATP
+c00006,NADP+
+c00008,ADP
+c00009,Phosphate
+c00013,Diphosphate
+c00015,UDP
+c00020,AMP
+c00021,S-Adenosyl-L-homocysteine
+c00022,Pyruvate
+c00025,L-glutamate
+c00026,2-Oxoglutarate
+c00031,D-Glucose
+c00036,Oxaloacetate
+c00037,glycine
+c00041,L-alanine
+c00042,Succinate
+c00043,UDP-N-acetyl-D-glucosamine
+c00047,L-lysine
+c00049,L-aspartate
+c00062,L-arginine
+c00064,L-glutamine
+c00065,L-serine
+c00072,Ascorbate
+c00073,L-methionine
+c00074,Phosphoenolpyruvate
+c00078,L-tryptophan
+c00079,L-phenylalanine
+c00081,ITP
+c00082,L-tyrosine
+c00097,L-cysteine
+c00101,Tetrahydrofolate
+c00104,IDP
+c00106,Uracil
+c00108,Anthranilate
+c00114,Choline
+c00118,D-Glyceraldehyde 3-phosphate/Glycerone phosphate
+c00119,5-Phospho-alpha-D-ribose 1-diphosphate
+c00121,D-Ribose
+c00122,Fumarate
+c00123,L-leucine
+c00123_2,L-leucine
+c00130,IMP
+c00135,L-histidine
+c00147,Adenine
+c00148,L-proline
+c00149,Malate
+c00152,L-asparagine
+c00153,Nicotinamide
+c00155,L-Homocysteine
+c00158,Citrate
+c00160,Glycolate
+c00178,Thymine
+c00183,L-valine
+c00188,L-threonine
+c00208,Maltose
+c00214,Thymidine
+c00219,Arachidonic acid (Eicosatetraenoic acid)
+c00236,1-3-Bisphosphoglycerate
+c00239,dCMP
+c00242,Guanine
+c00245,Taurine
+c00246,Butanoic/Butyric acid
+c00249,Hexadecanoic acid (palmitic acid)
+c00262,Hypoxanthine
+c00270,N-Acetylneuraminate
+c00279,D-Erythrose 4-phosphate
+c00294,Inosine
+c00300,Creatine
+c00315,Spermidine
+c00318,L-Carnitine
+c00319,Sphingosine
+c00327,L-Citrulline
+c00328,kynurenine
+c00329,D-Glucosamine
+c00331,Indolepyruvate
+c00345,6-Phospho-D-gluconate
+c00366,Urate
+c00385,Xanthine
+c00387,Guanosine
+c00392,Mannitol
+c00429,5-6-Dihydrouracil
+c00437,N-Acetylornithine
+c00463,Indole
+c00475,Cytidine
+c00486,Bilirubin
+c00491,L-cystine
+c00499,Allantoate
+c00500,Biliverdin
+c00506,L-Cysteate
+c00542,Cystathionine
+c00581,Guanidinoacetate
+c00606,3-Sulfino-L-alanine
+c00620,alpha-D-Ribose 1-phosphate
+c00631,2/3-Phospho-D-glycerate
+c00637,Indole-3-acetaldehyde
+c00647,Pyridoxamine 5'-phosphate
+c00669,gamma-L-Glutamyl-L-cysteine
+c00712,Octadecenoic acid (Oleic acid)
+c00750,Spermine
+c00780,Serotonin
+c00791,Creatinine
+c00803,Pentanoate (valerate)
+c00831,Pantetheine
+c00847,4-Pyridoxate
+c00864,Pantothenate
+c00906,5-6-Dihydrothymine
+c00940,2-Oxoglutaramate
+c00943,"3',5'-Cyclic IMP"
+c00954,Indole-3-acetate
+c00977,L-Tryptophanamide
+c01026,Dimethylglycine
+c01120,Sphinganine 1-phosphate
+c01157,trans-4-Hydroxy-L-proline
+c01185,Nicotinate ribonucleotide
+c01210,N-Methylethanolamine phosphate
+c01236,D-Glucono-1-5-lactone 6-phosphate
+c01419,Cys-Gly
+c01432,Lactate
+c01530,Octadecanoic acid (stearic acid)
+c01571,Decanoic acid (capric acid)
+c01585,Hexanoic acid (caproate)
+c01595,"Linoleic acid ((9Z,12Z)-Octadecadienoic acid)"
+c01601,Nonanoic acid (pelargonic acid)
+c01602,Ornithine
+c01684,D-Rhamnose
+c01835,Maltotriose
+c01879,5-Oxoproline
+c01882,ADP-D-ribose
+c01904,D-Arabitol
+c01962,Thiocysteine
+c01996,Acetylcholine
+c02220,2-Aminomuconate
+c02305,Phosphocreatine
+c02352,1-4-beta-D-Xylan
+c02532,Phosphoserine
+c02571,acetyl-carnitine (acyl-C2)
+c02630,2-Hydroxyglutarate/Citramalate
+c02678,Dodecanedioic acid
+c02679,Dodecanoic acid (lauric acid)
+c02838,L-octanoylcarnitine (acyl-C8)
+c02862,butanoyl-l-carnitine (acyl-C4)
+c02946,4-Acetamidobutanoate
+c02965,D-Glucose 6-phosphate
+c02989,L-Methionine S-oxide
+c02990,L-Palmitoylcarnitine (acyl-C16)
+c03017,propionyl-carnitine (acyl-C3)
+c03242,Dihomo-gamma-linolenic acid ((8Z-11Z-14Z)-Icosatrienoic acid)
+c03406,Argininosuccinate
+c03451,(R)-S-Lactoylglutathione
+c03453,g-Oxalo-crotonate
+c03722,quinolinic acid
+c03738,gamma-L-Glutamyl-D-alanine
+c03771,5-Guanidino-2-oxopentanoate
+c03794,Adenylosuccinic acid
+c03829,2S-5S-Methionine sulfoximine
+c04287,3D-(3-5/4)-Trihydroxycyclohexane-1-2-dione
+c04376,5'-Phosphoribosyl-N-formylglycinamide
+c04579,Inositol 1-2-3-5-6-pentakisphosphate
+c05283,(5-L-Glutamyl)-L-glutamine
+c05422,Dehydroascorbate
+c05526,S-Glutathionyl-L-cysteine
+c05635,5-Hydroxyindoleacetate
+c05658,Indoxyl
+c05695,gamma-Glutamyl-Se-methylselenocysteine
+c05830,8-Methoxykynurenate
+c05832,Hydroxyindole-acetylglycine
+c05834,3-Methyldioxyindole
+c05932,N-Succinyl-L-glutamate 5-semialdehyde
+c06124,Sphingosine 1-phosphate
+c06231,Ectoine
+c06336,3-Sulfocatechol
+c06423,Octanoic acid (caprylic acid)
+c06424,Tetradecanoic acid (myristic acid)
+c06427,a-Linolenic acid (Octadecatrienoic acid)
+c06428,Eicosapentaenoic acid
+c06429,Docosahexaenoic acid
+c06767,Hemine
+c08322,Tetradecenoic acid (myristoleic acid)
+c08362,Hexadecenoic acid (Palmitoleic acid)
+c10164,Picolinic acid
+c11821,5-Hydroxyisourate
+c15767,gamma-Glutamyl-gamma-aminobutyrate
+c16513,Docosapentaenoic acid ((7Z-10Z-13Z-16Z-19Z)-Docosa-7-10-13-16-19-pentaenoic acid)
+c17714,Heptanoic acid
+ca_base,Baseline Calcium (mg/dL)
+ca_channel_blocker,Ca Channel Blocker
+calcium_channel_blocker,Ca Channel Blocker
+cap_loops_sev,Capillary Loops Severity
+car_fem,Carotid to femoral artery
+car_stern,Carotid to sternal notch
+carb_ox_bw_new,Carbohydrate Oxidation/BW (new)
+carb_oxidation_new,Carbohydrate Oxidation (new)
+cardiac_output,Cardiac output (L/min)
+care_14_1_h,CarE(14:1)+H
+care_16_0_h,CarE(16:0)+H
+care_18_0_h,CarE(18:0)+H
+cer_d17_0_26_1_ch3coo,Cer(d17:0_26:1)+CH3COO
+cer_d18_0_22_0_h,Cer(d18:0_22:0)+H
+cer_d18_1_16_0,Cer(d18:1_16:0)
+cer_d18_1_22_0,Cer(d18:1_22:0)
+cer_d18_1_22_0_h,Cer(d18:1_22:0)+H
+cer_d18_1_23_0,Cer(d18:1_23:0)
+cer_d18_1_23_0_ch3coo,Cer(d18:1_23:0)+CH3COO
+cer_d18_1_23_0_h,Cer(d18:1_23:0)+H
+cer_d18_1_24_0,Cer(d18:1_24:0)
+cer_d18_1_24_0_ch3coo,Cer(d18:1_24:0)+CH3COO
+cer_d18_1_24_0_h,Cer(d18:1_24:0)+H
+cer_d18_1_24_1,Cer(d18:1_24:1)
+cer_d18_1_24_1_ch3coo,Cer(d18:1_24:1)+CH3COO
+cer_d18_1_26_0_h,Cer(d18:1_26:0)+H
+cer_d18_2_23_0_h,Cer(d18:2_23:0)+H
+cer_d18_2_24_0_h,Cer(d18:2_24:0)+H
+cer_d18_2_24_0_h_h2o,Cer(d18:2_24:0)+H-H2O
+cer_d18_2_24_1,Cer(d18:2_24:1)
+cer_d18_2_24_1_h,Cer(d18:2_24:1)+H
+cer_d19_1_24_0,Cer(d19:1_24:0)
+cer_d19_1_24_0_h,Cer(d19:1_24:0)+H
+cer_d19_1_24_0_o_h_h2o,Cer(d19:1_24:0+O)+H-H2O
+cer_d19_1_24_1_h,Cer(d19:1_24:1)+H
+cer_d41_1_h_h2o,Cer(d41:1)+H-H2O
+cer_d42_1_h_h2o,Cer(d42:1)+H-H2O
+cer_m18_0_24_0_h,Cer(m18:0_24:0)+H
+cer_t16_0_22_0_h_h2o,Cer(t16:0_22:0)+H-H2O
+cer_t17_0_22_0_h_h2o,Cer(t17:0_22:0)+H-H2O
+cer_t18_0_22_0_h_2h2o,Cer(t18:0_22:0)+H-2H2O
+cer_t18_0_22_0_h_h2o,Cer(t18:0_22:0)+H-H2O
+cer_t18_0_23_0_h_2h2o,Cer(t18:0_23:0)+H-2H2O
+cer_t18_0_23_0_h_h2o,Cer(t18:0_23:0)+H-H2O
+cer_t18_0_24_0_h,Cer(t18:0_24:0)+H
+cer_t18_0_24_0_h_h2o,Cer(t18:0_24:0)+H-H2O
+cer_t18_1_22_0_h_h2o,Cer(t18:1_22:0)+H-H2O
+cer_t18_1_23_0_h_h2o,Cer(t18:1_23:0)+H-H2O
+cer_t18_1_24_0_h_2h2o,Cer(t18:1_24:0)+H-2H2O
+cer_t18_1_24_0_h_h2o,Cer(t18:1_24:0)+H-H2O
+cer_t18_1_24_1_h_h2o,Cer(t18:1_24:1)+H-H2O
+cer_t20_1_23_0_h_h2o,Cer(t20:1_23:0)+H-H2O
+cer_t42_0_h_2h2o,Cer(t42:0)+H-2H2O
+cer_t42_1_o_h_2h2o,Cer(t42:1+O)+H-2H2O
+cerpe_d14_1_21_0,CerPE(d14:1_21:0)
+cerpe_d15_0_21_1,CerPE(d15:0_21:1)
+cerpe_d15_0_23_4,CerPE(d15:0_23:4)
+cerpe_d20_0_19_1,CerPE(d20:0_19:1)
+cerpe_d20_1_21_4,CerPE(d20:1_21:4)
+cerpe_d43_1,CerPE(d43:1)
+cgm_avg_glucose,Average Glucose (mg/dL)
+cgm_bg_std,Standard Deviation (mg/dl)
+cgm_bg_variability,Glucose Variability (Coefficient of Variation %)
+cgm_end,End date of CGM monitoring
+cgm_glucose_var,Glucose Variability (%)
+cgm_gmi,Glucose Management Indicator (GMI)
+cgm_high,Time in Ranges: High (%)
+cgm_low,Time in Ranges: Low (%)
+cgm_range_inrange,Time in Range: % In Range
+cgm_start,Start Date of CGM Monitoring
+cgm_target,Time in Ranges: Target Range (%)
+cgm_v_high,Time in Ranges: Very High (%)
+cgm_v_low,Time in Ranges: Very Low (%)
+cgm_yn,Continuous glucose monitor (Y/N)
+ch,Ch
+che_18_2,ChE(18:2)
+che_18_2_nh4,ChE(18:2)+NH4
+che_18_3,ChE(18:3)
+che_18_3_nh4,ChE(18:3)+NH4
+che_20_4,ChE(20:4)
+che_20_4_h,ChE(20:4)+H
+che_20_4_nh4,ChE(20:4)+NH4
+che_20_5,ChE(20:5)
+che_20_5_nh4,ChE(20:5)+NH4
+che_22_6,ChE(22:6)
+che_22_6_nh4,ChE(22:6)+NH4
+che_h_h2o,ChE()+H-H2O
+chol_base,Baseline Cholesterol (mmol/L)
+cholesterol,Cholesterol (mmol/L)
+cid57357170,O-Decenoyl-L-carnitine (acyl-C10:1)
+circum_1,Phase 1 temporal circumferential strain
+circum_2,Phase 2 temporal circumferential strain
+circum_3,Phase 3 temporal circumferential strain
+circum_4,Phase 4 temporal circumferential strain
+circum_5,Phase 5 temporal circumferential strain
+circum_6,Phase 6 temporal circumferential strain
+circum_7,Phase 7 temporal circumferential strain
+circum_8,Phase 8 temporal circumferential strain
+circum_9,Phase 9 temporal circumferential strain
+circum_10,Phase 10 temporal circumferential strain
+circum_11,Phase 11 temporal circumferential strain
+circum_12,Phase 12 temporal circumferential strain
+circum_13,Phase 13 temporal circumferential strain
+circum_14,Phase 14 temporal circumferential strain
+circum_15,Phase 15 temporal circumferential strain
+circum_16,Phase 16 temporal circumferential strain
+circum_17,Phase 17 temporal circumferential strain
+circum_18,Phase 18 temporal circumferential strain
+circum_19,Phase 19 temporal circumferential strain
+circum_20,Phase 20 temporal circumferential strain
+circum_21,Phase 21 temporal circumferential strain
+circum_22,Phase 22 temporal circumferential strain
+circum_23,Phase 23 temporal circumferential strain
+circum_24,Phase 24 temporal circumferential strain
+circum_25,Phase 25 temporal circumferential strain
+circum_26,Phase 26 temporal circumferential strain
+circum_27,Phase 27 temporal circumferential strain
+circum_28,Phase 28 temporal circumferential strain
+circum_29,Phase 29 temporal circumferential strain
+circum_30,Phase 30 temporal circumferential strain
+citrate,Citrate
+cl_70_1_2h,CL(70:1)-2H
+cl_70_3_2h,CL(70:3)-2H
+cl_74_3_2h,CL(74:3)-2H
+cl_74_3_2h_1,CL(74:3)-2H
+cl_74_7_2h,CL(74:7)-2H
+cl_75_4_2h,CL(75:4)-2H
+cl_75_6_2h,CL(75:6)-2H
+cl_78_7_2h,CL(78:7)-2H
+cl_78_9_2h,CL(78:9)-2H
+cl_base,Baseline Cl/Chlroide (nmol/L)
+cm,Plasma protein mean concentration
+co2,CO2: (mmol/L)
+co_q10,Co(Q10)
+co_q10_nh4,Co(Q10)+NH4
+com,Comment
+congestive_heart_failure,Congestive heart failure
+consent_date,Date of Consent
+copeptin,Copeptin (pmol/L)
+core_diagnostic,Segment for LM & EM obtained
+core_hypo_cryo,Hypothermosol/Cryostor obtained
+core_oct,OCT obtained
+core_rna,RNALater obtained
+core_tissue_type,Core Tissue Type
+coronary_artery_disease,Coronary Artery Disease
+cortex_analyzed_area,Area of Cortex anayzed
+cortex_diagnosis___1,Cortex Diagnosis (choice 1)
+cortex_diagnosis___2,Cortex Diagnosis (choice 2)
+cortex_dx_other,If other:
+cortex_percentage,Percentage of cortex analyzed
+cortex_total_area,Total area of cortex in the biopsy
+cortex_yn,Cortex extracted for analysis
+cpa18_1_0_0_tissue,CPA (18:1/0:0)
+cpep_2,C-peptide (2 min)
+cpep_3,C-peptide (3 min)
+cpep_4,C-peptide (4 min)
+cpep_5,C-peptide (5 min)
+cpep_6,C-peptide (6 min)
+cpep_8,C-peptide (8 min)
+cpep_10,C-peptide (10 min)
+cpep_12,C-peptide (12 min)
+cpep_14,C-peptide (14 min)
+cpep_16,C-peptide (16 min)
+cpep_19,C-peptide (19 min)
+cpep_22,C-peptide (22 min)
+cpep_23,C-peptide (23 min)
+cpep_24,C-peptide (24 min)
+cpep_25,C-peptide (25 min)
+cpep_27,C-peptide (27 min)
+cpep_30,C-peptide (30 min)
+cpep_35,C-peptide (35 min)
+cpep_40,C-peptide (40 min)
+cpep_50,C-peptide (50 min)
+cpep_60,C-peptide (60 min)
+cpep_70,C-peptide (70 min)
+cpep_80,C-peptide (80 min)
+cpep_90,C-peptide (90 min)
+cpep_100,C-peptide (100 min)
+cpep_120,C-peptide (120 min)
+cpep_140,C-peptide (140 min)
+cpep_160,C-peptide (160 min)
+cpep_180,C-peptide (180 min)
+cpep_minus_15,C-peptide (-15 min)
+cpeptide,C-Peptide
+cpeptide_0,C-Peptide (0 min)
+cpeptide_2,C-Peptide (2 min)
+cpeptide_4,C-Peptide (4 min)
+cpeptide_6,C-Peptide (6 min)
+cpeptide_8,C-Peptide (8 min)
+cpeptide_10,C-Peptide (10 min)
+cpeptide_20,C-Peptide (20 min)
+cpeptide_30,C-Peptide (30 min)
+cpeptide_60,C-Peptide (60 min)
+cpeptide_90,C-Peptide (90 min)
+cpeptide_120,C-Peptide (120 min)
+cpeptide_180,C-Peptide (180 min)
+cpeptide_220,C-Peptide (220 min)
+cpeptide_230,C-Peptide (230 min)
+cpeptide_240,C-Peptide (240 min)
+cpeptide_245,C-Peptide (245 min)
+cpeptide_249,C-Peptide (249 min)
+cpeptide_250,C-Peptide (250 min)
+cpeptide_252,C-Peptide (252 min)
+cpeptide_253,C-Peptide (253 min)
+cpeptide_254,C-Peptide (254 min)
+cpeptide_255,C-Peptide (255 min)
+cpeptide_auc,C-Peptide AUC
+cpeptide_minus_5,C-Peptide (T=-5 Before Clamp)
+cpeptide_minus_10,C-Peptide (T=-10 Before Clamp)
+cpm1,PET CPM (sample 1)
+cpm2,PET CPM (sample 2)
+creat_base,Baseline Creatinine (mg/dL)
+creat_s,Serum Creatinine
+creat_u,Urine Creatinine
+creatinine_s,Serum Creatinine (mg/dL)
+creatinine_u,Urine Creatinine (mg/dL)
+crescents_n,Crescents (n)
+crescents_type,Crescents Type
+cryo_hypo_pass,Hypothermosol/Cryostor Core obtained in Pass #
+cryo_time,Time: Core placed in Cryostor cryovial (Orange)
+cryomold_id,(BLUE) Cryomold with OCT ID [S-9999-999999]
+cryostor_id,(ORANGE) Cryostor Cryovial ID [S-9999-999999]
+cyst_parenchyma_sa,Cyst-Parenchyma Surface Area (cm^2)
+cystatin_c_s,Cystatin C (mg/L)
+cystine,Cystine
+d20_bolus_time,D20 Bolus - Time Started
+d20_bolus_vol,D20 Bolus - Initial Volume
+d20_bolus_volume,D20 Bolus - Initial Volume
+d20_infusion,D20 - (Steady State) Infusion Rate
+d20_infusion_rate_120,D20 Infusion Rate (120 min)
+d20_infusion_rate_220,D20 Infusion Rate (220 min)
+d20_infusion_rate_230,D20 Infusion Rate (230 min)
+d20_infusion_rate_240,D20 Infusion Rate (240 min)
+d20_volume,D20 Total Volume
+d25_bolus_time,D25 Bolus Time
+dap_o_4_0_o_4_0,DAP(O-4:0_O-4:0)
+dap_o_12_0_o_4_0,DAP(O-12:0_O-4:0)
+dap_o_13_0_o_5_0,DAP(O-13:0_O-5:0)
+dap_o_14_0_o_6_0,DAP(O-14:0_O-6:0)
+date_of_screen,Date of Screening Labs
+dbp,Diastolic Blood Pressure (mmHg)
+degree,What is the highest degree or level of school you have completed
+deltapf,Filtration pressure across glomerular capillaries
+depth_left,Left kidney: depth (cm)
+depth_right,Right kidney: depth (cm)
+dex_bol_com,Dextran bolus completion time
+dex_bol_start,Dextran bolus administration start time
+dexa_ag_ratio,Android/Gynoid Ratio (DXA)
+dexa_body_fat,Body fat percentage (%)
+dexa_bone_mineral_density,Bone Mineral Density (DXA) (g/cm^2)
+dexa_est_vat,Estimated VAT mass (DXA) (g)
+dexa_fat_kg,Fat mass (kg)
+dexa_lean_kg,Lean mass (kg)
+dexa_lean_mass,Lean mass percentage (%)
+dexa_trunk_kg,Trunk mass (kg)
+dexa_trunk_mass,Trunk mass percentage (%)
+dexcom_yn,Does patient currently utilize a Dexcom CGM System
+dexcomdata_yn,Was Dexcom CGM Data collected on patient 1 week before study visit
+dextran_yn,Dextran given
+dg_13_1_20_2,DG(13:1_20:2)
+dg_14_0_18_2,DG(14:0_18:2)
+dg_14_0_18_2_nh4,DG(14:0_18:2)+NH4
+dg_15_0_18_1_nh4,DG(15:0_18:1)+NH4
+dg_15_1_21_4,DG(15:1_21:4)
+dg_16_0_14_0_nh4,DG(16:0_14:0)+NH4
+dg_16_0_16_0,DG(16:0_16:0)
+dg_16_0_16_0_nh4,DG(16:0_16:0)+NH4
+dg_16_0_16_1,DG(16:0_16:1)
+dg_16_0_17_0_nh4,DG(16:0_17:0)+NH4
+dg_16_0_18_1,DG(16:0_18:1)
+dg_16_0_18_1_h,DG(16:0_18:1)+H
+dg_16_0_18_1_nh4,DG(16:0_18:1)+NH4
+dg_16_0_18_2,DG(16:0_18:2)
+dg_16_0_18_2_nh4,DG(16:0_18:2)+NH4
+dg_16_1_18_2,DG(16:1_18:2)
+dg_16_1_18_2_nh4,DG(16:1_18:2)+NH4
+dg_17_0_18_1_nh4,DG(17:0_18:1)+NH4
+dg_17_1_18_1,DG(17:1_18:1)
+dg_17_1_18_1_nh4,DG(17:1_18:1)+NH4
+dg_18_0_16_0_nh4,DG(18:0_16:0)+NH4
+dg_18_0_18_0,DG(18:0_18:0)
+dg_18_0_18_0_nh4,DG(18:0_18:0)+NH4
+dg_18_0_18_1,DG(18:0_18:1)
+dg_18_0_18_1_nh4,DG(18:0_18:1)+NH4
+dg_18_1_12_0_nh4,DG(18:1_12:0)+NH4
+dg_18_1_14_0_nh4,DG(18:1_14:0)+NH4
+dg_18_1_18_1,DG(18:1_18:1)
+dg_18_1_18_1_h,DG(18:1_18:1)+H
+dg_18_1_18_1_nh4,DG(18:1_18:1)+NH4
+dg_18_1_18_2,DG(18:1_18:2)
+dg_18_1_18_2_h,DG(18:1_18:2)+H
+dg_18_1_18_2_nh4,DG(18:1_18:2)+NH4
+dg_18_1_20_2_nh4,DG(18:1_20:2)+NH4
+dg_18_1_20_3_nh4,DG(18:1_20:3)+NH4
+dg_18_1_20_4,DG(18:1_20:4)
+dg_18_1_20_4_nh4,DG(18:1_20:4)+NH4
+dg_18_1_22_1_nh4,DG(18:1_22:1)+NH4
+dg_18_2_18_2,DG(18:2_18:2)
+dg_18_2_18_2_nh4,DG(18:2_18:2)+NH4
+dg_18_2_18_3,DG(18:2_18:3)
+dg_18_2_20_4,DG(18:2_20:4)
+dg_18_3_18_2_nh4,DG(18:3_18:2)+NH4
+dg_20_0_18_1_nh4,DG(20:0_18:1)+NH4
+dg_20_1_18_1_nh4,DG(20:1_18:1)+NH4
+dg_22_4_11_0,DG(22:4_11:0)
+dg_30_0e_na,DG(30:0e)+Na
+dg_30_0e_na_1,DG(30:0e)+Na
+dg_32_0e_na,DG(32:0e)+Na
+dg_32_0e_na_1,DG(32:0e)+Na
+dg_32_1e_na,DG(32:1e)+Na
+dg_32_1e_na_1,DG(32:1e)+Na
+dg_32_1e_na_2,DG(32:1e)+Na
+dg_34_0,DG(34:0)
+dg_34_1e_na,DG(34:1e)+Na
+dg_34_1e_na_1,DG(34:1e)+Na
+dg_34_2_h,DG(34:2)+H
+dg_34_2e_na,DG(34:2e)+Na
+dg_34_2e_na_1,DG(34:2e)+Na
+dg_34_3e_h,DG(34:3e)+H
+dg_34_3e_h_1,DG(34:3e)+H
+dg_34_3e_h_2,DG(34:3e)+H
+dg_34_4e_h,DG(34:4e)+H
+dg_34_4e_h_1,DG(34:4e)+H
+dg_34_4e_h_2,DG(34:4e)+H
+dg_36_3e_h,DG(36:3e)+H
+dg_36_4e_h,DG(36:4e)+H
+dg_36_4e_h_1,DG(36:4e)+H
+dg_36_5e_h,DG(36:5e)+H
+dg_36_5e_h_1,DG(36:5e)+H
+dg_38_6_nh4,DG(38:6)+NH4
+dg_o_6_0_12_0,DG(O-6:0_12:0)
+dg_o_6_0_24_0,DG(O-6:0_24:0)
+dg_o_8_0_24_0,DG(O-8:0_24:0)
+dg_o_10_0_23_5,DG(O-10:0_23:5)
+dg_o_11_0_23_3,DG(O-11:0_23:3)
+dg_o_12_0_22_4,DG(O-12:0_22:4)
+dg_o_15_0_21_4,DG(O-15:0_21:4)
+dg_o_17_1_22_2,DG(O-17:1_22:2)
+dg_o_18_3_18_2,DG(O-18:3_18:2)
+dg_o_19_0_15_2,DG(O-19:0_15:2)
+dg_o_19_0_17_3,DG(O-19:0_17:3)
+dg_o_21_6_17_0,DG(O-21:6_17:0)
+dg_o_24_3_12_1,DG(O-24:3_12:1)
+dg_p_8_0_24_0,DG(P-8:0_24:0)
+dg_p_12_1_22_0,DG(P-12:1_22:0)
+dg_p_13_1_21_0,DG(P-13:1_21:0)
+dg_p_13_1_23_2,DG(P-13:1_23:2)
+dg_p_26_8_19_4,DG(P-26:8_19:4)
+di,Disposition Index (*10^3 mg/kg lean/min)
+diabetes_age,Age at Diagnosis of Diabetes
+diabetes_diag,Date of Diagnosis with Diabetes
+diabetes_duration,Diabetes Duration (years) (months)
+diabetes_med___1,Diabetes Medical (choice 1)
+diabetes_med___2,Diabetes Medical (choice 2)
+diabetes_med___3,Diabetes Medical (choice 3)
+diabetes_med_dose,Daily medication dose
+diabetes_med_other___1,Diabetes Medical Other (choice 1)
+diabetes_med_other___2,Diabetes Medical Other (choice 2)
+diabetes_med_other___4,Diabetes Medical Other (choice 4)
+diabetes_months,Length of Diabetes Diagnosis (months)
+diagnostic_formalin_time,Time: LM segment placed in Formalin Vial (Gray)
+diagnostic_glut_time,Time: EM segment placed in Glutaraldehyde Vial (Pink)
+diagnostic_pass,Diagnostic Core obtained in Pass #
+diuretic,Diuretic
+dlcl_38_3_2h,DLCL(38:3)-2H
+dlcl_42_1_2h,DLCL(42:1)-2H
+dlcl_42_1_2h_1,DLCL(42:1)-2H
+dlcl_42_3_2h,DLCL(42:3)-2H
+dlcl_42_7_2h,DLCL(42:7)-2H
+dpir_id,DPIR ID:
+dx_verbatim,Diagnosis (verbatim)
+eag,Estimated Average Glucose
+early_ins_clear,Early-Phase Insulin Clearance
+early_phase_insulin_clearance,Early Phase (0-60 min) Insulin Clearance
+eat_dias,Epicardial Adipose Tissue Diastole
+eat_sys,Epicardial Adipose Tissue Systole
+ecv,Extracellular Volume
+edv_ml,End diastolic volume (mL)
+ef_percent,Ejection fraction
+eGFR_bedside_Schwartz,eGFR by Schwartz Bedside Equation
+eGFR_CKD_epi,eGFR by CKD-EPI Creatinine 2021
+eGFR_CKiD_U25_avg,eGFR CKiD-U25 (avg)
+eGFR_CKiD_U25_Creat,eGFR CKiD-U25 (creatinine)
+eGFR_CKiD_U25_CystatinC,eGFR CKiD-U25 (cystatin C)
+eGFR_fas_cr,eGFR by Full Age Spectrum Scr
+eGFR_fas_cr_cysc,eGFR by Full Age Spectrum Scr and CysC
+eGFR_Schwartz,eGFR by Schwartz Full Equation
+eGFR_Zap,eGFR by Zappitelli Equation
+elevated_albuminuria,Elevated Albuminuria
+em_edd,Electron-Dense Deposits (EM)
+em_fpe_sev,Foot Process Effacement Severity (EM)
+em_gbm_thick_sev,GBM Thickness Severity (EM)
+em_gloms_n,Glomeruli Count (EM)
+em_mesangial_sev,Mesangial Severity (EM)
+eosinophil,Eosinophil %:
+epic_bb_1,Beta-blockers at 1st kidney biopsy or visit (current)
+epic_bb_2,Beta-blockers at 2nd kidney biopsy or visit (current)
+epic_ccb_1,Calcium-channel blockers at 1st kidney biopsy or visit (current)
+epic_ccb_2,Calcium-channel blockers at 2nd kidney biopsy or visit (current)
+epic_diuretics_1,Diuretic at 1st kidney biopsy or visit (current)
+epic_diuretics_2,Diuretic at 2nd kidney biopsy or visit (current)
+epic_ever_bb_1,"Beta-blockers >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_bb_2,"Beta-blockers >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_ccb_1,"Calcium-channel blockers>30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_ccb_2,"Calcium-channel blockers >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_diuretic_1,"Diuretic >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_diuretics_2,"Diuretic >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_fibrate_1,"Fibrates >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_fibrate_2,"Fibrates >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_glp1ra_1,"GLP-1RA >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_glp1ra_2,"GLP-1RA >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_insulin_1,"Insulin >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_insulin_2,"Insulin >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_mfm_1,"Metformin >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_mfm_2,"Metformin >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_mra_1,"MRAs >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_mra_2,"MRAs >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_phentermine_1,"Phentermine >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_phentermine_2,"Phentermine >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_raasi_1,"ACEIs/ARBs >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_raasi_2,"ACEIs/ARBs >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_sglt2i_1,"SGLT2i >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_sglt2i_2,"SGLT2i >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_statin_1,"Statin >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_statin_2,"Statin >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_topiramate_1,"Topirmate >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_topiramate_2,"Topirmate >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_tzd_1,"Thiazolidinediones >30 days, before 1st kidney biopsy or visit (ever)"
+epic_ever_tzd_2,"Thiazolidinediones >30 days, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_ever_uric_1,"Uric-acid lowering agent >30 days or previously use pegloticase, before 1st kidney biopsy or visit (ever)"
+epic_ever_uric_2,"Uric-acid lowering agent >30 days or previously use pegloticase, after 1st kidney biopsy or visit AND before 2nd kidney biopsy or visit (ever)"
+epic_fibrate_1,Fibrates at 1st kidney biopsy or visit (current)
+epic_fibrate_2,Fibrates at 2nd kidney biopsy or visit (current)
+epic_glp1ra_1,GLP-1RA at 1st kidney biopsy or visit (current)
+epic_glp1ra_2,GLP-1RA at 2nd kidney biopsy or visit (current)
+epic_insulin_1,Insulin at 1st kidney biopsy or visit (current)
+epic_insulin_2,Insulin at 2nd kidney biopsy or visit (current)
+epic_mfm_1,Metformin at 1st kidney biopsy or visit (current)
+epic_mfm_2,Metformin at 2nd kidney biopsy or visit (current)
+epic_mra_1,MRAs at 1st kidney biopsy or visit (current)
+epic_mra_2,MRAs at 2nd kidney biopsy or visit (current)
+epic_phentermine_1,Phentermine at 1st kidney biopsy or visit (current)
+epic_phentermine_2,Phentermine at 2nd kidney biopsy or visit (current)
+epic_raasi_1,ACEIs/ARBs at 1st kidney biopsy or visit (current)
+epic_raasi_2,ACEIs/ARBs at 2nd kidney biopsy or visit (current)
+epic_sglt2i_2,SGLT2i at 2nd kidney biopsy or visit (current)
+epic_sglti2_1,SGLT2i at 1st kidney biopsy or visit (current)
+epic_statin_1,Statin at 1st kidney biopsy or visit (current)
+epic_statin_2,Statin at 2nd kidney biopsy or visit (current)
+epic_topiramate_1,Topirmate at 1st kidney biopsy or visit (current)
+epic_topiramate_2,Topirmate at 2nd kidney biopsy or visit (current)
+epic_tzd_1,Thiazolidinediones at 1st kidney biopsy or visit (current)
+epic_tzd_2,Thiazolidinedionesat 2nd kidney biopsy or visit (current)
+epic_uric_1,Uric-acid lowering agent at 1st kidney biopsy or visit (current)
+epic_uric_2,Uric-acid lowering agent at 2nd kidney biopsy or visit (current)
+erpf_bsa_plasma,BSA indexed ERPF from plasma clearance (mL/min/1.73m^2)
+erpf_bsa_plasma_urine,BSA indexed ERPF from plasma and urine clearance (mL/min/1.73m^2)
+erpf_raw_plasma,ERPF from plasma clearance (mL/min)
+erpf_raw_plasma_urine,ERPF from plasma and urine clearance (mL/min)
+estrad,Estradiol
+esv_ml,End systolic volume (mL)
+fa_12_0,FA(12:0)
+fa_14_0,FA(14:0)
+fa_14_1,FA(14:1)
+fa_15_0,FA(15:0)
+fa_15_1,FA(15:1)
+fa_16_0,FA(16:0)
+fa_16_1,FA(16:1)
+fa_17_0,FA(17:0)
+fa_17_1,FA(17:1)
+fa_18_0,FA(18:0)
+fa_18_1,FA(18:1)
+fa_18_2,FA(18:2)
+fa_18_2_h,FA(18:2)-H
+fa_18_3,FA(18:3)
+fa_19_0,FA(19:0)
+fa_19_1,FA(19:1)
+fa_20_0,FA(20:0)
+fa_20_1,FA(20:1)
+fa_20_2,FA(20:2)
+fa_20_3,FA(20:3)
+fa_20_4,FA(20:4)
+fa_20_5,FA(20:5)
+fa_21_0,FA(21:0)
+fa_22_0,FA(22:0)
+fa_22_1,FA(22:1)
+fa_22_4,FA(22:4)
+fa_22_5,FA(22:5)
+fa_22_6,FA(22:6)
+fa_23_0,FA(23:0)
+fa_24_0,FA(24:0)
+fa_25_0,FA(25:0)
+fa_25_7,FA(25:7)
+fa_26_0,FA(26:0)
+fasting_cpep,Fasting C-peptide
+fasting_ffa,Fasting FFA
+fasting_glu,Fasting Glucose
+fasting_insulin,Fasting Insulin
+fasting_insulin_clearance_ng_ml_uiu_l,Fasting Insulin Clearance (ng/mL/Uiu/L)
+fat_oxidation_new,Fat Oxidation/BW (New)
+fat_oxidation_new_nonbw,Fat Oxidation (New)
+fbg,Fasting Blood Glucose (mg/dL)
+ff,Filtration fraction (%)
+ffa_0,Free Fatty Acid (0 min)
+ffa_2,Free Fatty Acid (2 min)
+ffa_4,Free Fatty Acid (4 min)
+ffa_6,Free Fatty Acid (6 min)
+ffa_8,Free Fatty Acid (8 min)
+ffa_10,Free Fatty Acid (10 min)
+ffa_30,Free Fatty Acid (30 min)
+ffa_60,Free Fatty Acid (60 min)
+ffa_70,Free Fatty Acid (70 min)
+ffa_80,Free Fatty Acid (80 min)
+ffa_90,Free Fatty Acid (90 min)
+ffa_120,Free Fatty Acid (120 min)
+ffa_180,Free Fatty Acid (180 min)
+ffa_220,Free Fatty Acid (220 min)
+ffa_230,Free Fatty Acid (230 min)
+ffa_240,Free Fatty Acid (240 min)
+ffa_250,Free Fatty Acid (250 min)
+ffa_260,Free Fatty Acid (260 min)
+ffa_270,Free Fatty Acid (270 min)
+ffa_method,Method of FFA collection
+ffa_minus_5,Free Fatty Acid (T=-5 Before Clamp)
+ffa_minus_10,Free Fatty Acid (T=-10 Before Clamp)
+ffa_minus_20,Free Fatty Acid (T=-20 Before Clamp)
+ffa_suppression,FFA Suppression (%)
+ffa_suppression_combined,FFA Suppression (combined across studies) (%)
+fia,Fractional Interstitial Area
+fibrates,Fibrates
+fibrates_timepoint,Fibrates
+form_id,Formalin Vial ID
+fractional_pt_epithelium_area,Fractional PT epithelium area
+fractional_pt_lumen_area,Fractional PT lumen area
+fractional_pt_total_area,Fractional PT total area (Epithelium+ Lumen)
+free_test,Free Testosterone
+fsh,FSH (mlU/mL)
+fsoc_l_cortex,Left cortex FSOC
+fsoc_l_kidney,Left kidney FSOC
+fsoc_l_medulla,Left medulla FSOC
+fsoc_r_cortex,Right cortex FSOC
+fsoc_r_kidney,Right kidney FSOC
+fsoc_r_medulla,Right medulla FSOC
+fucose_tissue,Fucose
+fumarate,Fumarate
+fumaric_acid_tissue,Fumaric acid
+g6pd,G6PD test results
+gbm_lm_sev,GBM Severity (LM)
+gbm_thick_artmean,GBM thickness (arithmetic mean)
+gbm_thick_harmmean,GBM thickness (hamonic mean)
+gcs,Global Circumferential Strain
+gfap_avg_conc,GFAP Average Concentration (pg/mL)
+gfr_bsa_plasma,BSA indexed GFR from plasma clearance (mL/min/1.73m^2)
+gfr_bsa_plasma_urine,BSA indexed GFR from plasma and urine clearance (mL/min/1.73m^2) (mL/min/1.73m^2)
+gfr_cv,GFR -- cv
+gfr_ecv_percent,GFR/ECV (%)
+gfr_ecv_std,GFR Standardized by ECV
+gfr_p1,GFR -- Period 1
+gfr_p2,GFR -- Period 2
+gfr_raw_plasma,GFR from plasma clearance (mL/min)
+gfr_raw_plasma_seconds,GFR Raw Plasma (seconds)
+gfr_raw_plasma_urine,GFR from plasma and urine clearance (mL/min)
+gfr_sd,GFR -- sd
+gir_190,Raw M-value (mg/kg/min)
+gir_200,Glucose infusion rate (mg/kg/min)
+glom_enlarge___1,Glomerular Enlargement (choice 1)
+glom_enlarge___2,Glomerular Enlargement (choice 2)
+glom_enlarge___3,Glomerular Enlargement (choice 3)
+glom_enlarge___4,Glomerular Enlargement (choice 4)
+glom_enlarge___5,Glomerular Enlargement (choice 5)
+glom_enlarge___6,Glomerular Enlargement (choice 6)
+glom_enlarge___7,Glomerular Enlargement (choice 7)
+glom_nuc_count,Glomerular Nuclear Count
+glom_tuft_area,Glomerular Tuft Area (um^2)
+glom_volume_con,Glomerular Volume - Consensus (10^6 um^3)
+glom_volume_weibel,Glomerular Volume - Weibel (10^6 um^3)
+glom_volume_wiggins,Glomerular Volume - Wiggins (10^6 um^3)
+glomerular_pressure,Glomerular pressure (mmHg)
+gloms,Number of Glomeruli
+gloms_gs,GS Gloms (%)
+gloms_gs_n,Globally Sclerotic Glomeruli (n)
+glp1_0,GLP-1 (0 min)
+glp1_10,GLP-1 (10 min)
+glp1_30,GLP-1 (30 min)
+glp1_45,GLP-1 (45 min)
+glp1_60,GLP-1 (60 min)
+glp1_120,GLP-1 (120 min)
+glp1_240,GLP-1 (240 min)
+glp1_agonist_timepoint,GLP-1RA
+glp1_minus_10,GLP-1 (-10 min)
+gls,Global Longitudinal Strain
+gluc_2,Glucose (2 min)
+gluc_3,Glucose (3 min)
+gluc_4,Glucose (4 min)
+gluc_5,Glucose (5 min)
+gluc_6,Glucose (6 min)
+gluc_8,Glucose (8 min)
+gluc_10,Glucose (10 min)
+gluc_12,Glucose (12 min)
+gluc_14,Glucose (14 min)
+gluc_16,Glucose (16 min)
+gluc_19,Glucose (19 min)
+gluc_22,Glucose (22 min)
+gluc_23,Glucose (23 min)
+gluc_24,Glucose (24 min)
+gluc_25,Glucose (25 min)
+gluc_27,Glucose (27 min)
+gluc_30,Glucose (30 min)
+gluc_35,Glucose (35 min)
+gluc_40,Glucose (40 min)
+gluc_50,Glucose (50 min)
+gluc_60,Glucose (60 min)
+gluc_70,Glucose (70 min)
+gluc_80,Glucose (80 min)
+gluc_90,Glucose (90 min)
+gluc_100,Glucose (100 min)
+gluc_120,Glucose (120 min)
+gluc_140,Glucose (140 min)
+gluc_160,Glucose (160 min)
+gluc_180,Glucose (180 min)
+gluc_minus_15,Glucose (-15 min)
+glucagon_0,Glucagon (0 min)
+glucagon_10,Glucagon (10 min)
+glucagon_30,Glucagon (30 min)
+glucagon_45,Glucagon (45 min)
+glucagon_60,Glucagon (60 min)
+glucagon_120,Glucagon (120 min)
+glucagon_240,Glucagon (240 min)
+glucagon_minus_10,Glucagon (-10 min)
+gluconolactone_tissue,Gluconolactone
+glucose,Serum Glucose
+glucose_0,Blood Glucose (0 min)
+glucose_5,Blood Glucose (5 min)
+glucose_10,Blood Glucose (10 min)
+glucose_15,Blood Glucose (15 min)
+glucose_15post,Blood Glucose (T=+15 After Clamp)
+glucose_20,Blood Glucose (20 min)
+glucose_25,Blood Glucose (25 min)
+glucose_30,Blood Glucose (30 min)
+glucose_30post,Blood Glucose (T=+30 After Clamp)
+glucose_35,Blood Glucose (35 min)
+glucose_40,Blood Glucose (40 min)
+glucose_45,Blood Glucose (45 min)
+glucose_50,Blood Glucose (50 min)
+glucose_55,Blood Glucose (55 min)
+glucose_60,Blood Glucose (60 min)
+glucose_65,Blood Glucose (65 min)
+glucose_70,Blood Glucose (70 min)
+glucose_75,Blood Glucose (75 min)
+glucose_80,Blood Glucose (80 min)
+glucose_85,Blood Glucose (85 min)
+glucose_90,Blood Glucose (90 min)
+glucose_95,Blood Glucose (95 min)
+glucose_100,Blood Glucose (100 min)
+glucose_105,Blood Glucose (105 min)
+glucose_110,Blood Glucose (110 min)
+glucose_115,Blood Glucose (115 min)
+glucose_120,Blood Glucose (120 min)
+glucose_125,Blood Glucose (125 min)
+glucose_130,Blood Glucose (130 min)
+glucose_135,Blood Glucose (135 min)
+glucose_140,Blood Glucose (140 min)
+glucose_145,Blood Glucose (145 min)
+glucose_150,Blood Glucose (150 min)
+glucose_155,Blood Glucose (155 min)
+glucose_160,Blood Glucose (160 min)
+glucose_165,Blood Glucose (165 min)
+glucose_170,Blood Glucose (170 min)
+glucose_175,Blood Glucose (175 min)
+glucose_180,Blood Glucose (180 min)
+glucose_185,Blood Glucose (185 min)
+glucose_190,Blood Glucose (190 min)
+glucose_195,Blood Glucose (195 min)
+glucose_200,Blood Glucose (200 min)
+glucose_205,Blood Glucose (205 min)
+glucose_210,Blood Glucose (210 min)
+glucose_215,Blood Glucose (215 min)
+glucose_220,Blood Glucose (220 min)
+glucose_225,Blood Glucose (225 min)
+glucose_230,Blood Glucose (230 min)
+glucose_235,Blood Glucose (235 min)
+glucose_240,Blood Glucose (240 min)
+glucose_245,Blood Glucose (245 min)
+glucose_249,Blood Glucose (249 min)
+glucose_250,Blood Glucose (250 min)
+glucose_255,Blood Glucose (255 min)
+glucose_260,Blood Glucose (260 min)
+glucose_265,Blood Glucose (265 min)
+glucose_270,Blood Glucose (270 min)
+glucose_285,Blood Glucose (285 min)
+glucose_300,Blood Glucose (300 min)
+glucose_arg2,Blood Glucose [ARG 2]
+glucose_arg3,Blood Glucose [ARG 3]
+glucose_arg4,Blood Glucose [ARG 4]
+glucose_arg5,Blood Glucose [ARG 5]
+glucose_auc,Blood glucose AUC
+glucose_bl,Blood Glucose (Baseline)
+glucose_bl_cmp,Blood Glucose from CMP (Baseline)
+glucose_minus_5,Blood Glucose (T=-5 Before Clamp)
+glucose_minus_10,Blood Glucose (T=-10 Before Clamp)
+glucose_minus_20,Blood Glucose (T=-20 Before Clamp)
+glucose_minus_30,Blood Glucose (T=-30 Before Clamp)
+glucose_minus_90,Blood Glucose (T=-90 Before Clamp)
+glucose_minus_120,Blood Glucose (T=-120 Before Clamp)
+glucuronic_acid_tissue,Glucuronic acid
+glut_id,Glutaraldehyde Cryovial ID
+glutamate,Glutamate
+glutamine,Glutamine
+gm3_d34_1_h,GM3(d34:1)+H
+gm3_d36_1_h,GM3(d36:1)+H
+gm3_m34_0_2h,GM3(m34:0)-2H
+gm3_t34_0_h_h2o,GM3(t34:0)+H-H2O
+got_ast,AST
+gotast_base,Baseline Aspartate Aminotransferase (U/L)
+gpt_alt,ALT
+gptalt_base,Baseline Alanine Aminotransferase (U/L)
+group_risk,Risk of diabetes
+grs,Global Radial Strain
+hand,Are you right or left handed
+hba1c,HbA1C (%)
+hct,Hematocrit
+hdl,HDL (mg/dL)
+hdl_base,Baseline HDL (mg/dL)
+height,Height (cm)
+hematocrit,Hematocrit
+hematocrit_90,Hematocrit (90 min)
+hematocrit_120,Hematocrit (120 min)
+hematocrit_210,Hematocrit (210 min)
+hematocrit_avg,Average Hematocrit
+hematocrit_minus_5,Hematocrit (T=-5 Before Clamp)
+hematocrit_minus_10,Hematocrit (T=-10 Before Clamp)
+hemoglobin,Hemoglobin (g/dL)
+hepatic_ff,Hepatic Fat Fraction (%)
+hex1cer_d18_1_16_0_o_h,Hex1Cer(d18:1_16:0+O)+H
+hex1cer_d40_1_ch3coo,Hex1Cer(d40:1)+CH3COO
+hex1cer_d42_1_ch3coo,Hex1Cer(d42:1)+CH3COO
+hex1cer_t18_0_16_0_o_h_h2o,Hex1Cer(t18:0_16:0+O)+H-H2O
+hex1cer_t42_0_h_2h2o,Hex1Cer(t42:0)+H-2H2O
+hex2cer_d18_1_16_0,Hex2Cer(d18:1_16:0)
+hex2cer_d18_1_24_1,Hex2Cer(d18:1_24:1)
+hex2cer_d18_1_24_1_h,Hex2Cer(d18:1_24:1)+H
+hex2cer_d42_1_o_h_h2o,Hex2Cer(d42:1+O)+H-H2O
+hex2cer_t18_0_24_1_h_h2o,Hex2Cer(t18:0_24:1)+H-H2O
+hex3cer_d18_1_16_0,Hex3Cer(d18:1_16:0)
+hipcm,Hip Circumference (cm)
+histidine,Histidine
+histidine_tissue,Histidine
+hmdb00756,hexanoyl-L-carnitine (acyl-C6)
+hmdb00848,Octadecanoyl-L-carnitine (acyl-C18)
+hmdb01064,acyl-C18:2 (Linoleoyl-CoA)
+hmdb02250,O-dodecanoyl-carnitine (acyl-C12)
+hmdb02366,acyl-C5:1 (Tiglylcarnitine)
+hmdb05066,O-tetradecanoyl-L-carnitine (acyl-C14)
+hmdb06317,Hexadecenoyl-carnitine (acyl-C16:1)
+hmdb06351,O-octadecenoyl-L-carnitine (acyl-C18:1)
+hmdb13127,acyl-C4-OH (Hydroxybutyrylcarnitine)
+hmdb13133,acyl-C4-DC
+hmdb13326,O-dodecenoyl-carnitine (acyl-C12:1)
+hmdb13329,Tetradecenoyl Carnitine (acyl-C14:1)
+homa_ir,HOMA-IR
+ht_adj_tkv,Height Adjusted Total Kidney Volume (mL/m)
+ht_adj_tkv_manual,Height-Adjusted TKV (manual)
+htn_med_type___1,Hypertension Medical Type (choice 1)
+htn_med_type___2,Hypertension Medical Type (choice 2)
+htn_med_type___6,Hypertension Medical Type (choice 6)
+hx_anemia,Does patient have history of anemia
+hx_cv,Does patient have a history of cardiovascular disease
+hx_cv_meds,Is patient taking medications for cardiovascular disease
+hx_cv_other,"If other, what history of cardiovascular disease"
+hx_cv_positive___1,History Cardiovascular Positive (choice 1)
+hx_cv_positive___2,History Cardiovascular Positive (choice 2)
+hx_cv_positive___3,History Cardiovascular Positive (choice 3)
+hx_cv_positive___4,History Cardiovascular Positive (choice 4)
+hx_htn,Does patient have a history of hypertension
+hx_htn_control,"If yes, is hypertension controlled"
+hx_met,Does patient have a history of metabolic disease
+hx_met_medlist,"If yes, what medications"
+hx_met_meds,Is patient taking medications for metabolic disease
+hx_met_positive___1,History Met Positive (choice 1)
+hx_met_positive___2,History Met Positive (choice 2)
+hx_met_positive___3,History Met Positive (choice 3)
+hx_met_positive___4,History Met Positive (choice 4)
+hx_met_positive___5,History Met Positive (choice 5)
+hyperlipidemia,Hyperlipidemia
+hypertension,History of Hypertension
+hypertension_meds,Is patient taking anti-hypertensive medications
+hypo_time,Time: Core placed in Hypothermosol cryovial
+ifta,IFTA (%)
+igf1_z_score,IGF-1 Z-score
+igf_1,IGF-1
+igf_free,Free IGF
+immgran,Imm Granulocyte %:
+infusion_dex,Dextran infusion volume? (mL)
+infusion_ioh,Iohexol infusion volume? (mL)
+infusion_pah,PAH infusion volume? (mL)
+inj_nor,"If YES, are the injection sites normal"
+inosinic_acid_tissue,Inosinic acid
+inr,INR
+ins_clear,Insulin Clearance
+insulin,Insulin
+insulin_0,Insulin (0 min)
+insulin_2,Insulin (2 min)
+insulin_3,Insulin (3 min)
+insulin_4,Insulin (4 min)
+insulin_5,Insulin (5 min)
+insulin_6,Insulin (6 min)
+insulin_8,Insulin (8 min)
+insulin_10,Insulin (10 min)
+insulin_12,Insulin (12 min)
+insulin_14,Insulin (14 min)
+insulin_16,Insulin (16 min)
+insulin_19,Insulin (19 min)
+insulin_20,Insulin (20 min)
+insulin_22,Insulin (22 min)
+insulin_23,Insulin (23 min)
+insulin_24,Insulin (24 min)
+insulin_25,Insulin (25 min)
+insulin_27,Insulin (27 min)
+insulin_30,Insulin (30 min)
+insulin_35,Insulin (35 min)
+insulin_40,Insulin (40 min)
+insulin_45,Insulin (45 min)
+insulin_50,Insulin (50 min)
+insulin_60,Insulin (60 min)
+insulin_70,Insulin (70 min)
+insulin_80,Insulin (80 min)
+insulin_90,Insulin (90 min)
+insulin_100,Insulin (100 min)
+insulin_120,Insulin (120 min)
+insulin_140,Insulin (140 min)
+insulin_150,Insulin (150 min)
+insulin_160,Insulin (160 min)
+insulin_180,Insulin (180 min)
+insulin_210,Insulin (210 min)
+insulin_220,Insulin (220 min)
+insulin_230,Insulin (230 min)
+insulin_240,Insulin (240 min)
+insulin_245,Insulin (245 min)
+insulin_249,Insulin (249 min)
+insulin_250,Insulin (250 min)
+insulin_252,Insulin (252 min)
+insulin_253,Insulin (253 min)
+insulin_254,Insulin (254 min)
+insulin_255,Insulin (255 min)
+insulin_260,Insulin (260 min)
+insulin_270,Insulin (270 min)
+insulin_amt,Insulin Amount
+insulin_auc,Insulin AUC
+insulin_inj,Is the subject using insulin or other injections
+insulin_injections_timepoint,Insulin injection at visit
+insulin_med_timepoint,Insulin med at visit
+insulin_minus_5,Insulin (T=-5 Before Clamp)
+insulin_minus_10,Insulin (T=-10 Before Clamp)
+insulin_minus_15,Insulin (-15 min)
+insulin_minus_20,Insulin (T=-20 Before Clamp)
+insulin_pump_timepoint,Insulin pump at visit
+insulin_sensitivity_method,Method of insulin sensitivity collection
+insulin_tdd,Average TDD
+insulin_timepoint,Insulin Timepoint
+insulin_units,Insulin Units
+ioh_bol_com,Iohexol bolus completion time
+iohexol_10,+10 Iohexol (mg/dl)
+iohexol_30,+30 Iohexol (mg/dl)
+iohexol_120,Iohexol (120 min)
+iohexol_150,Iohexol (150 min)
+iohexol_180,Iohexol (180 min)
+iohexol_210,Iohexol (210 min)
+iohexol_240,Iohexol (240 min)
+iohexol_bolus,Iohexol Bolus Given
+iohexol_ecv_gfr,GFR/ECV (%)
+iohexol_infusion_vol,Iohexol Infusion Volume
+iohexol_minus_10,Iohexol (-10 min)
+iohexol_time,Iohexol Tme
+iohexol_urine_150,Iohexol (T= +150) (urine concentration)
+iohexol_urine_180,Iohexol (T= +180) (urine concentration)
+iohexol_vol,Iohexol Volume
+iohexol_yn,Iohexol given
+ischemic_n,Ischemic Glomeruli (n)
+isocitric_citric_acid_tissue,Isocitric/citric acid
+jwire_com,Notes (if any):
+jwire_num,Number of J-wires used:
+jwire_side,What side was used
+jwire_time,Time:
+k_base,Baseline K/Potassium (nmol/L)
+kcal,Average Kcals/Day
+kcal_tot,Total Activity Kcals
+kfg,"Kfg for group (T1D/T2D kfg: 0.1012, Control kfg: 0.1733)"
+kidney_location,Location of Kidney Biopsy
+kidney_side,Kidney Side
+kidneybx_1,Date of kidney biopsy 1 or visit
+kidneybx_2,Date of kidney biopsy 2 or visit
+kim_yn,Kidney Injury Markers -- Labs complete
+kit_id,Liver Biopsy Kit Number (Format: KL-9999999)
+late_insulin_clearance,Late Phase (60-240 min) Insulin Clearance
+lc_f,Left Cortex Perfusion [F] (***)
+lc_k1,Left Cortex Tracer Uptake Rate [K1] (ml/g/min)
+lc_k1_w_cyst_percent_avg,Left cortex k1 w cyst avg
+lc_k1_w_cyst_percent_high,Left cortex k1 w cyst high
+lc_k1_w_cyst_percent_low,Left cortex k1 w cyst low
+lc_k1_w_cyst_vw,Left cortex k1 w cyst
+lc_k1_wo_cyst_percent_avg,Left cortex k1 wo cyst avg
+lc_k1_wo_cyst_percent_high,Left cortex k1 wo cyst high
+lc_k1_wo_cyst_percent_low,Left cortex k1 wo cyst low
+lc_k1_wo_cyst_vw,Left cortex k1 wo cyst
+lc_k2,Left Cortex Oxidation Rate [k2] (1/min)
+lc_k2_w_cyst_percent_avg,Left cortex k2 w cyst avg
+lc_k2_w_cyst_percent_high,Left cortex k2 w cyst high
+lc_k2_w_cyst_percent_low,Left cortex k2 w cyst low
+lc_k2_w_cyst_vw,Left cortex k2 w cyst
+lc_k2_wo_cyst_percent_avg,Left cortex k2 wo cyst avg
+lc_k2_wo_cyst_percent_high,Left cortex k2 wo cyst high
+lc_k2_wo_cyst_percent_low,Left cortex k2 wo cyst low
+lc_k2_wo_cyst_vw,Left cortex k2 wo cyst
+lc_vb,Left Cortex Blood Volume Fraction [vB] (%)
+ldl,LDL (mg/dL)
+ldl_base,Baseline LDL (mg/dL)
+left_cortex_blood_flow_mean,Left Cortex Blood Flow Mean
+left_cortex_blood_flow_sd,Left Cortex Blood Flow SD
+left_cortex_ox_metab_mean,Left Cortex Oxidative Metabolism Mean
+left_cortex_ox_metab_sd,Left Cortex Oxidative Metabolism SD
+left_kidney_volume_ml,Left Kidney Volume (mL)
+left_medulla_blood_flow_mean,Left Medulla Blood Flow Mean
+left_medulla_blood_flow_sd,Left Medulla Blood Flow SD
+left_medulla_ox_metab_mean,Left Medulla Oxidative Metabolism Mean
+left_medulla_ox_metab_sd,Left Medulla Oxidative Metabolism SD
+length_left,Left Kidney Length (cm)
+length_right,Right Kidney Length (cm)
+leptin_base,Leptin (baseline)
+leucine_isoleucine,Leucine+isoleucine
+leucyl_tryptophan_cl_tissue,Leucyl-Tryptophan +Cl
+lh,LH (mIU/mL)
+linoleic_acid_tissue,Linoleic acid
+liver_k1,Liver K1
+liver_k2,Liver k2
+liver_k3,Liver k3
+liver_vb,Liver Blood Volume
+lm_f,Left Medulla Perfusion [F] (***)
+lm_k1,Left Medulla Tracer Uptake Rate [K1] (ml/g/min)
+lm_k1_wo_cyst_percent_avg,Left medulla k1 wo cyst avg
+lm_k1_wo_cyst_percent_high,Left medulla k1 wo cyst high
+lm_k1_wo_cyst_percent_low,Left medulla k1 wo cyst low
+lm_k1_wo_cyst_vw,Left medulla k1 wo cyst
+lm_k2,Left Medulla Oxidation Rate [k2]
+lm_k2_wo_cyst_percent_avg,Left medulla k2 wo cyst avg
+lm_k2_wo_cyst_percent_high,Left medulla k2 wo cyst high
+lm_k2_wo_cyst_percent_low,Left medulla k2 wo cyst low
+lm_k2_wo_cyst_vw,Left medulla k2 wo cyst
+lm_vb,Left Medulla Blood Volume Fraction [vB] (%)
+ln2_id,(RED) LN2 Cryovial ID (S-9999-999999)
+long_1,Phase 1 temporal longitudinal strain
+long_2,Phase 2 temporal longitudinal strain
+long_3,Phase 3 temporal longitudinal strain
+long_4,Phase 4 temporal longitudinal strain
+long_5,Phase 5 temporal longitudinal strain
+long_6,Phase 6 temporal longitudinal strain
+long_7,Phase 7 temporal longitudinal strain
+long_8,Phase 8 temporal longitudinal strain
+long_9,Phase 9 temporal longitudinal strain
+long_10,Phase 10 temporal longitudinal strain
+long_11,Phase 11 temporal longitudinal strain
+long_12,Phase 12 temporal longitudinal strain
+long_13,Phase 13 temporal longitudinal strain
+long_14,Phase 14 temporal longitudinal strain
+long_15,Phase 15 temporal longitudinal strain
+long_16,Phase 16 temporal longitudinal strain
+long_17,Phase 17 temporal longitudinal strain
+long_18,Phase 18 temporal longitudinal strain
+long_19,Phase 19 temporal longitudinal strain
+long_20,Phase 20 temporal longitudinal strain
+long_21,Phase 21 temporal longitudinal strain
+long_22,Phase 22 temporal longitudinal strain
+long_23,Phase 23 temporal longitudinal strain
+long_24,Phase 24 temporal longitudinal strain
+long_25,Phase 25 temporal longitudinal strain
+long_26,Phase 26 temporal longitudinal strain
+long_27,Phase 27 temporal longitudinal strain
+long_28,Phase 28 temporal longitudinal strain
+long_29,Phase 29 temporal longitudinal strain
+long_30,Phase 30 temporal longitudinal strain
+long_insulin_dose,Last dose of long-acting insulin (units)
+long_insulin_time,Last dose time of long-acting insulin
+lpa_9_0_2h,LPA(9:0)-2H
+lpc_14_0,LPC(14:0)
+lpc_14_0_ch3coo,LPC(14:0)+CH3COO
+lpc_14_0_h,LPC(14:0)+H
+lpc_15_0,LPC(15:0)
+lpc_15_0_ch3coo,LPC(15:0)+CH3COO
+lpc_15_0_h,LPC(15:0)+H
+lpc_15_1,LPC(15:1)
+lpc_16_0,LPC(16:0)
+lpc_16_0_ch3,LPC(16:0)-CH3
+lpc_16_0_ch3coo,LPC(16:0)+CH3COO
+lpc_16_0_h,LPC(16:0)+H
+lpc_16_0_h_1,LPC(16:0)+H
+lpc_16_0_na,LPC(16:0)+Na
+lpc_16_0e_h,LPC(16:0e)+H
+lpc_16_1,LPC(16:1)
+lpc_16_1_ch3coo,LPC(16:1)+CH3COO
+lpc_16_1_h,LPC(16:1)+H
+lpc_16_1e_h,LPC(16:1e)+H
+lpc_17_0,LPC(17:0)
+lpc_17_0_ch3coo,LPC(17:0)+CH3COO
+lpc_17_0_ch3coo_1,LPC(17:0)+CH3COO
+lpc_17_0_h,LPC(17:0)+H
+lpc_17_0_na,LPC(17:0)+Na
+lpc_17_1_h,LPC(17:1)+H
+lpc_18_0,LPC(18:0)
+lpc_18_0_ch3,LPC(18:0)-CH3
+lpc_18_0_ch3coo,LPC(18:0)+CH3COO
+lpc_18_0_h,LPC(18:0)+H
+lpc_18_0_k,LPC(18:0)+K
+lpc_18_0_na,LPC(18:0)+Na
+lpc_18_0e_h,LPC(18:0e)+H
+lpc_18_1,LPC(18:1)
+lpc_18_1_ch3,LPC(18:1)-CH3
+lpc_18_1_ch3_1,LPC(18:1)-CH3
+lpc_18_1_ch3coo,LPC(18:1)+CH3COO
+lpc_18_1_ch3coo_1,LPC(18:1)+CH3COO
+lpc_18_1_h,LPC(18:1)+H
+lpc_18_1_na,LPC(18:1)+Na
+lpc_18_1e_h,LPC(18:1e)+H
+lpc_18_1e_h_1,LPC(18:1e)+H
+lpc_18_2,LPC(18:2)
+lpc_18_2_ch3,LPC(18:2)-CH3
+lpc_18_2_ch3coo,LPC(18:2)+CH3COO
+lpc_18_2_h,LPC(18:2)+H
+lpc_18_2_na,LPC(18:2)+Na
+lpc_18_2e_h,LPC(18:2e)+H
+lpc_18_3,LPC(18:3)
+lpc_18_3_h,LPC(18:3)+H
+lpc_18_4_h,LPC(18:4)+H
+lpc_19_0,LPC(19:0)
+lpc_19_0_h,LPC(19:0)+H
+lpc_19_1,LPC(19:1)
+lpc_19_1_h,LPC(19:1)+H
+lpc_19_2,LPC(19:2)
+lpc_20_0_h,LPC(20:0)+H
+lpc_20_0e_h,LPC(20:0e)+H
+lpc_20_1,LPC(20:1)
+lpc_20_1_na,LPC(20:1)+Na
+lpc_20_2,LPC(20:2)
+lpc_20_3,LPC(20:3)
+lpc_20_3_ch3coo,LPC(20:3)+CH3COO
+lpc_20_3_ch3coo_1,LPC(20:3)+CH3COO
+lpc_20_3_h,LPC(20:3)+H
+lpc_20_3_h_1,LPC(20:3)+H
+lpc_20_3_h_2,LPC(20:3)+H
+lpc_20_4,LPC(20:4)
+lpc_20_4_ch3coo,LPC(20:4)+CH3COO
+lpc_20_4_h,LPC(20:4)+H
+lpc_20_4_h_1,LPC(20:4)+H
+lpc_20_4_na,LPC(20:4)+Na
+lpc_20_5,LPC(20:5)
+lpc_20_5_ch3coo,LPC(20:5)+CH3COO
+lpc_20_5_h,LPC(20:5)+H
+lpc_21_3,LPC(21:3)
+lpc_21_4,LPC(21:4)
+lpc_22_0_h,LPC(22:0)+H
+lpc_22_4_h,LPC(22:4)+H
+lpc_22_5,LPC(22:5)
+lpc_22_5_h,LPC(22:5)+H
+lpc_22_5_h_1,LPC(22:5)+H
+lpc_22_6,LPC(22:6)
+lpc_22_6_ch3coo,LPC(22:6)+CH3COO
+lpc_22_6_h,LPC(22:6)+H
+lpc_24_0_h,LPC(24:0)+H
+lpc_30_0,LPC(30:0)
+lpc_o_16_0,LPC(O-16:0)
+lpc_o_18_0,LPC(O-18:0)
+lpc_p_16_0,LPC(P-16:0)
+lpc_p_18_0,LPC(P-18:0)
+lpe_16_0,LPE(16:0)
+lpe_16_0_h,LPE(16:0)+H
+lpe_16_0_h_1,LPE(16:0)-H
+lpe_18_0,LPE(18:0)
+lpe_18_0_h,LPE(18:0)-H
+lpe_18_0_na,LPE(18:0)+Na
+lpe_18_1,LPE(18:1)
+lpe_18_1_h,LPE(18:1)+H
+lpe_18_1_h_1,LPE(18:1)-H
+lpe_18_1_na,LPE(18:1)+Na
+lpe_18_1_na_1,LPE(18:1)+Na
+lpe_18_2,LPE(18:2)
+lpe_18_2_h,LPE(18:2)-H
+lpe_18_2_h_1,LPE(18:2)+H
+lpe_20_3_h,LPE(20:3)+H
+lpe_20_4,LPE(20:4)
+lpe_20_4_h,LPE(20:4)-H
+lpe_20_4_h_1,LPE(20:4)+H
+lpe_22_6_h,LPE(22:6)-H
+lpi_20_4_h,LPI(20:4)-H
+lpi_p_27_8,LPI(P-27:8)
+lps_22_0,LPS(22:0)
+ltot_k1_w_cyst,Left total k1 w cyst
+ltot_k1_w_cyst_percent_avg,Left total k1 w cyst avg
+ltot_k1_w_cyst_percent_high,Left total k1 w cyst high
+ltot_k1_w_cyst_percent_low,Left total k1 w cyst low
+ltot_k1_wo_cyst,Left total k1 wo cyst
+ltot_k1_wo_cyst_percent_avg,Left total k1 wo cyst avg
+ltot_k1_wo_cyst_percent_high,Left total k1 wo cyst high
+ltot_k1_wo_cyst_percent_low,Left total k1 wo cyst low
+ltot_k2_w_cyst,Left total k2 w cyst
+ltot_k2_w_cyst_percent_avg,Left total k2 w cyst avg
+ltot_k2_w_cyst_percent_high,Left total k2 w cyst high
+ltot_k2_w_cyst_percent_low,Left total k2 w cyst low
+ltot_k2_wo_cyst,Left total k2 wo cyst
+ltot_k2_wo_cyst_percent_avg,Left total k2 wo cyst avg
+ltot_k2_wo_cyst_percent_high,Left total k2 wo cyst high
+ltot_k2_wo_cyst_percent_low,Left total k2 wo cyst low
+lv_a_vel,LV diastolic function - A velocity
+lv_cardiac_index,LV Cardiac Index
+lv_cardiac_output,LV Cardiac Output
+lv_e_vel,LV diastolic function - E velocity
+lv_ea_vel,LV diastolic function - E/A velocity
+lv_gcsr,LV strain rate - GCSR
+lv_glsr,LV strain rate - GLSR
+lv_grsr,LV strain rate - GRSR
+lv_hr,LV HR
+lv_myo_thickness_dias,LV Global myocardial thickness at diastole (mm)
+lv_myo_thickness_total,"LV Global myocardial thickness assessed across the entire cardiac cycle, with values comparable to those measured at systole (mm)"
+lv_stroke_volume,LV Stroke Volume
+lved_mass,LVEDMass
+lved_massi,LVEDMassi
+lvedv,LVEDV
+lvedvi,LVEDVi
+lvef,LV Ejection Fraction
+lves_mass,LVESMass
+lvesv,LVESV
+lvesvi,LVESVI
+lymphocyte,Lymphocyte %:
+lysine,Lysine
+m_i,M/I
+m_i_gir_190,M/I (GIR 190)
+m_i_p2_raw_lean,"M/I Period 2 (raw, lean)"
+malate,Malate
+malic_acid_tissue,Malic acid
+map,Mean Arterial Pressure (MAP) (mmHg)
+mch,MCH: (pg)
+mcv,MCV: (fl)
+med_hx_hypertension,Does patient have a history of hypertension
+medhx_cvd,Does patient have a history of cardiovascular disease
+mes_index,Mesangial Index (%)
+mes_matrix_area,Mesangial Matrix Area (um^2)
+mes_nuc_count,Mesangial Nuclear Count
+mes_volume_con,Mesangial Volume - Consensus (10^6 um^3)
+mes_volume_weibel,Mesangial Volume - Weibel (10^6 um^3)
+mes_volume_wiggins,Mesangial Volume - Wiggins (10^6 um^3)
+mesangium_sev,Mesangium Severity
+met_meds_yes,What medications is patient taking
+metabolomics_yn,Metabolomics -- Labs complete
+metformin_timepoint,Metformin at visit
+methionine,Methionine
+mg18_0_tissue,MG (18:0)
+mg18_1_tissue,MG (18:1)
+microalbumin_u,Urine Microalbumin (mcg/mL)
+min_carb_oxidation_bw_new,60 min Carbohydrate Oxidation/BW (new)
+min_carb_oxidation_new,60 min Carbohydrate Oxidation (new)
+min_fat_oxidation_bw_new,Fat Oxidation/BW (new)
+min_fat_oxidation_new,Fat Oxidation (new)
+mlcl_44_2_2h,MLCL(44:2)-2H
+mlcl_46_2_2h,MLCL(46:2)-2H
+mlcl_48_2_2h,MLCL(48:2)-2H
+mlcl_48_4_2h,MLCL(48:4)-2H
+mlcl_50_6_2h,MLCL(50:6)-2H
+mlcl_52_2_2h,MLCL(52:2)-2H
+mlcl_52_4_2h,MLCL(52:4)-2H
+mlcl_52_4_2h_1,MLCL(52:4)-2H
+mlcl_52_6_2h,MLCL(52:6)-2H
+mlcl_56_8_2h,MLCL(56:8)-2H
+mlcl_56_8_2h_1,MLCL(56:8)-2H
+mlcl_56_10_2h,MLCL(56:10)-2H
+mlcl_60_14_2h,MLCL(60:14)-2H
+mm_airg,AIRg
+mm_bcell,Beta cell function
+mm_di,DI
+mm_gb,GB [mg/dl]
+mm_ib,IB [mu/I]
+mm_ir,Insulin resistance
+mm_r2,R-squared
+mm_sg,Sg [min^-1]
+mm_si,Insulin sensitivity ((mu/I)^-1.min^-1)
+monocyte,Monocyte %:
+morning_insulin,Short acting insulin given (before admission)
+morning_u,Morning Urine
+morning_urine1,Morning Urine 1
+morning_urine2,Morning Urine 2
+mra,MRA
+mra_med,"Is patient taking any mineralocorticoid receptor antagonists (MRAs) (sprionolactone, finerenone, eplerenone)"
+mri_date,Date of MRI
+mri_visit_date,MRI Visit Date
+mv_flow_a,A wave
+mv_flow_e,E wave
+mv_flow_ea,E/A ratio
+mval,M-value (mg/kg/min)
+myocardial_infarction,Myocardial Infarction
+N-EtFOSAA,N-EtFOSAA
+N-MeFOSAA,N-MeFOSAA
+n_acetyl_glucosamine_1_phosphate_h_tissue,N-Acetyl-glucosamine 1-phosphate -H
+na_s,Serum Na
+na_u,Urine Na
+ncyn,NeuroCognitive data collected
+neutrophil,Neutrophil %:
+nfl_avg_conc,NFL Average Concentration (pg/mL)
+niacin,Niacin
+nonhdl_base,Non-HDL Cholesterol (baseline)
+ns1_bg,Blood Glucose After NS Bolus #1
+ns1_time,Time of NS Bolus #1
+ns1_vol,Volume of NS Bolus #1
+ns_bolus,NS Bolus(es) given
+ns_number,# of NS Bolus(es) given
+num_cores,Number of Cores
+number,Number
+o2_sat,O2 Sat (pre-MRI)
+o2_sats,O2 Sat (pre-MRI)
+oahfa_34_2_h,OAHFA(34:2)-H
+oahfa_36_1_h,OAHFA(36:1)-H
+oahfa_36_3_h,OAHFA(36:3)-H
+oahfa_38_2_h,OAHFA(38:2)-H
+oahfa_38_4_h,OAHFA(38:4)-H
+oct_pass,OCT Core obtained in Pass #
+oct_time,Time: Core fixed in Cryomold (Blue) placed on dry ice
+oleic_acid_tissue,Oleic acid
+other_diabetes_med_timepoint,Other diabetes meds at visit
+oxaloacetic_acid_tissue,Oxaloacetic acid
+p1_ffa_suppression,Phase 1: FFA suppression
+p1_gc_leanm,Phase 1: GC Lean M-Value (mg/kg lean/min)
+p1_gc_m,Phase 1: GC M-Value (mg/kg/min)
+p1_raw_leanm,Phase 1: Raw Lean M-Value (mg/kg lean/min)
+p1_raw_m,Phase 1: Raw M-Value (mg/kg/min)
+p1_steady_state_ffa,Phase 1: Steady state FFA
+p1_steady_state_insulin,Period 1 Steady-State Insulin
+p2_ffa_suppression,Phase 2: FFA suppression
+p2_gc_leanm,Phase 2: GC Lean M-value (mg/kg lean/min)
+p2_gc_m,Phase 2: GC M-Value (mg/kg/min)
+p2_raw_leanm,Phase 2: Raw Lean M-Value (mg/kg lean/min)
+p2_raw_m,Phase 2: Raw M-value (mg/kg/min)
+p2_steady_state_ffa,Phase 2: Steady state FFA
+p2_steady_state_insulin,Period 2 Steady-State Insulin
+pa_22_5_16_0,PA(22:5_16:0)
+pa_29_4_20_3,PA(29:4_20:3)
+pa_29_5_18_2,PA(29:5_18:2)
+pa_o_18_2_18_2,PA(O-18:2_18:2)
+pa_o_18_2_20_4,PA(O-18:2_20:4)
+pa_o_18_2_22_6,PA(O-18:2_22:6)
+pa_o_19_2_20_4,PA(O-19:2_20:4)
+pa_o_20_2_18_1,PA(O-20:2_18:1)
+pa_o_20_2_18_2,PA(O-20:2_18:2)
+pa_o_20_2_20_4,PA(O-20:2_20:4)
+pa_o_20_2_22_4,PA(O-20:2_22:4)
+pa_o_20_2_22_5,PA(O-20:2_22:5)
+pa_o_20_3_16_0,PA(O-20:3_16:0)
+pa_o_20_3_18_2,PA(O-20:3_18:2)
+pac1_adp_1_25_10_min,Pac1 ADP 1.25 10 min
+pac1_baseline,Pac1 Baseline
+pac1_conv_50_3_min,Pac1 Conv 50 3 min
+pac1_th_0_075_2_min,Pac1 TH 0.075 2 min
+pac1_th_0_075_5_min,Pac1 TH 0.075 5 min
+pah_90,PAH (90 min)
+pah_120,PAH (120 min)
+pah_150,PAH (T= +150) (blood concentration)
+pah_bol_com,PAH bolus completion time
+pah_bolus,PAH Bolus Given
+pah_bsa,BSA Normalized PAH clearance (ml/min/1.73m2)
+pah_bsa_plasma_urine,BSA Normalized PAH Clearance (Plasma and Urine) (ml/min/1.73m2)
+pah_clear_abs,Absolute PAH Clearance (Plasma) (mL/min)
+pah_clear_bsa,BSA Normalized PAH Clearance (Plasma) (ml/min/1.73m2)
+pah_cv,PAH -- cv
+pah_infusion_vol,PAH Infusion Volume
+pah_p1,PAH -- Period 1
+pah_p2,PAH -- Period 2
+pah_raw,Mean Raw PAH (ml/min)
+pah_sd,PAH -- sd
+pah_time,PAH Bolus Time
+pah_urine_120,PAH (T= +120) (urine concentration)
+pah_urine_150,PAH (T= +150) (urine concentration)
+pah_vol,PAH Bolus Volume
+pah_yn,PAH given
+pahcl_12_8mgmin,Raw PAH Clearance (Plasma)
+panc_ff,Pancreatic Fat Fraction (%)
+participation_status,Participation status
+pasl2d_left,Left Kidney: 2D_pASL (cortex) (ml/min/100gm)
+pasl2d_right,Right Kidney: 2D_pASL (cortex) (ml/min/100gm)
+pass1_core_cm,Pass #1: Core Length (cm)
+pass1_core_spec,Pass #1: Core #
+pass1_core_spec___1,Pass1 Core Spec (choice 1)
+pass1_core_spec___2,Pass1 Core Spec (choice 2)
+pass1_core_spec___3,Pass1 Core Spec (choice 3)
+pass1_core_spec___4,Pass1 Core Spec (choice 4)
+pass1_cortex_cm,Pass #1: Cortex Length (cm)
+pass1_time,Pass #1: Harvest Time
+pass2_core_cm,Pass #2: Core length (cm)
+pass2_core_spec,Pass #2: Core #
+pass2_core_spec___1,Pass2 Core Spec (choice 1)
+pass2_core_spec___2,Pass2 Core Spec (choice 2)
+pass2_core_spec___3,Pass2 Core Spec (choice 3)
+pass2_core_spec___4,Pass2 Core Spec (choice 4)
+pass2_cortex_cm,Pass #2: Cortex Length (cm)
+pass2_time,Pass #2: Harvest Time
+pass3_core_cm,Pass #3: Core length (cm)
+pass3_core_spec,Pass #3: Core #
+pass3_core_spec___1,Pass3 Core Spec (choice 1)
+pass3_core_spec___2,Pass3 Core Spec (choice 2)
+pass3_core_spec___3,Pass3 Core Spec (choice 3)
+pass3_core_spec___4,Pass3 Core Spec (choice 4)
+pass3_cortex_cm,Pass #3: Cortex length (cm)
+pass3_time,Pass #3: Harvest Time
+pass4_core_cm,Pass #4: Core length (cm)
+pass4_core_spec,Pass #4: Core #
+pass4_core_spec___1,Pass4 Core Spec (choice 1)
+pass4_core_spec___2,Pass4 Core Spec (choice 2)
+pass4_core_spec___3,Pass4 Core Spec (choice 3)
+pass4_core_spec___4,Pass4 Core Spec (choice 4)
+pass4_cortex_cm,Pass #4: Cortex length (cm)
+pass4_time,Pass #4: Harvest Time
+passes_attempt,# of Passes Attempted
+pat_dias,Pericardial Adipose Tissue Diastole
+pat_sys,Pericardial Adipose Tissue Systole
+path_date_collected,Pathology Date Collected
+path_date_completed,Pathology Date Completed
+path_date_rcvd,Pathology Date Received
+path_report_id,Pathology Report ID
+pavel_hct,Hematocrit
+pavel_hgb,Hemoglobin
+pavel_lymphocyte,Lymphocyte
+pavel_monocyte,Monocyte
+pavel_mpv,Mean Platelet Volume
+pavel_neutrophil,Neutrophils
+pavel_neutrophils,Neutrophils
+pavel_plt,Platelet
+pavel_rbc,Red Blood Cells
+pavel_wbc,White Blood Cells
+pc_6_0_22_0_h,PC(6:0_22:0)+H
+pc_8_0e_9_0_h,PC(8:0e_9:0)+H
+pc_8_0e_12_4_h,PC(8:0e_12:4)+H
+pc_8_1e_11_0_h,PC(8:1e_11:0)+H
+pc_10_1e_10_4_h,PC(10:1e_10:4)+H
+pc_13_0_25_3,PC(13:0_25:3)
+pc_14_0_18_2_ch3coo,PC(14:0_18:2)+CH3COO
+pc_14_1_18_1,PC(14:1_18:1)
+pc_15_0_18_2,PC(15:0_18:2)
+pc_15_0_18_2_ch3coo,PC(15:0_18:2)+CH3COO
+pc_15_1_25_8,PC(15:1_25:8)
+pc_16_0_14_0_ch3coo,PC(16:0_14:0)+CH3COO
+pc_16_0_16_0_ch3coo,PC(16:0_16:0)+CH3COO
+pc_16_0_16_1_ch3coo,PC(16:0_16:1)+CH3COO
+pc_16_0_16_1_ch3coo_1,PC(16:0_16:1)+CH3COO
+pc_16_0_17_0,PC(16:0_17:0)
+pc_16_0_18_1,PC(16:0_18:1)
+pc_16_0_18_1_ch3coo,PC(16:0_18:1)+CH3COO
+pc_16_0_18_1_hcoo,PC(16:0_18:1)+HCOO
+pc_16_0_18_2,PC(16:0_18:2)
+pc_16_0_18_2_ch3coo,PC(16:0_18:2)+CH3COO
+pc_16_0_18_2_ch3coo_1,PC(16:0_18:2)+CH3COO
+pc_16_0_18_2_na,PC(16:0_18:2)+Na
+pc_16_0_20_2_h,PC(16:0_20:2)+H
+pc_16_0_20_4,PC(16:0_20:4)
+pc_16_0_20_4_ch3coo,PC(16:0_20:4)+CH3COO
+pc_16_0_20_5_ch3coo,PC(16:0_20:5)+CH3COO
+pc_16_0_21_4,PC(16:0_21:4)
+pc_16_0_22_6_ch3,PC(16:0_22:6)-CH3
+pc_16_0_22_6_ch3coo,PC(16:0_22:6)+CH3COO
+pc_16_0_22_6_na,PC(16:0_22:6)+Na
+pc_16_0_23_6,PC(16:0_23:6)
+pc_16_0e_18_2_ch3coo,PC(16:0e_18:2)+CH3COO
+pc_16_0e_19_1_hcoo,PC(16:0e_19:1)+HCOO
+pc_16_1_18_2_ch3coo,PC(16:1_18:2)+CH3COO
+pc_16_1e_18_2_ch3coo,PC(16:1e_18:2)+CH3COO
+pc_16_2_17_0,PC(16:2_17:0)
+pc_16_2_21_2,PC(16:2_21:2)
+pc_17_0_16_1,PC(17:0_16:1)
+pc_17_0_17_2,PC(17:0_17:2)
+pc_17_0_18_1,PC(17:0_18:1)
+pc_17_0_18_1_ch3coo,PC(17:0_18:1)+CH3COO
+pc_17_0_18_2,PC(17:0_18:2)
+pc_17_0_18_2_ch3coo,PC(17:0_18:2)+CH3COO
+pc_17_0_18_3,PC(17:0_18:3)
+pc_17_0_20_3,PC(17:0_20:3)
+pc_17_0_20_4_ch3coo,PC(17:0_20:4)+CH3COO
+pc_17_0_20_5,PC(17:0_20:5)
+pc_17_0_22_5,PC(17:0_22:5)
+pc_17_0_22_6,PC(17:0_22:6)
+pc_17_1_18_2,PC(17:1_18:2)
+pc_18_0_18_1_ch3coo,PC(18:0_18:1)+CH3COO
+pc_18_0_18_1_ch3coo_1,PC(18:0_18:1)+CH3COO
+pc_18_0_18_2,PC(18:0_18:2)
+pc_18_0_18_2_ch3,PC(18:0_18:2)-CH3
+pc_18_0_18_2_ch3coo,PC(18:0_18:2)+CH3COO
+pc_18_0_18_2_ch3coo_1,PC(18:0_18:2)+CH3COO
+pc_18_0_19_1,PC(18:0_19:1)
+pc_18_0_20_2_ch3coo,PC(18:0_20:2)+CH3COO
+pc_18_0_20_3_ch3coo,PC(18:0_20:3)+CH3COO
+pc_18_0_20_4,PC(18:0_20:4)
+pc_18_0_20_4_ch3coo,PC(18:0_20:4)+CH3COO
+pc_18_0_20_5_h,PC(18:0_20:5)+H
+pc_18_0_21_4,PC(18:0_21:4)
+pc_18_0_21_5,PC(18:0_21:5)
+pc_18_0_22_4_ch3coo,PC(18:0_22:4)+CH3COO
+pc_18_0_22_5_ch3coo,PC(18:0_22:5)+CH3COO
+pc_18_0_22_6_ch3coo,PC(18:0_22:6)+CH3COO
+pc_18_0_23_6,PC(18:0_23:6)
+pc_18_0e_20_4_ch3coo,PC(18:0e_20:4)+CH3COO
+pc_18_1_14_1_h,PC(18:1_14:1)+H
+pc_18_1_18_2_ch3coo,PC(18:1_18:2)+CH3COO
+pc_18_1_20_4_ch3coo,PC(18:1_20:4)+CH3COO
+pc_18_1_22_6_ch3coo,PC(18:1_22:6)+CH3COO
+pc_18_1e_16_0_ch3coo,PC(18:1e_16:0)+CH3COO
+pc_18_1e_20_4_ch3coo,PC(18:1e_20:4)+CH3COO
+pc_18_2_16_0,PC(18:2_16:0)
+pc_18_2_19_2,PC(18:2_19:2)
+pc_18_3_16_0,PC(18:3_16:0)
+pc_18_4_16_1_h,PC(18:4_16:1)+H
+pc_19_0_18_1_hcoo,PC(19:0_18:1)+HCOO
+pc_19_0_18_2,PC(19:0_18:2)
+pc_19_0_20_2,PC(19:0_20:2)
+pc_19_0_20_3,PC(19:0_20:3)
+pc_19_0_20_3_hcoo,PC(19:0_20:3)+HCOO
+pc_19_0_20_4,PC(19:0_20:4)
+pc_20_0_22_3_h,PC(20:0_22:3)+H
+pc_20_1_13_0_h,PC(20:1_13:0)+H
+pc_20_1_16_1,PC(20:1_16:1)
+pc_20_5_17_1,PC(20:5_17:1)
+pc_20_5_18_2_h,PC(20:5_18:2)+H
+pc_21_1_12_0,PC(21:1_12:0)
+pc_21_1_13_1,PC(21:1_13:1)
+pc_22_1_14_3_h,PC(22:1_14:3)+H
+pc_22_2_11_0,PC(22:2_11:0)
+pc_22_3_14_1,PC(22:3_14:1)
+pc_22_6_16_0,PC(22:6_16:0)
+pc_23_1_11_3_h,PC(23:1_11:3)+H
+pc_24_0_18_2_h,PC(24:0_18:2)+H
+pc_24_2_12_3_h,PC(24:2_12:3)+H
+pc_25_0_10_4_h,PC(25:0_10:4)+H
+pc_25_1_10_1_h,PC(25:1_10:1)+H
+pc_26_0_h,PC(26:0)+H
+pc_26_1_10_1_h,PC(26:1_10:1)+H
+pc_26_8_14_0,PC(26:8_14:0)
+pc_27_6_15_1,PC(27:6_15:1)
+pc_28_0,PC(28:0)
+pc_29_0_h,PC(29:0)+H
+pc_29_8_13_1,PC(29:8_13:1)
+pc_30_0,PC(30:0)
+pc_30_0_h,PC(30:0)+H
+pc_30_0e_h,PC(30:0e)+H
+pc_30_1,PC(30:1)
+pc_31_0,PC(31:0)
+pc_31_0_h,PC(31:0)+H
+pc_31_1,PC(31:1)
+pc_31_1_h,PC(31:1)+H
+pc_31_1_h_1,PC(31:1)+H
+pc_31_2,PC(31:2)
+pc_31_2_h,PC(31:2)+H
+pc_32_0,PC(32:0)
+pc_32_0_h,PC(32:0)+H
+pc_32_0e_h,PC(32:0e)+H
+pc_32_1,PC(32:1)
+pc_32_1_h,PC(32:1)+H
+pc_32_1e_h,PC(32:1e)+H
+pc_32_2,PC(32:2)
+pc_32_2e_h,PC(32:2e)+H
+pc_32_3,PC(32:3)
+pc_32_3_h,PC(32:3)+H
+pc_33_1,PC(33:1)
+pc_33_1_h,PC(33:1)+H
+pc_33_2,PC(33:2)
+pc_33_2_h,PC(33:2)+H
+pc_33_2_h_1,PC(33:2)+H
+pc_33_3,PC(33:3)
+pc_33_4,PC(33:4)
+pc_34_0e_h,PC(34:0e)+H
+pc_34_1,PC(34:1)
+pc_34_1_h,PC(34:1)+H
+pc_34_1_h_1,PC(34:1)+H
+pc_34_1e_h,PC(34:1e)+H
+pc_34_2,PC(34:2)
+pc_34_2_h,PC(34:2)+H
+pc_34_2_h_1,PC(34:2)+H
+pc_34_2e_h,PC(34:2e)+H
+pc_34_3,PC(34:3)
+pc_34_3_h,PC(34:3)+H
+pc_34_3e_h,PC(34:3e)+H
+pc_34_4,PC(34:4)
+pc_34_4e_h,PC(34:4e)+H
+pc_34_5_h,PC(34:5)+H
+pc_34_6e_ch3,PC(34:6e)-CH3
+pc_35_1,PC(35:1)
+pc_35_1_h,PC(35:1)+H
+pc_35_2,PC(35:2)
+pc_35_3,PC(35:3)
+pc_35_3_h,PC(35:3)+H
+pc_35_4,PC(35:4)
+pc_35_4_h,PC(35:4)+H
+pc_35_5_h,PC(35:5)+H
+pc_35_5_h_1,PC(35:5)+H
+pc_35_6,PC(35:6)
+pc_35_6_h,PC(35:6)+H
+pc_36_1,PC(36:1)
+pc_36_1_h,PC(36:1)+H
+pc_36_2,PC(36:2)
+pc_36_2_h,PC(36:2)+H
+pc_36_2e_h,PC(36:2e)+H
+pc_36_3,PC(36:3)
+pc_36_3_h,PC(36:3)+H
+pc_36_3e_ch3coo,PC(36:3e)+CH3COO
+pc_36_3e_h,PC(36:3e)+H
+pc_36_4,PC(36:4)
+pc_36_4_h,PC(36:4)+H
+pc_36_4e_ch3coo,PC(36:4e)+CH3COO
+pc_36_4e_ch3coo_1,PC(36:4e)+CH3COO
+pc_36_4e_h,PC(36:4e)+H
+pc_36_5,PC(36:5)
+pc_36_5e_ch3coo,PC(36:5e)+CH3COO
+pc_36_5e_h,PC(36:5e)+H
+pc_36_6,PC(36:6)
+pc_36_6_h,PC(36:6)+H
+pc_36_6e_h,PC(36:6e)+H
+pc_37_0_h,PC(37:0)+H
+pc_37_2,PC(37:2)
+pc_37_2_h,PC(37:2)+H
+pc_37_2_h_1,PC(37:2)+H
+pc_37_3,PC(37:3)
+pc_37_3_h,PC(37:3)+H
+pc_37_4,PC(37:4)
+pc_37_4_h,PC(37:4)+H
+pc_37_5,PC(37:5)
+pc_37_5_h,PC(37:5)+H
+pc_37_5e_h,PC(37:5e)+H
+pc_37_6,PC(37:6)
+pc_37_6_h,PC(37:6)+H
+pc_38_1_h,PC(38:1)+H
+pc_38_1e_h,PC(38:1e)+H
+pc_38_2,PC(38:2)
+pc_38_2_h,PC(38:2)+H
+pc_38_4,PC(38:4)
+pc_38_4_h,PC(38:4)+H
+pc_38_4e_h,PC(38:4e)+H
+pc_38_5,PC(38:5)
+pc_38_5e_h,PC(38:5e)+H
+pc_38_6,PC(38:6)
+pc_38_6_h,PC(38:6)+H
+pc_38_6e_h,PC(38:6e)+H
+pc_38_7e_h,PC(38:7e)+H
+pc_39_4,PC(39:4)
+pc_39_4_h,PC(39:4)+H
+pc_39_5,PC(39:5)
+pc_39_5_h,PC(39:5)+H
+pc_39_6,PC(39:6)
+pc_39_6_h,PC(39:6)+H
+pc_40_1_h,PC(40:1)+H
+pc_40_2_h,PC(40:2)+H
+pc_40_3e_h,PC(40:3e)+H
+pc_40_4,PC(40:4)
+pc_40_4_h,PC(40:4)+H
+pc_40_4e_h,PC(40:4e)+H
+pc_40_5,PC(40:5)
+pc_40_5_h,PC(40:5)+H
+pc_40_5e_h,PC(40:5e)+H
+pc_40_6,PC(40:6)
+pc_40_6_na,PC(40:6)+Na
+pc_40_6e_h,PC(40:6e)+H
+pc_40_7,PC(40:7)
+pc_40_7e_h,PC(40:7e)+H
+pc_40_8,PC(40:8)
+pc_40_9,PC(40:9)
+pc_40_9_h,PC(40:9)+H
+pc_40_9_h_1,PC(40:9)+H
+pc_41_4_h,PC(41:4)+H
+pc_42_2e_h,PC(42:2e)+H
+pc_42_3e_h,PC(42:3e)+H
+pc_42_4_h,PC(42:4)+H
+pc_42_4e_h,PC(42:4e)+H
+pc_42_5_h,PC(42:5)+H
+pc_42_5e_h,PC(42:5e)+H
+pc_42_6,PC(42:6)
+pc_42_6_h,PC(42:6)+H
+pc_42_7,PC(42:7)
+pc_42_8,PC(42:8)
+pc_42_8_h,PC(42:8)+H
+pc_42_9,PC(42:9)
+pc_42_9_h,PC(42:9)+H
+pc_42_10,PC(42:10)
+pc_43_3_h,PC(43:3)+H
+pc_44_4e_h,PC(44:4e)+H
+pc_44_5e_h,PC(44:5e)+H
+pc_44_6e_h,PC(44:6e)+H
+pc_45_3_h,PC(45:3)+H
+pc_45_4_h,PC(45:4)+H
+pc_47_4_h,PC(47:4)+H
+pc_47_5_h,PC(47:5)+H
+pc_o_5_0_12_0,PC(O-5:0_12:0)
+pc_o_5_0_14_2,PC(O-5:0_14:2)
+pc_o_6_0_12_0,PC(O-6:0_12:0)
+pc_o_12_1_23_6,PC(O-12:1_23:6)
+pc_o_13_0_19_1,PC(O-13:0_19:1)
+pc_o_13_0_22_6,PC(O-13:0_22:6)
+pc_o_13_1_22_6,PC(O-13:1_22:6)
+pc_o_14_1_20_4,PC(O-14:1_20:4)
+pc_o_14_1_22_6,PC(O-14:1_22:6)
+pc_o_14_2_17_0,PC(O-14:2_17:0)
+pc_o_15_1_18_1,PC(O-15:1_18:1)
+pc_o_15_1_18_2,PC(O-15:1_18:2)
+pc_o_15_1_20_4,PC(O-15:1_20:4)
+pc_o_15_1_22_4,PC(O-15:1_22:4)
+pc_o_15_1_22_6,PC(O-15:1_22:6)
+pc_o_15_2_22_6,PC(O-15:2_22:6)
+pc_o_16_0,PC(O-16:0)
+pc_o_16_0_16_0,PC(O-16:0_16:0)
+pc_o_16_1_18_0,PC(O-16:1_18:0)
+pc_o_16_1_18_2,PC(O-16:1_18:2)
+pc_o_16_1_20_4,PC(O-16:1_20:4)
+pc_o_16_1_22_5,PC(O-16:1_22:5)
+pc_o_17_0,PC(O-17:0)
+pc_o_17_0_18_1,PC(O-17:0_18:1)
+pc_o_17_0_21_6,PC(O-17:0_21:6)
+pc_o_17_1_18_2,PC(O-17:1_18:2)
+pc_o_17_2_20_6,PC(O-17:2_20:6)
+pc_o_17_3_21_4,PC(O-17:3_21:4)
+pc_o_18_0,PC(O-18:0)
+pc_o_18_1,PC(O-18:1)
+pc_o_18_2,PC(O-18:2)
+pc_o_18_4_18_0,PC(O-18:4_18:0)
+pc_o_18_4_18_1,PC(O-18:4_18:1)
+pc_o_19_0,PC(O-19:0)
+pc_o_19_0_23_4,PC(O-19:0_23:4)
+pc_o_19_1,PC(O-19:1)
+pc_o_19_1_20_4,PC(O-19:1_20:4)
+pc_o_20_1_14_1,PC(O-20:1_14:1)
+pc_o_20_3,PC(O-20:3)
+pc_o_22_1_18_3,PC(O-22:1_18:3)
+pc_o_23_5_19_0,PC(O-23:5_19:0)
+pc_o_24_7_22_0,PC(O-24:7_22:0)
+pc_o_25_5_19_0,PC(O-25:5_19:0)
+pc_o_30_6_14_0,PC(O-30:6_14:0)
+pc_o_32_0,PC(O-32:0)
+pc_o_32_1,PC(O-32:1)
+pc_o_32_2,PC(O-32:2)
+pc_o_34_0,PC(O-34:0)
+pc_o_34_1,PC(O-34:1)
+pc_o_34_2,PC(O-34:2)
+pc_o_34_3,PC(O-34:3)
+pc_o_34_4,PC(O-34:4)
+pc_o_35_7,PC(O-35:7)
+pc_o_36_2,PC(O-36:2)
+pc_o_36_3,PC(O-36:3)
+pc_o_36_5,PC(O-36:5)
+pc_o_37_6,PC(O-37:6)
+pc_o_38_1,PC(O-38:1)
+pc_o_38_3,PC(O-38:3)
+pc_o_38_4,PC(O-38:4)
+pc_o_38_5,PC(O-38:5)
+pc_o_38_6,PC(O-38:6)
+pc_o_39_10,PC(O-39:10)
+pc_o_40_4,PC(O-40:4)
+pc_o_40_5,PC(O-40:5)
+pc_o_40_6,PC(O-40:6)
+pc_o_41_11,PC(O-41:11)
+pc_o_41_12,PC(O-41:12)
+pc_o_42_2,PC(O-42:2)
+pc_o_42_3,PC(O-42:3)
+pc_o_42_4,PC(O-42:4)
+pc_o_42_5,PC(O-42:5)
+pc_o_42_6,PC(O-42:6)
+pc_o_43_13,PC(O-43:13)
+pc_o_44_4,PC(O-44:4)
+pc_o_44_5,PC(O-44:5)
+pc_o_44_6,PC(O-44:6)
+pc_o_44_7,PC(O-44:7)
+pc_o_46_6,PC(O-46:6)
+pc_o_46_7,PC(O-46:7)
+pc_o_46_8,PC(O-46:8)
+pc_p_4_0_16_2,PC(P-4:0_16:2)
+pc_p_5_0_14_0,PC(P-5:0_14:0)
+pc_p_5_0_15_2,PC(P-5:0_15:2)
+pc_p_8_0_23_1,PC(P-8:0_23:1)
+pc_p_11_0_23_2,PC(P-11:0_23:2)
+pc_p_15_2_22_5,PC(P-15:2_22:5)
+pc_p_18_0,PC(P-18:0)
+pc_p_19_0,PC(P-19:0)
+pc_p_19_1,PC(P-19:1)
+pc_p_19_4_16_2,PC(P-19:4_16:2)
+pc_p_20_3,PC(P-20:3)
+pc_p_20_6_21_5,PC(P-20:6_21:5)
+pc_p_22_7_19_2,PC(P-22:7_19:2)
+pc_p_32_0,PC(P-32:0)
+pc_p_35_4,PC(P-35:4)
+pc_p_36_4,PC(P-36:4)
+pc_p_37_6,PC(P-37:6)
+pc_p_39_10,PC(P-39:10)
+pc_p_41_10,PC(P-41:10)
+pcasl3d_left,Left Kidney: Perfusion 3D_pCASL (cortex) (mL/min/100gm)
+pcasl3d_right,Right Kidney: Perfusion 3D_pCASL (cortex)
+pe_16_0_18_1,PE(16:0_18:1)
+pe_16_0_18_1_na,PE(16:0_18:1)+Na
+pe_16_0_18_2,PE(16:0_18:2)
+pe_16_0_18_2_h,PE(16:0_18:2)+H
+pe_16_0_18_2_h_1,PE(16:0_18:2)-H
+pe_16_0_20_4,PE(16:0_20:4)
+pe_16_0_20_4_h,PE(16:0_20:4)-H
+pe_16_0_20_4_h_1,PE(16:0_20:4)+H
+pe_16_0_22_6,PE(16:0_22:6)
+pe_16_0_22_6_h,PE(16:0_22:6)+H
+pe_16_0_22_6_h_1,PE(16:0_22:6)-H
+pe_16_0e_h,PE(16:0e)+H
+pe_16_0p_18_2_h,PE(16:0p_18:2)+H
+pe_16_0p_20_4_h,PE(16:0p_20:4)+H
+pe_16_0p_20_5_h,PE(16:0p_20:5)+H
+pe_16_0p_22_6_h,PE(16:0p_22:6)+H
+pe_16_1e_20_4_h,PE(16:1e_20:4)-H
+pe_16_1e_20_5_h,PE(16:1e_20:5)-H
+pe_16_1e_22_6_h,PE(16:1e_22:6)-H
+pe_16_1e_22_6_h_1,PE(16:1e_22:6)-H
+pe_18_0_18_2,PE(18:0_18:2)
+pe_18_0_18_2_h,PE(18:0_18:2)-H
+pe_18_0_18_2_h_1,PE(18:0_18:2)+H
+pe_18_0_18_2_h_2,PE(18:0_18:2)-H
+pe_18_0_20_4,PE(18:0_20:4)
+pe_18_0_20_4_h,PE(18:0_20:4)-H
+pe_18_0_20_4_h_1,PE(18:0_20:4)+H
+pe_18_0_22_6,PE(18:0_22:6)
+pe_18_0_22_6_h,PE(18:0_22:6)-H
+pe_18_0e_h,PE(18:0e)+H
+pe_18_0p_18_1_h,PE(18:0p_18:1)+H
+pe_18_0p_18_2_h,PE(18:0p_18:2)+H
+pe_18_0p_20_4_h,PE(18:0p_20:4)+H
+pe_18_1_18_2,PE(18:1_18:2)
+pe_18_1_20_4,PE(18:1_20:4)
+pe_18_1e_18_2_h,PE(18:1e_18:2)-H
+pe_18_1e_18_2_h_1,PE(18:1e_18:2)-H
+pe_18_1e_20_4_h,PE(18:1e_20:4)-H
+pe_18_1e_20_4_h_1,PE(18:1e_20:4)-H
+pe_18_1e_h,PE(18:1e)+H
+pe_18_1p_18_2_h,PE(18:1p_18:2)+H
+pe_18_1p_20_4_h,PE(18:1p_20:4)+H
+pe_18_1p_22_6_h,PE(18:1p_22:6)+H
+pe_18_2e_18_2_h,PE(18:2e_18:2)+H
+pe_18_2e_22_6_h,PE(18:2e_22:6)-H
+pe_18_2e_22_6_h_1,PE(18:2e_22:6)-H
+pe_18_2e_h,PE(18:2e)+H
+pe_20_0p_20_4_h,PE(20:0p_20:4)+H
+pe_20_3e_h,PE(20:3e)+H
+pe_20_4_16_0,PE(20:4_16:0)
+pe_20_4e_h,PE(20:4e)+H
+pe_22_6_16_0,PE(22:6_16:0)
+pe_32_0e_li,PE(32:0e)+Li
+pe_34_2,PE(34:2)
+pe_34_3e_h,PE(34:3e)-H
+pe_34_3e_h_1,PE(34:3e)+H
+pe_34_3e_h_2,PE(34:3e)-H
+pe_35_1e_h,PE(35:1e)+H
+pe_35_4e_li,PE(35:4e)+Li
+pe_36_1_h,PE(36:1)+H
+pe_36_2e_h,PE(36:2e)-H
+pe_36_2e_h_1,PE(36:2e)+H
+pe_36_3_na,PE(36:3)+Na
+pe_36_3e_h,PE(36:3e)+H
+pe_36_5e_h,PE(36:5e)+H
+pe_37_2_ch3ch2_3nh,PE(37:2)+(CH3CH2)3NH
+pe_37_5e_li,PE(37:5e)+Li
+pe_38_6,PE(38:6)
+pe_38_6e_h,PE(38:6e)+H
+pe_38_7e_h,PE(38:7e)+H
+pe_39_1_ch3ch2_3nh,PE(39:1)+(CH3CH2)3NH
+pe_39_2_ch3ch2_3nh,PE(39:2)+(CH3CH2)3NH
+pe_39_3_ch3ch2_3nh,PE(39:3)+(CH3CH2)3NH
+pe_40_5e_h,PE(40:5e)+H
+pe_40_6e_h,PE(40:6e)+H
+pe_40_7e_h,PE(40:7e)+H
+pe_40_8e_h,PE(40:8e)+H
+pe_43_7_na,PE(43:7)+Na
+pe_44_0_li,PE(44:0)+Li
+pe_45_7_na,PE(45:7)+Na
+pe_46_0_li,PE(46:0)+Li
+pe_46_1_li,PE(46:1)+Li
+pe_46_2_li,PE(46:2)+Li
+pe_46_3_li,PE(46:3)+Li
+pe_47_0_li,PE(47:0)+Li
+pe_47_1_li,PE(47:1)+Li
+pe_48_1_li,PE(48:1)+Li
+pe_48_2_li,PE(48:2)+Li
+pe_48_3_li,PE(48:3)+Li
+pe_50_0_li,PE(50:0)+Li
+pe_50_1_li,PE(50:1)+Li
+pe_50_2_li,PE(50:2)+Li
+pe_50_3_li,PE(50:3)+Li
+pe_50_4_li,PE(50:4)+Li
+pe_52_0_li,PE(52:0)+Li
+pe_52_1_li,PE(52:1)+Li
+pe_52_2_li,PE(52:2)+Li
+pe_52_3_li,PE(52:3)+Li
+pe_52_4_li,PE(52:4)+Li
+pe_52_5_li,PE(52:5)+Li
+pe_54_6_li,PE(54:6)+Li
+pe_bmi_percent,BMI %
+pe_map,Mean Arterial Pressure (MAP)
+pe_o_16_1_18_1,PE(O-16:1_18:1)
+pe_o_16_1_18_2,PE(O-16:1_18:2)
+pe_o_16_1_20_4,PE(O-16:1_20:4)
+pe_o_16_1_22_6,PE(O-16:1_22:6)
+pe_o_17_1_20_4,PE(O-17:1_20:4)
+pe_o_18_1_18_2,PE(O-18:1_18:2)
+pe_o_18_1_20_4,PE(O-18:1_20:4)
+pe_o_18_1_22_5,PE(O-18:1_22:5)
+pe_o_18_1_22_6,PE(O-18:1_22:6)
+pe_o_18_2_20_4,PE(O-18:2_20:4)
+pe_o_18_2_22_6,PE(O-18:2_22:6)
+pe_p_4_0_14_1,PE(P-4:0_14:1)
+pe_p_4_0_16_3,PE(P-4:0_16:3)
+pe_p_16_0_20_4,PE(P-16:0_20:4)
+pe_p_16_0e_0_0_tissue,PE (P-16:0e/0:0)
+pe_p_18_0_18_1,PE(P-18:0_18:1)
+pe_p_18_0_18_2,PE(P-18:0_18:2)
+pe_p_18_0_20_4,PE(P-18:0_20:4)
+pe_p_18_1_20_4,PE(P-18:1_20:4)
+pe_p_21_6_23_4,PE(P-21:6_23:4)
+pe_p_23_7_17_0,PE(P-23:7_17:0)
+pe_pulse,Pulse
+per_lt,% Time Light Activity
+per_mod,% Time Moderate Activity
+per_sed,% Time Sedentary
+per_vig,% Time Vigorous Activity
+peripheral_vascular_disease,Peripheral Vascular Disease
+PFBA,PFBA
+PFBS,PFBS
+PFDA,PFDA
+PFDoA,PFDoA
+PFDoS,PFDoS
+PFHpA,PFHpA
+PFHps,PFHps
+PFHxA,PFHxA
+PFHxS,PFHxS
+PFNA,PFNA
+PFNS,PFNS
+PFOA,PFOA
+PFOS,PFOS
+PFOSA,PFOSA
+PFPeA,PFPeA
+PFPeAS,PFPeAS
+PFTeDA,PFTeDA
+PFTrDA,PFTrDA
+PFUnA,PFUnA
+pg,Pi G (Oncotic pressure)
+pg_20_0e_16_0_h,PG(20:0e_16:0)-H
+pg_20_6_18_0,PG(20:6_18:0)
+pg_o_14_2_22_2,PG(O-14:2_22:2)
+pg_o_28_0_16_0,PG(O-28:0_16:0)
+pg_p_16_3_20_0,PG(P-16:3_20:0)
+phentermine,Phentermine
+phenylalanine,Phenylalanine
+phosphate_tissue,Phosphate
+pi_13_0_21_1_h,PI(13:0_21:1)+H
+pi_16_0_18_1,PI(16:0_18:1)
+pi_16_0_18_2,PI(16:0_18:2)
+pi_16_0_18_2_h,PI(16:0_18:2)-H
+pi_16_0_20_4,PI(16:0_20:4)
+pi_16_0_20_4_h,PI(16:0_20:4)-H
+pi_16_0_20_4_h_1,PI(16:0_20:4)+H
+pi_16_0_20_4_nh4,PI(16:0_20:4)+NH4
+pi_17_1_19_0_nh4,PI(17:1_19:0)+NH4
+pi_18_0_18_1_na,PI(18:0_18:1)+Na
+pi_18_0_18_2,PI(18:0_18:2)
+pi_18_0_18_2_h,PI(18:0_18:2)-H
+pi_18_0_18_2_nh4,PI(18:0_18:2)+NH4
+pi_18_0_20_3,PI(18:0_20:3)
+pi_18_0_20_3_h,PI(18:0_20:3)-H
+pi_18_0_20_4,PI(18:0_20:4)
+pi_18_0_20_4_h,PI(18:0_20:4)+H
+pi_18_0_20_4_h_1,PI(18:0_20:4)-H
+pi_18_0_20_4_nh4,PI(18:0_20:4)+NH4
+pi_18_1_18_0,PI(18:1_18:0)
+pi_18_1_20_4,PI(18:1_20:4)
+pi_18_1_20_4_h,PI(18:1_20:4)-H
+pi_18_1_20_4_nh4,PI(18:1_20:4)+NH4
+pi_20_4_16_0,PI(20:4_16:0)
+pi_20_4_18_0,PI(20:4_18:0)
+pi_22_7_18_0,PI(22:7_18:0)
+pi_32_1,PI(32:1)
+pi_34_1,PI(34:1)
+pi_34_2,PI(34:2)
+pi_34_2_nh4,PI(34:2)+NH4
+pi_35_4e_li,PI(35:4e)+Li
+pi_36_2,PI(36:2)
+pi_36_2_h,PI(36:2)+H
+pi_36_3,PI(36:3)
+pi_37_5e_li,PI(37:5e)+Li
+pi_38_5,PI(38:5)
+pi_40_6,PI(40:6)
+pilabs_yn,PI Samples -- Labs complete
+plasma_ioh_1,Average Plasma Concentration -- Iohexol (Period 1)
+plasma_ioh_2,Average Plasma Concentration -- Iohexol (Period 2)
+plasma_pah_1,Average Plasma Concentration -- PAH (Period 1)
+plasma_pah_2,Average Plasma Concentration -- PAH (Period 2)
+pltct,Platelet Count (10^3 uL)
+pod_cell_volume,Podocyte Cell Volume:
+pod_nuc_density,Podocyte Nuclear Density:
+podocytes_sev,Podocytes Severity
+prescreen_a1c,Pre-screening A1c (%)
+proc___1,Procedure (choice 1)
+proc___2,Procedure (choice 2)
+proc___3,Procedure (choice 3)
+proc___4,Procedure (choice 4)
+proc___5,Procedure (choice 5)
+proc___6,Procedure (choice 6)
+proc___7,Procedure (choice 7)
+proc___motor,Procedure (motor)
+procedr___1,Procedure (choice 1)
+procedr___2,Procedure (choice 2)
+procedr___3,Procedure (choice 3)
+procedr___4,Procedure (choice 4)
+procedr___5,Procedure (choice 5)
+procedr___6,Procedure (choice 6)
+procedr___7,Procedure (choice 7)
+procedure_x,Procedure X
+procedure_y,Procedure Y
+proline,Proline
+prostaglandin_f1a_tissue,Prostaglandin F1a
+ps_18_0_18_1,PS(18:0_18:1)
+ps_18_0_20_4,PS(18:0_20:4)
+ps_18_0_20_4_h,PS(18:0_20:4)+H
+ps_18_0_24_3,PS(18:0_24:3)
+ps_20_4_18_0,PS(20:4_18:0)
+ps_26_3_14_0,PS(26:3_14:0)
+ps_38_2e_h,PS(38:2e)-H
+ps_38_4_h,PS(38:4)-H
+psel_adp_1_25_10_min,Psel ADP 1.25 10 min
+psel_baseline,Psel Baseline
+psel_conv_50_3_min,Psel Conv 50 3 min
+psel_th_0_075_2_min,Psel TH 0.075 2 min
+psel_th_0_075_5_min,Psel TH 0.075 5 min
+pt,Prothrombin Time (Seconds)
+pt_avg_area,PT (Epithelium+Lumen) average area (units)
+pt_density,PT density (/um2)
+pt_epithelium_area,PT total epithelium area (units)
+pt_epithelium_avg_area,PT epithelium average area (units)
+pt_lumen_area,PT total lumen area (units)
+pt_lumen_avg_area,PT average lumen area (units)
+pt_nuc_area,PT nuclear area average/tubule (units)
+pt_nuc_density_area_cortex,"PT nuclear density, area across cortex (/units)"
+pt_nuc_density_number_cortex,"PT nuclear density, number across cortex (/units)"
+pt_nuc_density_number_tubule,"PT nuclear density, number/ tubule"
+pt_nuclear_count,Total PT nulcear count
+pt_total_area,PT (Epithelium+ Lumen) total area (um2)
+pt_total_nuc_area,Total PT nuclear area (units)
+pt_total_number,PT total number
+ptau_181_avg_conc,pTau 181 Average Concentration (pg/mL)
+ptau_217_avg_conc,pTau 217 Average Concentration (pg/mL)
+ptt,Partial Thromboplastin Time (Seconds)
+pulse,Pulse
+pump_basal_rate,Pump basal rate
+pump_clamp,"If on pump, basal rate during clamp"
+pwa_dbp,Diastolic Blood Pressure (DBP)
+pwa_sbp,Systolic Blood Pressure (SBP)
+pwv_diff_test1,Test #1 Difference in m/s
+pwv_diff_test2,Test #2 Difference in m/s
+pwv_diff_test3,Test #3 Difference in m/s
+pwv_qcvis_test1,Test #1 QC/Visual assessment
+pwv_qcvis_test2,Test #2 QC/Visual assessment
+pwv_qcvis_test3,Test #3 QC/Visual assessment
+pwv_succ,Was the PWV successful
+pwv_succ_reas,"If no, why was it not successful"
+pwv_val_test1,Test #1 PWV Value in m/s
+pwv_val_test2,Test #2 PWV Value in m/s
+pwv_val_test3,Test #3 PWV Value in m/s
+pyroglutamic_acid_tissue,Pyroglutamic acid
+ra,Afferent arteriolar resistance (dyne*s*cm^-5)
+raasi_timepoint,RAASi at visit
+race_ethnicity,Race/Ethnicity
+radial_1,Phase 1 temporal radial strain
+radial_2,Phase 2 temporal radial strain
+radial_3,Phase 3 temporal radial strain
+radial_4,Phase 4 temporal radial strain
+radial_5,Phase 5 temporal radial strain
+radial_6,Phase 6 temporal radial strain
+radial_7,Phase 7 temporal radial strain
+radial_8,Phase 8 temporal radial strain
+radial_9,Phase 9 temporal radial strain
+radial_10,Phase 10 temporal radial strain
+radial_11,Phase 11 temporal radial strain
+radial_12,Phase 12 temporal radial strain
+radial_13,Phase 13 temporal radial strain
+radial_14,Phase 14 temporal radial strain
+radial_15,Phase 15 temporal radial strain
+radial_16,Phase 16 temporal radial strain
+radial_17,Phase 17 temporal radial strain
+radial_18,Phase 18 temporal radial strain
+radial_19,Phase 19 temporal radial strain
+radial_20,Phase 20 temporal radial strain
+radial_21,Phase 21 temporal radial strain
+radial_22,Phase 22 temporal radial strain
+radial_23,Phase 23 temporal radial strain
+radial_24,Phase 24 temporal radial strain
+radial_25,Phase 25 temporal radial strain
+radial_26,Phase 26 temporal radial strain
+radial_27,Phase 27 temporal radial strain
+radial_28,Phase 28 temporal radial strain
+radial_29,Phase 29 temporal radial strain
+radial_30,Phase 30 temporal radial strain
+rbc,Red Blood Count: (M/uL)
+rbf,Renal Blood Flow
+rc_f,Right Cortex Perfusion [F] (***)
+rc_k1,Right Cortex Tracer Uptake Rate [K1] (ml/g/min)
+rc_k1_w_cyst_percent_avg,Right cortex k1 w cyst avg
+rc_k1_w_cyst_percent_high,Right cortex k1 w cyst high
+rc_k1_w_cyst_percent_low,Right cortex k1 w cyst low
+rc_k1_w_cyst_vw,Right cortex k1 w cyst
+rc_k1_wo_cyst_percent_avg,Right cortex k1 wo cyst avg
+rc_k1_wo_cyst_percent_high,Right cortex k1 wo cyst high
+rc_k1_wo_cyst_percent_low,Right cortex k1 wo cyst low
+rc_k1_wo_cyst_vw,Right cortex k1 wo cyst
+rc_k2,Right Cortex Oxidation Rate [k2] (1/min)
+rc_k2_w_cyst_percent_avg,Right cortex k2 w cyst avg
+rc_k2_w_cyst_percent_high,Right cortex k2 w cyst high
+rc_k2_w_cyst_percent_low,Right cortex k2 w cyst low
+rc_k2_w_cyst_vw,Right cortex k2 w cyst
+rc_k2_wo_cyst_percent_avg,Right cortex k2 wo cyst avg
+rc_k2_wo_cyst_percent_high,Right cortex k2 wo cyst high
+rc_k2_wo_cyst_percent_low,Right cortex k2 wo cyst low
+rc_k2_wo_cyst_vw,Right cortex k2 wo cyst
+rc_labs,Research Coordinator Labs
+rc_vb,Right Cortex Blood Volume Fraction [vB]
+rdw,RDW: (%)
+re,Efferent arteriolar resistance (dyne*s*cm^-5)
+redcap_event_name,REDCap Event Name
+ree_60min_fm,REE/BW_FFM_60
+ree_bw,REE/BW
+ree_bw_60min,REE/BW 60 Min
+ree_ffm,REE/BW_FFM
+res_abd,Research Abdominal MRI Outcomes complete
+research_clamp,Research Clamp Outcomes
+right_cortex_blood_flow_mean,Right Cortex Blood Flow Mean
+right_cortex_blood_flow_sd,Right Cortex Blood Flow SD
+right_cortex_ox_metab_mean,Right Cortex Oxidative Metabolism Mean
+right_cortex_ox_metab_sd,Right Cortex Oxidative Metabolism SD
+right_kidney_volume_ml,Right Kidney Volume (mL)
+right_medulla_blood_flow_mean,Right Medulla Blood Flow Mean
+right_medulla_blood_flow_sd,Right Medulla Blood Flow SD
+right_medulla_ox_metab_mean,Right Medulla Oxidative Metabolism Mean
+right_medulla_ox_metab_sd,Right Medulla Oxidative Metabolism SD
+rm_f,Right Medulla Perfusion [F] (***)
+rm_k1,Right Medulla Tracer Uptake Rate [K1] (ml/g/min)
+rm_k1_wo_cyst_percent_avg,Right medulla k1 wo cyst avg
+rm_k1_wo_cyst_percent_high,Right medulla k1 wo cyst high
+rm_k1_wo_cyst_percent_low,Right medulla k1 wo cyst low
+rm_k1_wo_cyst_vw,Right medulla k1 wo cyst
+rm_k2,Right Medulla Oxidation Rate [k2] (1/min)
+rm_k2_wo_cyst_percent_avg,Right medulla k2 wo cyst avg
+rm_k2_wo_cyst_percent_high,Right medulla k2 wo cyst high
+rm_k2_wo_cyst_percent_low,Right medulla k2 wo cyst low
+rm_k2_wo_cyst_vw,Right medulla k2 wo cyst
+rm_vb,Right Medulla Blood Volume Fraction [vB] (%)
+rmi_rvedvi,RVEDVi
+rna_pass,RNALater Core obtained in Pass #
+rna_time,Time: Core placed in RNALater cryovial
+rnalater_id,RNALater ID
+rr,Respiratory Rate
+rtot_k1_w_cyst,Right total k1 w cyst
+rtot_k1_w_cyst_percent_avg,Right total k1 w cyst avg
+rtot_k1_w_cyst_percent_high,Right total k1 w cyst high
+rtot_k1_w_cyst_percent_low,Right total k1 w cyst low
+rtot_k1_wo_cyst,Right total k1 wo cyst
+rtot_k1_wo_cyst_percent_avg,Right total k1 wo cyst avg
+rtot_k1_wo_cyst_percent_high,Right total k1 wo cyst high
+rtot_k1_wo_cyst_percent_low,Right total k1 wo cyst low
+rtot_k2_w_cyst,Right total k2 w cyst
+rtot_k2_w_cyst_percent_avg,Right total k2 w cyst avg
+rtot_k2_w_cyst_percent_high,Right total k2 w cyst high
+rtot_k2_w_cyst_percent_low,Right total k2 w cyst low
+rtot_k2_wo_cyst,Right total k2 wo cyst
+rtot_k2_wo_cyst_percent_avg,Right total k2 wo cyst avg
+rtot_k2_wo_cyst_percent_high,Right total k2 wo cyst high
+rtot_k2_wo_cyst_percent_low,Right total k2 wo cyst low
+rv_cardiac_index,RV Cardiac Index
+rv_cardiac_output,RV Cardiac Output
+rv_hr,RV HR
+rv_stroke_volume,RV Stroke Volume
+rvedv,RV EDV
+rvef,RV EF
+rvesv,RV ESV
+rvesvi,RV End-Systolic Volume Index
+rvr,Renal vascular resistance (mmHg/L/min*1000)
+sat,Subcutaneous Adipose Tissue Volume (cm3)
+sbp,Systolic Blood Pressure (mmHg)
+search_eis,Estimated insulin sensitivty
+seg_scler_n,Segmentally Sclerotic Glomeruli (n)
+seg_scler_pattern,Segmental Sclerosis Pattern
+serine,Serine
+serine_tissue,Serine
+sglt2i_ever,SGLT2i Use Ever
+sglti_timepoint,On SGITi at Timepoint
+sie_h_h2o,SiE()+H-H2O
+sm_d14_1_20_0,SM(d14:1_20:0)
+sm_d14_2_27_0,SM(d14:2_27:0)
+sm_d16_2_20_0,SM(d16:2_20:0)
+sm_d18_0_24_4_h,SM(d18:0_24:4)+H
+sm_d18_1_17_0,SM(d18:1_17:0)
+sm_d18_1_21_0_h,SM(d18:1_21:0)+H
+sm_d18_1_24_1_h,SM(d18:1_24:1)+H
+sm_d18_2_25_1,SM(d18:2_25:1)
+sm_d20_1_21_1,SM(d20:1_21:1)
+sm_d20_1_23_2_h,SM(d20:1_23:2)+H
+sm_d28_1_h,SM(d28:1)+H
+sm_d30_1,SM(d30:1)
+sm_d30_1_h,SM(d30:1)+H
+sm_d31_1,SM(d31:1)
+sm_d31_1_h,SM(d31:1)+H
+sm_d32_1,SM(d32:1)
+sm_d32_1_ch3coo,SM(d32:1)+CH3COO
+sm_d32_1_h,SM(d32:1)+H
+sm_d32_2_h,SM(d32:2)+H
+sm_d33_1,SM(d33:1)
+sm_d33_1_ch3coo,SM(d33:1)+CH3COO
+sm_d33_1_h,SM(d33:1)+H
+sm_d33_2,SM(d33:2)
+sm_d33_2_h,SM(d33:2)+H
+sm_d34_0_h,SM(d34:0)+H
+sm_d34_1,SM(d34:1)
+sm_d34_1_ch3coo,SM(d34:1)+CH3COO
+sm_d34_1_h,SM(d34:1)+H
+sm_d34_2,SM(d34:2)
+sm_d34_2_ch3coo,SM(d34:2)+CH3COO
+sm_d34_2_h,SM(d34:2)+H
+sm_d34_4,SM(d34:4)
+sm_d34_4_h,SM(d34:4)+H
+sm_d35_1,SM(d35:1)
+sm_d35_1_ch3coo,SM(d35:1)+CH3COO
+sm_d35_1_h,SM(d35:1)+H
+sm_d35_2,SM(d35:2)
+sm_d35_2_h,SM(d35:2)+H
+sm_d35_4,SM(d35:4)
+sm_d35_4_h,SM(d35:4)+H
+sm_d36_1,SM(d36:1)
+sm_d36_1_ch3coo,SM(d36:1)+CH3COO
+sm_d36_1_h,SM(d36:1)+H
+sm_d36_2,SM(d36:2)
+sm_d36_2_h,SM(d36:2)+H
+sm_d36_3,SM(d36:3)
+sm_d36_3_h,SM(d36:3)+H
+sm_d36_4,SM(d36:4)
+sm_d36_4_h,SM(d36:4)+H
+sm_d36_5_h,SM(d36:5)+H
+sm_d37_1,SM(d37:1)
+sm_d37_1_h,SM(d37:1)+H
+sm_d37_2,SM(d37:2)
+sm_d37_2_h,SM(d37:2)+H
+sm_d38_1,SM(d38:1)
+sm_d38_1_ch3coo,SM(d38:1)+CH3COO
+sm_d38_1_ch3coo_1,SM(d38:1)+CH3COO
+sm_d38_1_h,SM(d38:1)+H
+sm_d38_2,SM(d38:2)
+sm_d38_2_h,SM(d38:2)+H
+sm_d38_4,SM(d38:4)
+sm_d38_4_h,SM(d38:4)+H
+sm_d38_5,SM(d38:5)
+sm_d39_1,SM(d39:1)
+sm_d39_1_ch3coo,SM(d39:1)+CH3COO
+sm_d39_2,SM(d39:2)
+sm_d40_1,SM(d40:1)
+sm_d40_1_ch3coo,SM(d40:1)+CH3COO
+sm_d40_1_h,SM(d40:1)+H
+sm_d40_2,SM(d40:2)
+sm_d40_2_ch3coo,SM(d40:2)+CH3COO
+sm_d40_2_h,SM(d40:2)+H
+sm_d40_3_h,SM(d40:3)+H
+sm_d41_1,SM(d41:1)
+sm_d41_1_ch3coo,SM(d41:1)+CH3COO
+sm_d41_1_h,SM(d41:1)+H
+sm_d41_2_ch3coo,SM(d41:2)+CH3COO
+sm_d41_2_h,SM(d41:2)+H
+sm_d41_3,SM(d41:3)
+sm_d41_3_h,SM(d41:3)+H
+sm_d42_1,SM(d42:1)
+sm_d42_1_ch3coo,SM(d42:1)+CH3COO
+sm_d42_1_h,SM(d42:1)+H
+sm_d42_1_h_1,SM(d42:1)+H
+sm_d42_2,SM(d42:2)
+sm_d42_2_ch3coo,SM(d42:2)+CH3COO
+sm_d42_3,SM(d42:3)
+sm_d42_3_ch3coo,SM(d42:3)+CH3COO
+sm_d42_3_ch3coo_1,SM(d42:3)+CH3COO
+sm_d42_3_h,SM(d42:3)+H
+sm_d42_4,SM(d42:4)
+sm_d42_4_h,SM(d42:4)+H
+sm_d42_5_h,SM(d42:5)+H
+sm_d43_1,SM(d43:1)
+sm_d43_1_h,SM(d43:1)+H
+sm_d43_2,SM(d43:2)
+sm_d43_2_ch3coo,SM(d43:2)+CH3COO
+sm_d43_2_h,SM(d43:2)+H
+sm_d43_3,SM(d43:3)
+sm_d43_4,SM(d43:4)
+sm_d43_4_h,SM(d43:4)+H
+sm_d43_6_h,SM(d43:6)+H
+sm_d43_7,SM(d43:7)
+sm_d44_1_h,SM(d44:1)+H
+sm_d44_1_h_1,SM(d44:1)+H
+sm_d44_2,SM(d44:2)
+sm_d44_2_h,SM(d44:2)+H
+sm_d44_3,SM(d44:3)
+sm_d44_3_h,SM(d44:3)+H
+sm_d44_4,SM(d44:4)
+sm_d44_4_h,SM(d44:4)+H
+sm_d44_5,SM(d44:5)
+sm_d44_5_h,SM(d44:5)+H
+sm_d44_6,SM(d44:6)
+sm_d44_6_h,SM(d44:6)+H
+sm_t34_1_h,SM(t34:1)+H
+sm_t34_1_h_1,SM(t34:1)+H
+sm_t34_2_h,SM(t34:2)+H
+sm_t36_1_h,SM(t36:1)+H
+sm_t36_3_h,SM(t36:3)+H
+sm_t38_3_h,SM(t38:3)+H
+sm_t38_4_h,SM(t38:4)+H
+sm_t40_1_h,SM(t40:1)+H
+sm_t40_5_h,SM(t40:5)+H
+sm_t40_6_h,SM(t40:6)+H
+sm_t42_1_h,SM(t42:1)+H
+sm_t42_2_h,SM(t42:2)+H
+sm_t42_5_h,SM(t42:5)+H
+sm_t42_6_h,SM(t42:6)+H
+sodium_base,Baseline Sodium
+sodium_s,Serum sodium
+sodium_u,Urine sodium
+sph_d20_0,SPH(d20:0)
+sphp_d18_1_h,SPHP(d18:1)+H
+sphyg_id,Sphygmocor ID
+sphyg_notes,Notes:
+sphyg_sex,Sex
+sphyg_yob,Year of Birth
+srmr_co,Carbohydrate Oxidation
+srmr_co2,VCO2 - 60 min (L/min)
+srmr_fo,Fat Oxidation
+srmr_ree,Resting Energy Expenditure (REE)
+srmr_rq,Respiratory Quotient (RQ)
+srmr_vo2_l,VO2 - 60 min (L/min)
+srmr_vo2_ml,VO2 - 60 min (mL/kg/min)
+ss_c_pep,Steady State C-peptide Response
+ss_ins_clear,Steady State Insulin Clearance
+ss_insulin_response,Steady State insulin response
+st_d18_1_22_1_h,ST(d18:1_22:1)+H
+st_d34_1_o_h,ST(d34:1+O)+H
+statin,Statin
+steady_state_cpeptide,Steady State C-Peptide (nM)
+steady_state_ffa,Steady State FFA
+steady_state_insulin,Steady State Insulin (pM)
+steps,Steps
+stern_leg,Sternal notch to leg cuff
+sto2_c,StO2 (cortex)
+sto2_m,StO2 (medulla)
+study_visit_bx,Associated study visit
+study_visit_mri,Associated study visit
+study_visit_pet,Associated study visit
+study_visit_rc,Associated study visit
+sua,Serum uric acid (mg/dl)
+success_note,Success Note
+succinate,Succinate
+succinic_acid_tissue,Succinic acid
+sv_ml,Stroke volume (mL)
+t1_cortex_left,Left Kidney: T1 (cortex) (ms)
+t1_cortex_right,Right Kidney: T1 (cortex) (ms)
+t1_kidney_left,Left Kidney: T1 (kidney) (ms)
+t1_kidney_right,Right Kidney: T1 (kidney) (ms)
+t1_l_cortex,LEFT: T1 (ms) (cortex)
+t1_l_kidney,LEFT: T1 (ms) (kidney)
+t1_r_cortex,RIGHT: T1 (ms) (cortex)
+t1_r_kidney,RIGHT: T1 (ms) (kidney)
+t1d,Does subject have T1D
+tan_fgd,"For female participants, tanner stage of breast development"
+tan_fph,"For female participants, tanner stage of pubic hair"
+tan_ltv,"For male participants, volume of left testicle (mL)"
+tan_mgd,"For male participants, tanner stage of genital development"
+tan_mph,"For male participants, tanner stage of pubic hair"
+tan_rtv,"For male participants, volume of right testicle (mL)"
+tan_tveq,"For male participants, tanner stage testicular volume equivalent"
+tanita_body_fat,Body Fat (%)
+tanita_fat_mass_kg,Fat Mass (kg)
+tanita_lean_mass,Lean Mass (%)
+tanita_lean_mass_kg,Lean Mass (kg)
+tanita_scale_complete,Tanita Scale Complete
+tau_avg_conc,Tau Average Concentration (pg/mL)
+taurine_tissue,Taurine
+temp,Temperature (Celsius)
+testicular_volume,Testicular Volume (mL)
+testng,Do you have any vision or hearing problems that could interfere with your ability to complete this testing
+tg_4_0_14_0_18_1_nh4,TG(4:0_14:0_18:1)+NH4
+tg_4_0_16_0_18_1,TG(4:0_16:0_18:1)
+tg_6_0_11_1_14_2_h,TG(6:0_11:1_14:2)+H
+tg_6_0_11_1_18_2_h,TG(6:0_11:1_18:2)+H
+tg_6_0_11_2_18_2_h,TG(6:0_11:2_18:2)+H
+tg_6_0_16_0_18_1,TG(6:0_16:0_18:1)
+tg_6_0_27_1,TG(6:0_27:1)
+tg_7_0_16_0_21_0,TG(7:0_16:0_21:0)
+tg_8_0_8_0_10_0_nh4,TG(8:0_8:0_10:0)+NH4
+tg_8_0_11_4_18_2_h,TG(8:0_11:4_18:2)+H
+tg_8_0_11_4_18_2_h_1,TG(8:0_11:4_18:2)+H
+tg_8_0_12_0_14_0,TG(8:0_12:0_14:0)
+tg_8_0_12_0_16_0,TG(8:0_12:0_16:0)
+tg_8_0_16_0_16_0,TG(8:0_16:0_16:0)
+tg_8_0_18_1_30_1,TG(8:0_18:1_30:1)
+tg_10_0_10_0_18_1_nh4,TG(10:0_10:0_18:1)+NH4
+tg_10_0_12_0_18_1_nh4,TG(10:0_12:0_18:1)+NH4
+tg_10_0_12_0_18_2_nh4,TG(10:0_12:0_18:2)+NH4
+tg_10_0_14_0_16_0,TG(10:0_14:0_16:0)
+tg_10_0_14_0_18_1,TG(10:0_14:0_18:1)
+tg_10_0_16_0_16_0,TG(10:0_16:0_16:0)
+tg_10_0_16_0_18_1,TG(10:0_16:0_18:1)
+tg_10_0_16_0_18_2,TG(10:0_16:0_18:2)
+tg_10_0_16_1_18_1,TG(10:0_16:1_18:1)
+tg_11_0_18_1_18_2_nh4,TG(11:0_18:1_18:2)+NH4
+tg_12_0_12_0_12_0,TG(12:0_12:0_12:0)
+tg_12_0_12_0_12_0_nh4,TG(12:0_12:0_12:0)+NH4
+tg_12_0_12_0_14_0,TG(12:0_12:0_14:0)
+tg_12_0_12_0_14_0_nh4,TG(12:0_12:0_14:0)+NH4
+tg_12_0_12_0_18_2,TG(12:0_12:0_18:2)
+tg_12_0_12_0_18_2_nh4,TG(12:0_12:0_18:2)+NH4
+tg_12_0_16_0_16_0,TG(12:0_16:0_16:0)
+tg_12_0_16_0_18_1,TG(12:0_16:0_18:1)
+tg_12_0_16_0_18_2,TG(12:0_16:0_18:2)
+tg_12_0_18_1_18_2,TG(12:0_18:1_18:2)
+tg_12_0e_11_2_11_2_li,TG(12:0e_11:2_11:2)+Li
+tg_12_1_24_1_24_1,TG(12:1_24:1_24:1)
+tg_12_1e_6_0_18_2_h,TG(12:1e_6:0_18:2)+H
+tg_13_0_16_0_16_0,TG(13:0_16:0_16:0)
+tg_14_0_14_0_14_0,TG(14:0_14:0_14:0)
+tg_14_0_15_0_18_2,TG(14:0_15:0_18:2)
+tg_14_0_16_0_17_1,TG(14:0_16:0_17:1)
+tg_14_0_16_0_18_1,TG(14:0_16:0_18:1)
+tg_14_0_16_0_18_2,TG(14:0_16:0_18:2)
+tg_14_0_16_1_18_2,TG(14:0_16:1_18:2)
+tg_14_0_18_1_18_3,TG(14:0_18:1_18:3)
+tg_14_0_18_2_18_2,TG(14:0_18:2_18:2)
+tg_14_0_18_2_18_2_nh4,TG(14:0_18:2_18:2)+NH4
+tg_14_0_18_2_18_3,TG(14:0_18:2_18:3)
+tg_14_0_18_2_18_3_nh4,TG(14:0_18:2_18:3)+NH4
+tg_14_2_18_2_18_2,TG(14:2_18:2_18:2)
+tg_15_0_10_0_16_0_nh4,TG(15:0_10:0_16:0)+NH4
+tg_15_0_12_0_18_1_nh4,TG(15:0_12:0_18:1)+NH4
+tg_15_0_14_0_14_0_nh4,TG(15:0_14:0_14:0)+NH4
+tg_15_0_14_0_16_0_nh4,TG(15:0_14:0_16:0)+NH4
+tg_15_0_14_0_18_1_nh4,TG(15:0_14:0_18:1)+NH4
+tg_15_0_16_0_16_0,TG(15:0_16:0_16:0)
+tg_15_0_16_0_16_0_nh4,TG(15:0_16:0_16:0)+NH4
+tg_15_0_16_0_18_1,TG(15:0_16:0_18:1)
+tg_15_0_16_0_18_1_nh4,TG(15:0_16:0_18:1)+NH4
+tg_15_0_16_0_18_2,TG(15:0_16:0_18:2)
+tg_15_0_16_1_16_1,TG(15:0_16:1_16:1)
+tg_15_0_16_1_16_1_nh4,TG(15:0_16:1_16:1)+NH4
+tg_15_0_16_1_18_1,TG(15:0_16:1_18:1)
+tg_15_0_16_1_18_1_nh4,TG(15:0_16:1_18:1)+NH4
+tg_15_0_16_1_18_2,TG(15:0_16:1_18:2)
+tg_15_0_18_1_18_2,TG(15:0_18:1_18:2)
+tg_15_0_18_1_18_2_nh4,TG(15:0_18:1_18:2)+NH4
+tg_15_0_18_2_18_2,TG(15:0_18:2_18:2)
+tg_15_0_18_2_18_2_nh4,TG(15:0_18:2_18:2)+NH4
+tg_15_0_18_2_18_3,TG(15:0_18:2_18:3)
+tg_16_0_10_0_14_0_nh4,TG(16:0_10:0_14:0)+NH4
+tg_16_0_10_0_18_1_nh4,TG(16:0_10:0_18:1)+NH4
+tg_16_0_10_0_18_2_nh4,TG(16:0_10:0_18:2)+NH4
+tg_16_0_12_0_12_0,TG(16:0_12:0_12:0)
+tg_16_0_12_0_14_0_nh4,TG(16:0_12:0_14:0)+NH4
+tg_16_0_12_0_18_1_nh4,TG(16:0_12:0_18:1)+NH4
+tg_16_0_12_0_18_2_nh4,TG(16:0_12:0_18:2)+NH4
+tg_16_0_14_0_14_0_nh4,TG(16:0_14:0_14:0)+NH4
+tg_16_0_14_0_16_0_nh4,TG(16:0_14:0_16:0)+NH4
+tg_16_0_14_0_18_1_nh4,TG(16:0_14:0_18:1)+NH4
+tg_16_0_14_1_18_1,TG(16:0_14:1_18:1)
+tg_16_0_16_0_16_0_nh4,TG(16:0_16:0_16:0)+NH4
+tg_16_0_16_0_17_0_nh4,TG(16:0_16:0_17:0)+NH4
+tg_16_0_16_0_18_1,TG(16:0_16:0_18:1)
+tg_16_0_16_0_18_1_nh4,TG(16:0_16:0_18:1)+NH4
+tg_16_0_16_0_24_0_nh4,TG(16:0_16:0_24:0)+NH4
+tg_16_0_16_0_24_0_nh4_1,TG(16:0_16:0_24:0)+NH4
+tg_16_0_16_1_16_1_nh4,TG(16:0_16:1_16:1)+NH4
+tg_16_0_16_1_18_1,TG(16:0_16:1_18:1)
+tg_16_0_16_1_18_1_nh4,TG(16:0_16:1_18:1)+NH4
+tg_16_0_16_1_18_2,TG(16:0_16:1_18:2)
+tg_16_0_17_0_18_1,TG(16:0_17:0_18:1)
+tg_16_0_17_0_18_1_nh4,TG(16:0_17:0_18:1)+NH4
+tg_16_0_17_1_18_1,TG(16:0_17:1_18:1)
+tg_16_0_17_1_18_1_nh4,TG(16:0_17:1_18:1)+NH4
+tg_16_0_18_1_18_1,TG(16:0_18:1_18:1)
+tg_16_0_18_1_18_1_nh4,TG(16:0_18:1_18:1)+NH4
+tg_16_0_18_1_18_2,TG(16:0_18:1_18:2)
+tg_16_0_18_1_18_2_nh4,TG(16:0_18:1_18:2)+NH4
+tg_16_0_18_1_20_4,TG(16:0_18:1_20:4)
+tg_16_0_18_1_22_0_nh4,TG(16:0_18:1_22:0)+NH4
+tg_16_0_18_1_22_5,TG(16:0_18:1_22:5)
+tg_16_0_18_2_18_2,TG(16:0_18:2_18:2)
+tg_16_0_18_2_18_2_nh4,TG(16:0_18:2_18:2)+NH4
+tg_16_0_18_2_18_3,TG(16:0_18:2_18:3)
+tg_16_0_18_2_18_3_nh4,TG(16:0_18:2_18:3)+NH4
+tg_16_0_18_2_20_4,TG(16:0_18:2_20:4)
+tg_16_0_18_2_20_6,TG(16:0_18:2_20:6)
+tg_16_0_18_2_22_6,TG(16:0_18:2_22:6)
+tg_16_1_10_0_18_2_nh4,TG(16:1_10:0_18:2)+NH4
+tg_16_1_12_0_18_2_nh4,TG(16:1_12:0_18:2)+NH4
+tg_16_1_16_1_20_5_nh4,TG(16:1_16:1_20:5)+NH4
+tg_16_1_18_2_18_3,TG(16:1_18:2_18:3)
+tg_16_1_18_2_18_3_nh4,TG(16:1_18:2_18:3)+NH4
+tg_16_2_12_0_18_1,TG(16:2_12:0_18:1)
+tg_17_0_17_0_18_1_nh4,TG(17:0_17:0_18:1)+NH4
+tg_17_0_18_1_18_1,TG(17:0_18:1_18:1)
+tg_17_0_18_1_18_1_nh4,TG(17:0_18:1_18:1)+NH4
+tg_17_0_18_1_18_2,TG(17:0_18:1_18:2)
+tg_17_0_18_2_18_2,TG(17:0_18:2_18:2)
+tg_17_1_10_0_18_1,TG(17:1_10:0_18:1)
+tg_17_1_18_1_18_2,TG(17:1_18:1_18:2)
+tg_17_1_18_2_18_2,TG(17:1_18:2_18:2)
+tg_18_0_16_0_16_0_nh4,TG(18:0_16:0_16:0)+NH4
+tg_18_0_18_1_18_1_nh4,TG(18:0_18:1_18:1)+NH4
+tg_18_0_18_1_18_2,TG(18:0_18:1_18:2)
+tg_18_0_18_1_20_4,TG(18:0_18:1_20:4)
+tg_18_0_18_1_22_4_nh4,TG(18:0_18:1_22:4)+NH4
+tg_18_0_18_2_24_1_nh4,TG(18:0_18:2_24:1)+NH4
+tg_18_1_10_0_16_0,TG(18:1_10:0_16:0)
+tg_18_1_12_0_12_0_nh4,TG(18:1_12:0_12:0)+NH4
+tg_18_1_12_0_18_2_nh4,TG(18:1_12:0_18:2)+NH4
+tg_18_1_14_0_18_2_nh4,TG(18:1_14:0_18:2)+NH4
+tg_18_1_17_1_18_1_nh4,TG(18:1_17:1_18:1)+NH4
+tg_18_1_17_1_18_2_nh4,TG(18:1_17:1_18:2)+NH4
+tg_18_1_18_1_18_1_nh4,TG(18:1_18:1_18:1)+NH4
+tg_18_1_18_1_18_2,TG(18:1_18:1_18:2)
+tg_18_1_18_1_18_2_nh4,TG(18:1_18:1_18:2)+NH4
+tg_18_1_18_1_18_3_h,TG(18:1_18:1_18:3)+H
+tg_18_1_18_1_20_1,TG(18:1_18:1_20:1)
+tg_18_1_18_1_20_2_nh4,TG(18:1_18:1_20:2)+NH4
+tg_18_1_18_1_20_2_nh4_1,TG(18:1_18:1_20:2)+NH4
+tg_18_1_18_1_20_3_nh4,TG(18:1_18:1_20:3)+NH4
+tg_18_1_18_1_20_4,TG(18:1_18:1_20:4)
+tg_18_1_18_1_20_4_nh4,TG(18:1_18:1_20:4)+NH4
+tg_18_1_18_1_22_4_nh4,TG(18:1_18:1_22:4)+NH4
+tg_18_1_18_1_22_5,TG(18:1_18:1_22:5)
+tg_18_1_18_1_22_5_nh4,TG(18:1_18:1_22:5)+NH4
+tg_18_1_18_1_22_6,TG(18:1_18:1_22:6)
+tg_18_1_18_1_22_6_nh4,TG(18:1_18:1_22:6)+NH4
+tg_18_1_18_1_24_0_nh4,TG(18:1_18:1_24:0)+NH4
+tg_18_1_18_2_18_2,TG(18:1_18:2_18:2)
+tg_18_1_18_2_18_2_nh4,TG(18:1_18:2_18:2)+NH4
+tg_18_1_18_2_18_3,TG(18:1_18:2_18:3)
+tg_18_1_18_2_18_3_nh4,TG(18:1_18:2_18:3)+NH4
+tg_18_1_18_2_20_4_nh4,TG(18:1_18:2_20:4)+NH4
+tg_18_1_18_2_22_6,TG(18:1_18:2_22:6)
+tg_18_1_18_2_22_6_nh4,TG(18:1_18:2_22:6)+NH4
+tg_18_1_20_5_20_5_nh4,TG(18:1_20:5_20:5)+NH4
+tg_18_2_17_1_18_2_nh4,TG(18:2_17:1_18:2)+NH4
+tg_18_2_18_2_18_3,TG(18:2_18:2_18:3)
+tg_18_2_18_2_20_4_nh4,TG(18:2_18:2_20:4)+NH4
+tg_18_2_18_2_22_6_nh4,TG(18:2_18:2_22:6)+NH4
+tg_18_3_14_1_18_2_nh4,TG(18:3_14:1_18:2)+NH4
+tg_18_3_18_2_18_2_h,TG(18:3_18:2_18:2)+H
+tg_18_3_18_2_18_2_nh4,TG(18:3_18:2_18:2)+NH4
+tg_18_3_18_2_18_3_nh4,TG(18:3_18:2_18:3)+NH4
+tg_19_2_16_0_16_0,TG(19:2_16:0_16:0)
+tg_19_2_17_0_17_0,TG(19:2_17:0_17:0)
+tg_20_0_18_1_18_1,TG(20:0_18:1_18:1)
+tg_20_0_18_1_18_1_nh4,TG(20:0_18:1_18:1)+NH4
+tg_20_0_18_1_18_2,TG(20:0_18:1_18:2)
+tg_20_1_16_3_16_3,TG(20:1_16:3_16:3)
+tg_21_6_19_0_19_0,TG(21:6_19:0_19:0)
+tg_22_0_18_1_18_1,TG(22:0_18:1_18:1)
+tg_22_3_12_4_22_3_nh4,TG(22:3_12:4_22:3)+NH4
+tg_22_4_18_1_18_1,TG(22:4_18:1_18:1)
+tg_22_6_18_0_18_0,TG(22:6_18:0_18:0)
+tg_23_4_12_0,TG(23:4_12:0)
+tg_24_6_18_1_18_1,TG(24:6_18:1_18:1)
+tg_25_0_11_2_11_2_ch3ch2_3nh,TG(25:0_11:2_11:2)+(CH3CH2)3NH
+tg_25_0_14_0_16_0_nh4,TG(25:0_14:0_16:0)+NH4
+tg_25_0_16_0_16_0_nh4,TG(25:0_16:0_16:0)+NH4
+tg_26_1_18_2,TG(26:1_18:2)
+tg_26_4_28_0,TG(26:4_28:0)
+tg_27_1_16_0,TG(27:1_16:0)
+tg_27_5_11_0_11_0,TG(27:5_11:0_11:0)
+tg_30_0_15_1,TG(30:0_15:1)
+tg_32_0_22_2,TG(32:0_22:2)
+tg_32_0_26_3,TG(32:0_26:3)
+tg_32_1_13_0,TG(32:1_13:0)
+tg_32_1_27_4,TG(32:1_27:4)
+tg_32_2_18_3,TG(32:2_18:3)
+tg_33_1_21_4,TG(33:1_21:4)
+tg_33_1_h,TG(33:1)+H
+tg_33_2_25_3,TG(33:2_25:3)
+tg_34_1_18_1,TG(34:1_18:1)
+tg_34_2_22_6,TG(34:2_22:6)
+tg_35_2_20_6,TG(35:2_20:6)
+tg_36_1_20_6,TG(36:1_20:6)
+tg_36_2_21_0,TG(36:2_21:0)
+tg_36_3_20_6,TG(36:3_20:6)
+tg_37_7_21_3,TG(37:7_21:3)
+tg_44_4_15_0,TG(44:4_15:0)
+tg_45_2_14_2,TG(45:2_14:2)
+tg_48_2_10_0,TG(48:2_10:0)
+tg_49_4_8_0,TG(49:4_8:0)
+tg_50_4_8_0,TG(50:4_8:0)
+tg_53_11_5_0,TG(53:11_5:0)
+tg_o_6_0_14_0_12_1,TG(O-6:0_14:0_12:1)
+tg_o_12_0_18_1_4_0,TG(O-12:0_18:1_4:0)
+tg_o_12_0_20_4_4_0,TG(O-12:0_20:4_4:0)
+tg_o_12_0_21_3,TG(O-12:0_21:3)
+tg_o_12_1_6_0_18_1,TG(O-12:1_6:0_18:1)
+tg_o_13_0_3_0_16_0,TG(O-13:0_3:0_16:0)
+tg_o_14_0_18_2,TG(O-14:0_18:2)
+tg_o_15_1_3_0_18_1,TG(O-15:1_3:0_18:1)
+tg_o_15_1_3_0_20_4,TG(O-15:1_3:0_20:4)
+tg_o_15_2_3_0_18_1,TG(O-15:2_3:0_18:1)
+tg_o_15_2_3_0_18_2,TG(O-15:2_3:0_18:2)
+tg_o_18_2_20_4,TG(O-18:2_20:4)
+tg_o_32_1,TG(O-32:1)
+tg_o_33_4_26_1,TG(O-33:4_26:1)
+tg_o_45_4_12_1,TG(O-45:4_12:1)
+tg_p_7_0_29_4,TG(P-7:0_29:4)
+tg_p_9_0_27_1,TG(P-9:0_27:1)
+tg_p_10_0_23_2,TG(P-10:0_23:2)
+tg_p_11_0_21_1,TG(P-11:0_21:1)
+tg_p_18_1_18_2,TG(P-18:1_18:2)
+threonine,Threonine
+threonine_tissue,Threonine
+time_2,2 Timepoint
+time_3,3 Timepoint
+time_4,4 Timepoint
+time_5,5 Timepoint
+time_6,6 Timepoint
+time_8,8 Timepoint
+time_10,10 Timepoint
+time_12,12 Timepoint
+time_14,14 Timepoint
+time_16,16 Timepoint
+time_19,19 Timepoint
+time_22,22 Timepoint
+time_23,23 Timepoint
+time_24,24 Timepoint
+time_25,25 Timepoint
+time_27,27 Timepoint
+time_30,30 Timepoint
+time_35,35 Timepoint
+time_40,40 Timepoint
+time_50,50 Timepoint
+time_60,60 Timepoint
+time_70,70 Timepoint
+time_80,80 Timepoint
+time_90,90 Timepoint
+time_100,100 Timepoint
+time_120,120 Timepoint
+time_140,140 Timepoint
+time_160,160 Timepoint
+time_180,180 Timepoint
+time_baseline,Baseline Timepoint
+time_lt,Time Light Activity
+time_minus_15,Time (-15 min)
+time_mod,Time Moderate Activity
+time_sed,Time Sedentary
+time_vig,Time Vigorous Activity
+tkv_outcomes,TKV MRI Outcomes complete
+tm_uv_1,Time of first urine void
+tm_uv_2,Time of second urine void
+tm_uv_3,Time of third urine void (mL)
+topiramate,Topiramate
+tot_prot,Total Protein
+tot_protein,Total protein
+tot_test,Total Testosterone
+total_cyst_volume_ml,Total Cyst Volume (mL)
+total_insulin_clearance,Total (0-240 min) Insulin Clearance
+total_kidney_volume_ml,Total Kidney Volume (mL)
+total_kidney_volume_ml_manual,"Total Kidney Volume (manual, mL)"
+total_liver_volume_ml,Total Liver Volume (mL)
+total_number_of_cysts,Total Number of Cyst
+tri_base,Triglycerides (baseline)
+triglyceride,Triglycerides
+triglycerides,Baseline Triglycerides (mg/dL)
+tt1,Tissue T1 (ms)
+tt2,Tissue T2* (ms)
+tubulointerstitium_sev,Tubulointerstitium Severity
+two_hydroxyadenine_tissue,2-Hydroxyadenine
+two_hydroxyadipic_acid_tissue,2-Hydroxyadipic acid
+two_oxoglutarate,2-Oxoglutarate
+tyrosine,Tyrosine
+tzd_timepoint,Thiazolinediones timepointÂ
+u24_gluc,24 hour urine: glucose (mg/dl)
+u24_hrs,24-hour urine collection number of hours
+u24_labs,24-hour urine - Labs complete
+u24_mab,Urine microalbumin (@ 24hr) (mcg/24 hr)
+u24_na,Urine sodium (@ 24hr) (nmol/L)
+u24_star_day,24-hour urine collection start date
+u24_star_tim,24-hour urine collection start time
+u24_stop_day,24-hour urine collection stop date
+u24_stop_tim,24-hour urine collection stop time
+u24_vl,Urine volume (@ 24hr) (mL)
+ua_bilirubin,Bilirubin:
+ua_blood,Blood:
+ua_color,Urine color/appearance:
+ua_glucose,Glucose:
+ua_ketone,Urine Ketone:
+ua_leukest,Leukocyte Esterase:
+ua_nitrate,Urine Nitrite:
+ua_norm,Urine normal:
+ua_ph,pH:
+ua_protein,Protein:
+ua_specgrav,Specific Gravity:
+ua_urobilinogen,Urobilinogen:
+uric_acid,Uric Acid: (mg/dL)
+uric_acid_med,"Is patient taking medications for lowering uric acid (allopurinol, colchicine, probenecid, etc)"
+urine_cre_250,Urine Creatinine (250 min)
+urine_cre_baseline,Urine Creatinine (Baseline)
+urine_glucose,Clamp Urine Glucose (250 min)
+urine_glucose_bl,Clamp Urine Glucose (Baseline)
+urine_mab_250,Urine Microalbumin (250 min)
+urine_mab_baseline,Urine Microalbumin (0 min)
+urine_vol,Urine volume
+urineculture,Urine Culture:
+urineflow_1,Urine Flow Rate (ml/min) -- Period 1
+urineflow_2,Urine Flow Rate (ml/min) -- Period 2
+uua,Urine Uric Acid
+uv_com_1,First urine void completed? (timepoint lines up with Iohexol +120 draw)
+uv_com_2,Second urine void completed? (timepoint lines up with Iohexol +150 draw)
+uv_com_3,Third urine void completed? (timepoint lines up with Iohexol +180 draw)
+valine,Valine
+vat,Visceral Adipose Tissue Volume (cm3)
+vat_sat_ratio,VAT/SAT Ratio
+vessels___1,Vessels (choice 1)
+vessels___2,Vessels (choice 2)
+vessels_other,If other:
+visit_id,Study Visit
+visit_x,Visit X
+visit_y,Visit Y
+vitals_id,Visit Type
+vl_uv_2,Volume of second urine void (mL)
+vl_uv_3,Volume of third urine void (mL)
+volume_left,Left kidney: volume (mL)
+volume_left_manual,Left kidney: volume (mL) (Manually measured)
+volume_right,Right kidney: volume (mL)
+volume_right_manual,Right kidney: volume (mL) (Manually measured)
+vsg_surgery_date,VSG Surgery Date
+waist_hip_ratio,Waist/Hip Ratio
+waistcm,Waist circumference in cm
+wbc,White Blood Cells (K/uL):
+wear_day,Wear Days
+wear_percent,Wear (%)
+wear_tot,Wear Total
+weight,Weight (kg)
+width_left,Left kidney: width (cm)
+width_right,Right kidney: width
+yy_0,Peptide YY (0 min)
+yy_10,Peptide YY (10 min)
+yy_30,Peptide YY (30 min)
+yy_45,Peptide YY (45 min)
+yy_60,Peptide YY (60 min)
+yy_120,Peptide YY (120 min)
+yy_240,Peptide YY (240 min)
+yy_neg10,Peptide YY (-10 min)
+PWV,Pulse Wave Velocity
+treatment_arm,Treatment Arm
+site,Site
+ethnicity_other,Ethnicity (other)
+aid_algorithm,AID Algorithm
+insulin_basal_type,Basal Insulin Type
+insulin_bolus_type,Bolus Insulin Type
+urine24h_start_date,24h Urine Start Date
+urine24h_start_time,24h Urine Start Time
+urine24h_stop_date,24h Urine Stop Date
+urine24h_stop_time,24h Urine Stop Time
+emu_urine_acr_mean_pooled,"EMU Urine ACR (mean, pooled)"
+gender,Gender
+randomization_date,Randomization Date
+randomization_time,Randomization Time
+randomization_user,Randomization User
+randomization_site,Randomization Site
+randomization_filtration_status,Randomization Filtration Status
+weight_z,Weight z-score
+weight_percentile,Weight Percentile
+bmi_z,BMI z-score
+bmi_percentile,BMI Percentile (%)
+med_hx_yn,Medical History (yes/no)
+med_hx_1_description,Medical Hx 1: description
+med_hc_1_active,Medical Hx 1: active
+med_hc_1_treatment,Medical Hx 1: treatment
+med_hx_2_description,Medical Hx 2: description
+med_hx_2_active,Medical Hx 2: active
+med_hx_2_treatment,Medical Hx 2: treatment
+med_hx_3_description,Medical Hx 3: description
+med_hx_3_active,Medical Hx 3: active
+med_hx_3_treatment,Medical Hx 3: treatment
+med_hx_4_description,Medical Hx 4: description
+med_hx_4_active,Medical Hx 4: active
+med_hx_4_treatment,Medical Hx 4: treatment
+med_hx_5_description,Medical Hx 5: description
+med_hx_5_active,Medical Hx 5: active
+med_hx_5_treatment,Medical Hx 5: treatment
+fam_hx_t1d,Family Hx: T1D
+fam_hx_t1d_family,Family Hx T1D: relation
+fam_hx_ckd,Family Hx: CKD
+fam_hx_ckd_family,Family Hx CKD: relation
+fam_hx_liver,Family Hx: Liver Disease
+fam_hx_hypertension,Family Hx: Hypertension
+fam_hx_htn_family,Family Hx HTN: relation
+fam_hx_dyslipidemia,Family Hx: Dyslipidemia
+fam_hx_dyslipidemia_family,Family Hx Dyslipidemia: relation
+fam_hx_other,Family Hx: Other
+fam_hx_other_details,Family Hx Other: details
+fam_hx_other_family,Family Hx Other: relation
+date_t1d_diagnosis,T1D Diagnosis Date
+controliq_yn,Control-IQ Use (yes/no)
+bgm_cgm_device,BGM/CGM Device
+bgm_cgm_duration,BGM/CGM Duration
+spot_urine_date,Spot Urine Date
+spot_urine_time,Spot Urine Time
+glucose_urinalysis_chc_value,Urinalysis Glucose (CHC value)
+ketones_urinalysis_chc_value,Urinalysis Ketones (CHC value)
+spgravity_urinalysis_chc,Urinalysis Specific Gravity (CHC)
+urinalysis_cs_yn,"Urinalysis (CS, yes/no)"
+urinalysis_cs_labs,Urinalysis (CS) Labs
+date_emu_1,EMU 1 Date
+date_emu_2,EMU 2 Date
+date_emu_3,EMU 3 Date
+emu_collection_details,EMU Collection Details
+emu_1_sample_id,EMU 1 Sample ID
+emu_2_sample_id,EMU 2 Sample ID
+emu_3_sample_id,EMU 3 Sample ID
+sample_id_urine24h,24h Urine Sample ID
+date_urine24h_testing,24h Urine Testing Date
+sodium_urine24h,24h Urine Sodium
+glucose_urine24h,24h Urine Glucose
+date_collection_local,Collection Date (local)
+time_collection_local,Collection Time (local)
+lipase_local,Lipase (local)
+comments,Comments
+serology_cs_yn,"Serology (CS, yes/no)"
+serology_cs_labs,Serology (CS) Labs
+mss_chart_number,MSS Chart Number
+mss_collection_date,MSS Collection Date
+mss_order,MSS Order
+uhn_order,UHN Order
+date_firstdrugintake,First Drug Intake Date
+date_lastdrugintake,Last Drug Intake Date
+mri_time,MRI Time
+mri_technician,MRI Technician
+mri_reading_date,MRI Reading Date
+mri_radiologist,MRI Radiologist
+mri_report,MRI Report
+cgm_window,CGM Window
+emu_1_date,EMU 1 Date
+emu_2_date,EMU 2 Date
+emu_3_date,EMU 3 Date
+famhx_t1d,Family Medical History of: Type 1 Diabetes
+fam_t1d,"If yes, which family member"
+famhx_htn,Family Medical History of: Hypertension
+fam_htn,"If yes, which family member"
+famhx_hyperlipid,Family Medical History of: Hyperlipidemia
+fam_hyperlipid,"If yes, which family member"
+cgm_type,"If Yes, what brand"
+diabetes_dx_duration,Diabetes Duration
+ethnicity_categorized,Ethnicity (categorized)
+insulin_therapy,Insulin Therapy
+insulin_regimen,Insulin Regimen
+csii_device,CSII Device
+aid_yn,AID Use (yes/no)
+target_glucose_type,Target Glucose Type
+target_glucose_low_mmoll,Target Glucose Low (mmol/L)
+target_glucose_high_mmoll,Target Glucose High (mmol/L)
+blood_glucose_check,Blood Glucose Check
+tdid_u,Total Daily Insulin (U)
+tdid_basal_u,Total Daily Basal Insulin (U)
+tdid_bolus_u,Total Daily Bolus Insulin (U)
+tdid_u_kg,Total Daily Insulin (U/kg)
+tdid_basal_u_kg,Total Daily Basal Insulin (U/kg)
+tdid_bolus_u_kg,Total Daily Bolus Insulin (U/kg)
+icr_average,Insulin:Carb Ratio (avg)
+isf_average_mmoll,"Insulin Sensitivity Factor (avg, mmol/L)"
+mgfr_si_adjusted,mGFR (SI-adjusted)
+hba1c_percent,HbA1c (%)
+pwv_cf_1,PWV Carotid-Femoral 1
+pwv_cf_2,PWV Carotid-Femoral 2
+bun_local,BUN (local)
+urine24h_yn,24h Urine Collected (yes/no)
+urine24h_time,24h Urine Time
+urine24h_volume_litres,24h Urine Volume (L)
+urine24h_volume_24h_litres,24h Urine Volume / 24h (L)
+microalbumin_urine24h,24h Urine Microalbumin
+creatinine_urine24h,24h Urine Creatinine
+emu_1_albumin_mgl,EMU 1 Albumin (mg/L)
+emu_1_creatinine_umoll,EMU 1 Creatinine (µmol/L)
+emu_1_acr_mgmmol,EMU 1 ACR (mg/mmol)
+emu_2_albumin_mgl,EMU 2 Albumin (mg/L)
+emu_2_creatinine_umoll,EMU 2 Creatinine (µmol/L)
+emu_2_acr_mgmmol,EMU 2 ACR (mg/mmol)
+emu_3_albumin_mgl,EMU 3 Albumin (mg/L)
+emu_3_creatinine_umoll,EMU 3 Creatinine (µmol/L)
+emu_3_acr_mgmmol,EMU 3 ACR (mg/mmol)
+emu_urine_acr_mean,EMU Urine ACR (mean)
+emu_acr_microabluminuria,EMU ACR Microalbuminuria
+dob_month,Birth Month
+dob_year,Birth Year
+demographics_complete,Demographics Complete
+randomization_order,Randomization Order
+treatment_arm_n,Treatment Arm (numeric)
+randomization_site_n,Randomization Site (numeric)
+randomization_filtration_status_n,Randomization Filtration Status (numeric)
+randomization_complete,Randomization Complete
+bsa_haycock_m2,"BSA (Haycock, m^2)"
+height_z,Height z-score
+height_percentile,Height Percentile
+anthropometrics_complete,Anthropometrics Complete
+medical_hx_number,Medical History Number
+med_hx_1_dx_year,Medical Hx 1: diagnosis year
+med_hx_2_dx_year,Medical Hx 2: diagnosis year
+med_hx_3_dx_year,Medical Hx 3: diagnosis year
+med_hx_4_dx_year,Medical Hx 4: diagnosis year
+med_hx_5_dx_year,Medical Hx 5: diagnosis year
+smoking_history,Smoking History
+medicalfamilysmoking_history_complete,Medical/Family/Smoking History Complete
+inuslin_therapy,Insulin Therapy
+diabetes_management_complete,Diabetes Management Complete
+bgm_type,BGM Type
+glucose_monitoring_complete,Glucose Monitoring Complete
+glucose_urine_dip,Urine Dipstick: Glucose
+bilirubin_urine_dip,Urine Dipstick: Bilirubin
+ketones_urine_dip,Urine Dipstick: Ketones
+spgravity_urine_dip,Urine Dipstick: Specific Gravity
+blood_urine_dip,Urine Dipstick: Blood
+ph_urine_dip,Urine Dipstick: pH
+urobilinogen_urine_dip,Urine Dipstick: Urobilinogen
+protein_urine_dip,Urine Dipstick: Protein
+nitrite_urine_dip,Urine Dipstick: Nitrite
+leukocytes_urine_dip,Urine Dipstick: Leukocytes
+urinalysis_lab,Urinalysis Lab
+glucose_urinalysis_all,Urinalysis Glucose (all)
+hgb_blood_urinalysis_all,Urinalysis Blood (Hgb) (all)
+ketones_urinalysis_all,Urinalysis Ketones (all)
+spgravity_urinalysis_all,Urinalysis Specific Gravity (all)
+ph_urinalysis_all,Urinalysis pH (all)
+protein_urinalysis_all,Urinalysis Protein (all)
+nitrites_urinalysis_all,Urinalysis Nitrites (all)
+leukocytes_urinalysis_all,Urinalysis Leukocytes (all)
+glucose_urinalysis_chc,Urinalysis Glucose (CHC)
+ketones_urinalysis_chc,Urinalysis Ketones (CHC)
+blood_urinalysis_chc,Urinalysis Blood (CHC)
+ph_urinalysis_chc,Urinalysis pH (CHC)
+protein_urinalysis_chc,Urinalysis Protein (CHC)
+protein_urinalysis_chc_value,Urinalysis Protein (CHC value)
+nitrite_urinalysis_chc,Urinalysis Nitrite (CHC)
+leukocyte_esterase_urinalysis_chc,Urinalysis Leukocyte Esterase (CHC)
+bhcg_urine_test,Urine beta-hCG Test
+bhcg_urine_result,Urine beta-hCG Result
+urine_culture,Urine Culture
+urine_culture_result,Urine Culture Result
+urine_local_complete,Urine (local) Complete
+urea_urine24h,24h Urine Urea
+urine_24hour_complete,24h Urine Complete
+serology_lab,Serology Lab
+wbc_local,WBC (local)
+rbc_local,RBC (local)
+nrbc_local,NRBC (local)
+hgb_local,hemoglobin (local)
+hct_local,hematocrit (local)
+mcv_local,MCV (local)
+mch_local,MCH (local)
+mchc_local,MCHC (local)
+rdwcv_local,RDW-CV (local)
+mpv_local,MPV (local)
+creatine_kinase_local,Creatine Kinase (local)
+alp_local,ALP (local)
+alt_local,ALT (local)
+bilirubin_local,Bilirubin (local)
+potassium_blood_local,Potassium (local)
+chloride_blood_local,Chloride (local)
+bicarbonate_local,Bicarbonate (local)
+glucose_serum_mmoll,Serum Glucose (mmol/L)
+albumin_serum_gl,Serum Albumin (g/L)
+creatinine_serum_umoll,Serum Creatinine (µmol/L)
+uricacid_serum_umoll,Serum Uric Acid (µmol/L)
+magnesium_serum_mmoll,Serum Magnesium (mmol/L)
+bhb1_serum_mmoll,Serum beta-hydroxybutyrate (mmol/L)
+tsh_serum_miul,Serum TSH (mIU/L)
+pth_serum_pmoll,Serum PTH (pmol/L)
+treatmentperiod_days,Treatment Period (days)
+drugstoppage_days,Drug Stoppage (days)
+ondrug_days,On-Drug (days)
+pillcount_dispensed,Pills Dispensed
+pillcount_returned,Pills Returned
+pillcount_consumed,Pills Consumed
+compliance_percent,Compliance (%)
+egfr_creatinine_serum_umoll_ageadjusted,"eGFR (creatinine, age-adjusted)"
+egfr_ckdepi40_cr,eGFR CKD-EPI40 (creatinine)
+egfr_k_cr,"eGFR (creatinine, K)"
+egfr_ckidu25_cr,eGFR CKiD-U25 (creatinine)
+egfr_k_cysc,"eGFR (cystatin C, K)"
+egfr_ckidu25_cysc,eGFR CKiD-U25 (cystatin C)
+mgfr_bsa_haycock,"mGFR (BSA, Haycock)"
+mgfr_bm_adult,"mGFR (Bröchner-Mortensen, adult)"
+mgfr_bm_adult_adjusted,"mGFR (BM adult, adjusted)"
+mgfr_bm_adult_adjusted_cl1,"mGFR (BM adult, adjusted CL1)"
+mgfr_bm_combined,"mGFR (BM, combined)"
+mgfr_bm_combined_adjusted,"mGFR (BM combined, adjusted)"
+mgfr_bm_combined_adjusted_cl1,"mGFR (BM combined, adjusted CL1)"
+mgfr_bm_child,"mGFR (BM, child)"
+mgfr_bm_child_adjusted,"mGFR (BM child, adjusted)"
+mgfr_bm_child_adjusted_cl1,"mGFR (BM child, adjusted CL1)"
+mgfr_jodal_f,"mGFR (Jodal, F)"
+mgfr_jodal,mGFR (Jodal)
+mgfr_jodal_adjusted,"mGFR (Jodal, adjusted)"
+mgfr_jodal_f_bsa,"mGFR (Jodal F, BSA)"
+mgfr_jodal_bsa,"mGFR (Jodal, BSA)"
+bold_mri,BOLD MRI
+mri_kidneys_scanned,Kidneys Scanned (MRI)
+mri_r2_medulla_l,R2* Medulla (left)
+mri_r2_medulla_r,R2* Medulla (right)
+rk_r2s_variance,Right Kidney R2* (variance)
+rc_r2s_variance,Right Cortex R2* (variance)
+lk_r2s_variance,Left Kidney R2* (variance)
+lc_r2s_variance,Left Cortex R2* (variance)
+rk_r2s_skewness,Right Kidney R2* (skewness)
+rc_r2s_skewness,Right Cortex R2* (skewness)
+lk_r2s_skewness,Left Kidney R2* (skewness)
+lc_r2s_skewness,Left Cortex R2* (skewness)
+rk_r2s_kurtosis,Right Kidney R2* (kurtosis)
+rc_r2s_kurtosis,Right Cortex R2* (kurtosis)
+lk_r2s_kurtosis,Left Kidney R2* (kurtosis)
+lc_r2s_kurtosis,Left Cortex R2* (kurtosis)
+rk_r2s_25th,Right Kidney R2* (25th pct)
+rc_r2s_25th,Right Cortex R2* (25th pct)
+lk_r2s_25th,Left Kidney R2* (25th pct)
+lc_r2s_25th,Left Cortex R2* (25th pct)
+rk_r2s_median,Right Kidney R2* (median)
+rc_r2s_median,Right Cortex R2* (median)
+lk_r2s_median,Left Kidney R2* (median)
+lc_r2s_median,Left Cortex R2* (median)
+rk_r2s_75th,Right Kidney R2* (75th pct)
+rc_r2s_75th,Right Cortex R2* (75th pct)
+lk_r2s_75th,Left Kidney R2* (75th pct)
+lc_r2s_75th,Left Cortex R2* (75th pct)
+cgm_tir,CGM Time in Range
+mgfr_ketone_iv,mGFR Ketone (IV)
+mgfr_ketones_pre,mGFR Ketones (pre)
+mgfr_ketones_t240,mGFR Ketones (240 min)
+microalbumin_urine24h_mgL,24h Urine Microalbumin (mg/L)
+creatinine_urine24h_gL,24h Urine Creatinine (g/L)
+emu_1_acr_u,EMU 1 ACR (urine)
+emu_1_microalbumin_u,EMU 1 Microalbumin (urine)
+emu_1_creatinine_u,EMU 1 Creatinine (urine)
+emu_2_acr_u,EMU 2 ACR (urine)
+emu_2_microalbumin_u,EMU 2 Microalbumin (urine)
+emu_2_creatinine_u,EMU 2 Creatinine (urine)
+emu_3_acr_u,EMU 3 ACR (urine)
+emu_3_microalbumin_u,EMU 3 Microalbumin (urine)
+emu_3_creatinine_u,EMU 3 Creatinine (urine)
+age_mo,Age (months)
+bmip,BMI percentile
+bmiz,BMI z-score
+uuid,UUID

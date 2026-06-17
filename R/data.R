@@ -143,3 +143,36 @@ togo_load_harmonized <- function(summarize = TRUE,
   }
   harm_dat
 }
+
+#' Load the togo data dictionary
+#'
+#' Reads the data dictionary shipped with the package (`inst/extdata/
+#' data_dictionary.csv`). One row per variable, with columns `variable_name`,
+#' `label`, `units`, `notes`, `form_name`, `field_type`, and `description`.
+#' The variable set matches the current harmonized data.
+#'
+#' @param path Optional path to a dictionary CSV, overriding the packaged copy.
+#' @param fileEncoding Encoding of the CSV. Defaults to `"UTF-8"` (labels
+#'   contain unit symbols such as `µ`).
+#' @param ... Further arguments passed to [utils::read.csv()].
+#' @return A data frame with columns `variable_name` and `label`.
+#' @export
+#' @examples
+#' \dontrun{
+#' dict <- togo_load_dictionary()
+#' subset(dict, variable_name == "record_id")
+#'
+#' # named vector for relabeling plots/tables:
+#' labs <- stats::setNames(dict$label, dict$variable_name)
+#' labs[["hba1c_percent"]]
+#' }
+togo_load_dictionary <- function(path = NULL, fileEncoding = "UTF-8", ...) {
+  if (is.null(path)) {
+    path <- system.file("extdata", "data_dictionary.csv", package = "togolab")
+  }
+  if (!nzchar(path) || !file.exists(path)) {
+    stop("Data dictionary not found. Reinstall togolab, or pass `path=`.",
+         call. = FALSE)
+  }
+  utils::read.csv(path, stringsAsFactors = FALSE, fileEncoding = fileEncoding, ...)
+}

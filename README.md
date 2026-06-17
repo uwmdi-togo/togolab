@@ -59,6 +59,21 @@ togo_load_harmonized(path = "local_copy.csv")   # read from disk instead of S3
 (default `c("record_id", "visit")`). `togo_collapse()` applies the same logic
 to any data frame you already have in memory.
 
+## Data dictionary
+
+`togo_load_dictionary()` returns the variable dictionary bundled with the
+package (one row per variable: `variable_name`, `label`). Its variables match the current
+harmonized data. No S3 needed — it's shipped in `inst/extdata/`.
+
+```r
+dict <- togo_load_dictionary()
+subset(dict, variable_name == "record_id")
+```
+
+To update it after the data changes, regenerate `inst/extdata/data_dictionary.csv`
+(keep existing rows for variables that persist, add blank rows for new ones),
+then `devtools::document()` + reinstall.
+
 ## Adding or editing your paths
 
 Paths live in a single YAML file, `inst/config/togo_paths.yml`. The key for
