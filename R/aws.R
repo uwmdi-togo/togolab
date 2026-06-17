@@ -97,3 +97,111 @@ togo_s3_save_plot <- function(x, object, bucket, FUN = ggplot2::ggsave,
   aws.s3::s3write_using(x, FUN = FUN, object = object, bucket = bucket,
                         opts = list(region = region), ...)
 }
+
+#' Read an S3 object via a reader function, with explicit region
+#'
+#' Downloads an S3 object to a temp file and reads it with `FUN`. Like
+#' `aws.s3::s3read_using()` but lets you pass a `region` directly (folded into
+#' `opts`), which the lab's Kopah endpoint sometimes needs.
+#'
+#' @param FUN Reader function applied to the downloaded temp file (e.g.
+#'   [utils::read.csv()], [base::readRDS()], `qs::qread`).
+#' @param ... Additional arguments passed to `FUN`.
+#' @param object S3 object key (or a full `s3://bucket/key` string, in which
+#'   case `bucket` may be omitted).
+#' @param bucket Bucket name. If missing, parsed from `object`.
+#' @param region S3 region. Merged into `opts$region` when supplied.
+#' @param opts Optional list of further arguments passed to
+#'   `aws.s3::save_object()`.
+#' @param filename Optional fixed temp filename (otherwise a tempfile with the
+#'   object's extension is used).
+#' @return The value returned by `FUN`.
+#' @export
+#' @examples
+#' \dontrun{
+#' df <- s3read_using_region(utils::read.csv, object = "clean/x.csv",
+#'                           bucket = "togo-data", region = "")
+#' }
+s3read_using_region <- function(FUN, ..., object, bucket, region = NULL,
+                                opts = NULL, filename = NULL) {
+  .togo_need("aws.s3")
+  if (missing(bucket)) {
+    bucket <- aws.s3::get_bucketname(object)
+  }
+  object <- aws.s3::get_objectkey(object)
+
+  tmp <- if (is.character(filename)) {
+    file.path(tempdir(TRUE), filename)
+  } else {
+    tempfile(fileext = paste0(".", tools::file_ext(object)))
+  }
+  on.exit(unlink(tmp), add = TRUE)
+
+  if (!is.null(region)) {
+    if (is.null(opts)) opts <- list(region = region) else opts$region <- region
+  }
+
+  if (is.null(opts)) {
+    aws.s3::save_object(bucket = bucket, object = object, file = tmp)
+  } else {
+    do.call(aws.s3::save_object,
+            c(list(bucket = bucket, object = object, file = tmp), opts))
+  }
+
+  FUN(tmp, ...)
+}
+
+#' Write an object to S3 via a writer function, with explicit region
+#'
+#' Writes `x`/your data to a temp file with `FUN`, then uploads it with
+#' `aws.s3::put_object()`. Like `aws.s3::s3write_using()` but lets you pass a
+#' `region` directly (folded into `opts`).
+#'
+#' @param FUN Writer function applied to the temp file path (e.g.
+#'   [ggplot2::ggsave()], [base::saveRDS()]). It must write to the file given as
+#'   its first argument.
+#' @param ... Additional arguments passed to `FUN`.
+#' @param object Destination S3 object key (or a full `s3://bucket/key` string).
+#' @param bucket Bucket name. If missing, parsed from `object`.
+#' @param region S3 region. Merged into `opts$region` when supplied.
+#' @param opts Optional list of further arguments passed to
+#'   `aws.s3::put_object()`.
+#' @param filename Optional fixed temp filename (otherwise a tempfile with the
+#'   object's extension is used).
+#' @return Invisibly, the result of `aws.s3::put_object()`.
+#' @export
+#' @examples
+#' \dontrun{
+#' s3write_using_region(ggplot2::ggsave, plot = p, object = "fig/umap.png",
+#'                      bucket = "scrna", region = "", width = 10, height = 10)
+#' }
+s3write_using_region <- function(FUN, ..., object, bucket, region = NULL,
+                                 opts = NULL, filename = NULL) {
+  .togo_need("aws.s3")
+  if (missing(bucket)) {
+    bucket <- aws.s3::get_bucketname(object)
+  }
+  object <- aws.s3::get_objectkey(object)
+
+  tmp <- if (is.character(filename)) {
+    file.path(tempdir(TRUE), filename)
+  } else {
+    ext <- tools::file_ext(object)
+    if (nzchar(ext)) tempfile(fileext = paste0(".", ext)) else tempfile()
+  }
+  on.exit(unlink(tmp), add = TRUE)
+
+  if (!is.null(region)) {
+    if (is.null(opts)) opts <- list(region = region) else opts$region <- region
+  }
+
+  FUN(tmp, ...)
+
+  if (is.null(opts)) {
+    r <- aws.s3::put_object(file = tmp, bucket = bucket, object = object)
+  } else {
+    r <- do.call(aws.s3::put_object,
+                 c(list(file = tmp, bucket = bucket, object = object), opts))
+  }
+  invisible(r)
+}

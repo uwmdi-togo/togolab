@@ -3,6 +3,8 @@
 
 export("%||%")
 export(read_s3_csv)
+export(s3read_using_region)
+export(s3write_using_region)
 export(theme_togo_transparent)
 export(togo_collapse)
 export(togo_colors_5)
