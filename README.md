@@ -38,16 +38,20 @@ togolab::togo_paths(assign_globals = TRUE)
 
 ## Harmonized dataset
 
-`togo_load_harmonized()` reads
-`<root_path>/Data Harmonization/Data Clean/harmonized_dataset.csv`
-(with `na.strings = ""`) and, by default, collapses it to one row per group.
+`togo_load_harmonized()` reads `harmonized_dataset.csv` from the lab S3 store
+(bucket `raw.data`, key `harmonized dataset/harmonized_dataset.csv`) and, by
+default, collapses it to one row per group. **Run `togo_paths()` first** to set
+up S3 credentials for the session.
 
 ```r
+togo_paths()                                    # configures S3 (once per session)
+
 togo_load_harmonized()                          # collapsed: char = last non-NA, numeric = mean
 togo_load_harmonized(summarize = FALSE)         # raw rows, no collapsing
 togo_load_harmonized(num_fun = "median")        # numeric columns -> median
 togo_load_harmonized(by = "record_id")          # group by record_id only
 togo_load_harmonized(char_fun = "first", num_fun = "max")
+togo_load_harmonized(path = "local_copy.csv")   # read from disk instead of S3
 ```
 
 `num_fun` accepts `mean`, `median`, `first`, `last`, `max`, `min`, `sum`;

@@ -72,25 +72,32 @@ togo_collapse <- function(data,
   )
 }
 
-#' Load the togo harmonized dataset
+#' Load the togo harmonized dataset from S3
 #'
-#' Reads `harmonized_dataset.csv` from the standard location under the current
-#' user's `root_path` (`PHI_data/harmonized_dataset.csv`)
-#' and, by default, collapses it to one row per `record_id` x `visit` via
-#' [togo_collapse()].
+#' Reads `harmonized_dataset.csv` from the lab S3 (Kopah) store via
+#' [s3read_using_region()] and, by default, collapses it to one row per
+#' `record_id` x `visit` via [togo_collapse()].
+#'
+#' Assumes S3 credentials are already configured. Run [togo_paths()] (which
+#' calls [togo_setup_s3()]) once per session first; if credentials aren't set,
+#' this errors with a reminder.
 #'
 #' @param summarize If `TRUE` (default), collapse the data with [togo_collapse()].
 #'   If `FALSE`, return the raw rows as read.
 #' @param char_fun,num_fun,by Passed to [togo_collapse()] when `summarize = TRUE`.
-#' @param root_path Optional root path. Defaults to the current user's
-#'   `root_path` from [togo_paths()].
-#' @param path Optional full path to a CSV, overriding `root_path` entirely.
+#' @param bucket S3 bucket. Default `"raw.data"`.
+#' @param object S3 object key. Default `"harmonized dataset/harmonized_dataset.csv"`.
+#' @param region S3 region. Default `""` (Kopah).
 #' @param na.strings Strings treated as `NA` when reading. Defaults to `""`.
+#' @param path Optional local CSV path; if supplied, reads from disk instead of S3.
 #' @param ... Further arguments passed to [utils::read.csv()].
 #' @return A data frame.
 #' @export
 #' @examples
 #' \dontrun{
+#' library(togolab)
+#' togo_paths()                       # sets up S3 for the current user
+#'
 #' # collapsed, defaults (character = last non-NA, numeric = mean):
 #' dat <- togo_load_harmonized()
 #'
@@ -101,34 +108,38 @@ togo_collapse <- function(data,
 #' dat <- togo_load_harmonized(num_fun = "median", by = "record_id")
 #' }
 togo_load_harmonized <- function(summarize = TRUE,
-                                char_fun  = "last",
-                                num_fun   = "mean",
-                                by        = c("record_id", "visit"),
-                                root_path = NULL,
-                                path      = NULL,
-                                na.strings = "",
-                                ...) {
-  if (is.null(path)) {
-    if (is.null(root_path)) {
-      root_path <- togo_paths(setup_s3 = FALSE)$root_path
+                                 char_fun  = "last",
+                                 num_fun   = "mean",
+                                 by        = c("record_id", "visit"),
+                                 bucket    = "raw.data",
+                                 object    = "harmonized dataset/harmonized_dataset.csv",
+                                 region    = "",
+                                 na.strings = "",
+                                 path      = NULL,
+                                 ...) {
+  if (!is.null(path)) {
+    if (!file.exists(path)) {
+      stop("Harmonized dataset not found at:\n  ", path, call. = FALSE)
     }
-    if (is.null(root_path) || !nzchar(root_path)) {
-      stop("No root_path available for the current user; set it in ",
-           "togo_paths.yml or pass `path=`.", call. = FALSE)
+    harm_dat <- utils::read.csv(path, na.strings = na.strings, ...)
+  } else {
+    if (!nzchar(Sys.getenv("AWS_ACCESS_KEY_ID"))) {
+      stop("S3 credentials are not configured. Run togo_paths() ",
+           "(or togo_setup_s3()) first, then retry.", call. = FALSE)
     }
-    path <- file.path(root_path,
-                      "PHI_data", 
-                      "harmonized_dataset.csv")
+    harm_dat <- s3read_using_region(
+      FUN        = utils::read.csv,
+      object     = object,
+      bucket     = bucket,
+      region     = region,
+      na.strings = na.strings,
+      ...
+    )
   }
-  if (!file.exists(path)) {
-    stop("Harmonized dataset not found at:\n  ", path, call. = FALSE)
-  }
-
-  harm_dat <- utils::read.csv(path, na.strings = na.strings, ...)
 
   if (isTRUE(summarize)) {
     harm_dat <- togo_collapse(harm_dat, char_fun = char_fun,
-                             num_fun = num_fun, by = by)
+                              num_fun = num_fun, by = by)
   }
   harm_dat
 }
