@@ -33,11 +33,13 @@ togo_setup_s3 <- function(keys, aws = NULL) {
 
 #' Read a CSV directly from the lab S3 store
 #'
-#' Convenience wrapper around `aws.s3::s3read_using()`. Assumes
-#' [togo_setup_s3()] (or [togo_paths()]) has already configured credentials.
+#' Convenience wrapper around [s3read_using_region()], so `region` is always
+#' passed (Kopah requires `region = ""`). Assumes [togo_setup_s3()] (or
+#' [togo_paths()]) has already configured credentials.
 #'
 #' @param object Object key, e.g. `"clean/harmonized_data.csv"`.
 #' @param bucket Bucket name.
+#' @param region S3 region. Default `""` (Kopah).
 #' @param ... Passed to [utils::read.csv()].
 #' @return A `data.frame`.
 #' @export
@@ -45,15 +47,12 @@ togo_setup_s3 <- function(keys, aws = NULL) {
 #' \dontrun{
 #' df <- read_s3_csv("clean/harmonized_data.csv", bucket = "togo-data")
 #' }
-read_s3_csv <- function(object, bucket, ...) {
-  if (!requireNamespace("aws.s3", quietly = TRUE)) {
-    stop("Package 'aws.s3' is required for read_s3_csv(). ",
-         "Install it with install.packages('aws.s3').", call. = FALSE)
-  }
-  aws.s3::s3read_using(
+read_s3_csv <- function(object, bucket, region = "", ...) {
+  s3read_using_region(
     FUN    = utils::read.csv,
     object = object,
     bucket = bucket,
+    region = region,
     ...
   )
 }
@@ -75,17 +74,20 @@ togo_s3_read_rds <- function(object, bucket, region = "") {
 
 #' Save a ggplot (or any object) to the lab S3 store
 #'
-#' Writes an object to S3 using `aws.s3::s3write_using()`. By default it saves a
-#' ggplot via [ggplot2::ggsave()]; pass a different `FUN` (e.g. `saveRDS`) for
-#' other objects. Generalizes the lab's `s3write_using_region` helper.
+#' Writes an object to S3 via [s3write_using_region()] so `region` is always
+#' passed (Kopah requires `region = ""`). By default saves a ggplot with
+#' [ggplot2::ggsave()]; the writer is called as `FUN(tempfile, x, ...)`, which
+#' matches `ggsave(filename, plot, ...)`. For other objects pass a `FUN` with
+#' that same `(file, object, ...)` argument order (e.g.
+#' `function(file, obj) saveRDS(obj, file)`).
 #'
 #' @param x Object to write (e.g. a ggplot).
 #' @param object Destination object key (including extension).
 #' @param bucket Bucket name.
-#' @param FUN Writer function. Default [ggplot2::ggsave()].
-#' @param region S3 region (empty string for Kopah). Default `""`.
+#' @param FUN Writer function called as `FUN(file, x, ...)`. Default [ggplot2::ggsave()].
+#' @param region S3 region. Default `""` (Kopah).
 #' @param ... Passed to `FUN` (e.g. `width`, `height` for ggsave).
-#' @return Invisibly the result of the write.
+#' @return Invisibly, the result of the upload.
 #' @export
 #' @examples
 #' \dontrun{
@@ -93,9 +95,14 @@ togo_s3_read_rds <- function(object, bucket, region = "") {
 #' }
 togo_s3_save_plot <- function(x, object, bucket, FUN = ggplot2::ggsave,
                               region = "", ...) {
-  .togo_need("aws.s3")
-  aws.s3::s3write_using(x, FUN = FUN, object = object, bucket = bucket,
-                        opts = list(region = region), ...)
+  s3write_using_region(
+    FUN    = FUN,
+    x,
+    object = object,
+    bucket = bucket,
+    region = region,
+    ...
+  )
 }
 
 #' Read an S3 object via a reader function, with explicit region

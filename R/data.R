@@ -82,11 +82,17 @@ togo_collapse <- function(data,
 #' calls [togo_setup_s3()]) once per session first; if credentials aren't set,
 #' this errors with a reminder.
 #'
+#' @param dataset Which harmonized dataset to load. One of:
+#'   `"clinical"` (default, the standard `harmonized_dataset.csv`),
+#'   `"olink_plasma"`, `"olink_urine"`, `"soma"`, or `"soma_olink"` — the larger
+#'   versions that include Olink and/or SomaScan proteomics. Ignored if `object`
+#'   or `path` is supplied.
 #' @param summarize If `TRUE` (default), collapse the data with [togo_collapse()].
 #'   If `FALSE`, return the raw rows as read.
 #' @param char_fun,num_fun,by Passed to [togo_collapse()] when `summarize = TRUE`.
 #' @param bucket S3 bucket. Default `"raw.data"`.
-#' @param object S3 object key. Default `"harmonized dataset/harmonized_dataset.csv"`.
+#' @param object S3 object key. If `NULL` (default), derived from `dataset`.
+#'   Supply to override the location entirely.
 #' @param region S3 region. Default `""` (Kopah).
 #' @param na.strings Strings treated as `NA` when reading. Defaults to `""`.
 #' @param path Optional local CSV path; if supplied, reads from disk instead of S3.
@@ -98,25 +104,41 @@ togo_collapse <- function(data,
 #' library(togolab)
 #' togo_paths()                       # sets up S3 for the current user
 #'
-#' # collapsed, defaults (character = last non-NA, numeric = mean):
+#' # clinical harmonized dataset (default), collapsed:
 #' dat <- togo_load_harmonized()
 #'
-#' # raw, uncollapsed:
-#' raw <- togo_load_harmonized(summarize = FALSE)
+#' # proteomics versions:
+#' soma <- togo_load_harmonized(dataset = "soma")
+#' both <- togo_load_harmonized(dataset = "soma_olink", summarize = FALSE)
 #'
 #' # median for numerics, grouped only by record_id:
 #' dat <- togo_load_harmonized(num_fun = "median", by = "record_id")
 #' }
-togo_load_harmonized <- function(summarize = TRUE,
+togo_load_harmonized <- function(dataset   = c("clinical", "olink_plasma",
+                                               "olink_urine", "soma", "soma_olink"),
+                                 summarize = TRUE,
                                  char_fun  = "last",
                                  num_fun   = "mean",
                                  by        = c("record_id", "visit"),
                                  bucket    = "raw.data",
-                                 object    = "harmonized dataset/harmonized_dataset.csv",
+                                 object    = NULL,
                                  region    = "",
                                  na.strings = "",
                                  path      = NULL,
                                  ...) {
+  dataset <- match.arg(dataset)
+  # Map dataset choice -> S3 object key (all under the same prefix).
+  files <- c(
+    clinical     = "harmonized_dataset.csv",
+    olink_plasma = "olink_plasma_harmonized_dataset.csv",
+    olink_urine  = "olink_urine_harmonized_dataset.csv",
+    soma         = "soma_harmonized_dataset.csv",
+    soma_olink   = "soma_olink_harmonized_dataset.csv"
+  )
+  if (is.null(object)) {
+    object <- paste0("harmonized dataset/", files[[dataset]])
+  }
+
   if (!is.null(path)) {
     if (!file.exists(path)) {
       stop("Harmonized dataset not found at:\n  ", path, call. = FALSE)

@@ -46,13 +46,25 @@ up S3 credentials for the session.
 ```r
 togo_paths()                                    # configures S3 (once per session)
 
-togo_load_harmonized()                          # collapsed: char = last non-NA, numeric = mean
+togo_load_harmonized()                          # clinical dataset (default), collapsed
 togo_load_harmonized(summarize = FALSE)         # raw rows, no collapsing
 togo_load_harmonized(num_fun = "median")        # numeric columns -> median
 togo_load_harmonized(by = "record_id")          # group by record_id only
 togo_load_harmonized(char_fun = "first", num_fun = "max")
 togo_load_harmonized(path = "local_copy.csv")   # read from disk instead of S3
 ```
+
+Pick a proteomics version with `dataset` (defaults to the clinical one):
+
+```r
+togo_load_harmonized(dataset = "olink_plasma")  # + Olink plasma proteomics
+togo_load_harmonized(dataset = "olink_urine")   # + Olink urine proteomics
+togo_load_harmonized(dataset = "soma")          # + SomaScan proteomics
+togo_load_harmonized(dataset = "soma_olink")    # + SomaScan and Olink
+```
+
+All are read from the `raw.data` bucket under `harmonized dataset/`. These are
+much larger; pass `summarize = FALSE` if you don't want them collapsed.
 
 `num_fun` accepts `mean`, `median`, `first`, `last`, `max`, `min`, `sum`;
 `char_fun` accepts `last`, `first`, `max`, `min`. The grouping is set by `by`
