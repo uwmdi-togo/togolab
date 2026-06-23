@@ -90,7 +90,7 @@ togo_collapse <- function(data,
 #' @param summarize If `TRUE` (default), collapse the data with [togo_collapse()].
 #'   If `FALSE`, return the raw rows as read.
 #' @param char_fun,num_fun,by Passed to [togo_collapse()] when `summarize = TRUE`.
-#' @param bucket S3 bucket. Default `"raw.data"`.
+#' @param bucket S3 bucket. Default `"core.data"`.
 #' @param object S3 object key. If `NULL` (default), derived from `dataset`.
 #'   Supply to override the location entirely.
 #' @param region S3 region. Default `""` (Kopah).
@@ -120,7 +120,7 @@ togo_load_harmonized <- function(dataset   = c("clinical", "olink_plasma",
                                  char_fun  = "last",
                                  num_fun   = "mean",
                                  by        = c("record_id", "visit"),
-                                 bucket    = "raw.data",
+                                 bucket    = "core.data",
                                  object    = NULL,
                                  region    = "",
                                  na.strings = "",
