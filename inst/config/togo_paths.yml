@@ -39,7 +39,7 @@ users:
   lpyle:                  # Laura Pyle
     root_path: "/Users/lpyle/Library/CloudStorage/OneDrive-SharedLibraries-UW/Bjornstad/Biostatistics Core Shared Drive"
     git_path:  "/Users/lpyle/Documents/GitHub/CHCO-Code/Petter Bjornstad"
-    keys:      "/Users/lpyle/Library/CloudStorage/OneDrive-UW/lpyle@uw.edu_accessKeys.csv    
+    keys:      "/Users/lpyle/Library/CloudStorage/OneDrive-UW/lpyle@uw.edu_accessKeys.csv" 
 
   # ---- Add your entry below. Replace USERNAME with your Sys.info()[["user"]] ----
 
