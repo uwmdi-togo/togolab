@@ -36,6 +36,11 @@ users:
     git_path:  "/Users/pylell/Documents/GitHub/CHCO-Code/Petter Bjornstad"
     keys:      "/Users/pylell/Library/CloudStorage/OneDrive-UW/keys.json"
 
+  lpyle:                  # Laura Pyle
+    root_path: "/Users/lpyle/Library/CloudStorage/OneDrive-SharedLibraries-UW/Bjornstad/Biostatistics Core Shared Drive"
+    git_path:  "/Users/lpyle/Documents/GitHub/CHCO-Code/Petter Bjornstad"
+    keys:      "/Users/lpyle/Library/CloudStorage/OneDrive-UW/keys.json"    
+
   # ---- Add your entry below. Replace USERNAME with your Sys.info()[["user"]] ----
 
   # kmiller:               # Kristen Miller
