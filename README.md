@@ -20,7 +20,7 @@ library(togolab)
 p <- togo_paths()        # matches your OS username, sets up S3 automatically
 p$root_path
 p$git_path
-p$keys                  # parsed contents of your keys.json
+p$kopah_keys            # parsed Kopah credentials (from keys.json OR keys.csv)
 
 # Load + collapse the harmonized dataset to one row per record_id x visit:
 dat <- togo_load_harmonized()
@@ -97,8 +97,13 @@ users:
   yourusername:
     root_path: "/path/to/data"
     git_path:  "/path/to/CHCO-Code/Petter Bjornstad"
-    keys:      "/path/to/keys.json"
+    keys:      "/path/to/keys.json"   # .json or .csv both work
 ```
+
+The `keys` file can be JSON (`{"MY_ACCESS_KEY": "...", "MY_SECRET_KEY": "..."}`)
+or CSV (e.g. the AWS console download with "Access key ID"/"Secret access key"
+columns). `togo_paths()` parses either into `kopah_keys` and configures S3. Pass
+`read_keys = FALSE` to keep only the path (`keys_path`) without reading the file.
 
 Work on more than one machine (e.g. laptop + Hyak)? Add one entry per machine,
 each keyed by that machine's username.
