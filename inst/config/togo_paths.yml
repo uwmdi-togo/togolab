@@ -19,7 +19,7 @@ users:
   choiyej:                 # Ye Ji Choi - Mac Studio / MacBook Pro
     root_path: "~/Library/CloudStorage/OneDrive-UW/BPT SharePoint/Data Science"
     git_path:  "~/GitHub/CHCO-Code/Petter Bjornstad"
-    keys:      "~/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Bjornstad Pyle Lab/keys.json"
+    keys:      "~/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Bjornstad Pyle Lab/keys/keys.json"
 
   yejichoi:                # Ye Ji Choi - Hyak
     root_path: "/mmfs1/gscratch/togo/yejichoi/"
