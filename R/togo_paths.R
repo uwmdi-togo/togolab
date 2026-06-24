@@ -85,7 +85,9 @@ togo_config_path <- function(path = NULL) {
 #'   variables via [togo_setup_s3()] using this user's keys file.
 #' @param assign_globals If `TRUE` (default), assign `root_path`, `git_path`,
 #'   `kopah_keys`, and `redcap_tokens` into the calling environment (mimics the
-#'   old `source()`-based workflow). The keys *path* is not assigned.
+#'   old `source()`-based workflow). Only values that exist are assigned — a
+#'   `NULL` (e.g. no keys/REDCap file) creates no variable at all. The keys
+#'   *path* is never assigned.
 #'
 #' @return Invisibly, a list with elements `user`, `root_path`, `git_path`,
 #'   `keys_path`, `kopah_keys` (parsed Kopah credentials, or `NULL`), and
@@ -156,10 +158,17 @@ togo_paths <- function(user = Sys.info()[["user"]],
 
   if (isTRUE(assign_globals)) {
     target <- parent.frame()
-    assign("root_path",  root_path,  envir = target)
-    assign("git_path",   git_path,   envir = target)
-    assign("kopah_keys", kopah_keys, envir = target)
-    assign("redcap_tokens", redcap_tokens, envir = target)
+    to_assign <- list(
+      root_path     = root_path,
+      git_path      = git_path,
+      kopah_keys    = kopah_keys,
+      redcap_tokens = redcap_tokens
+    )
+    # Only create variables that actually have a value; skip NULLs so they
+    # don't appear in the environment at all.
+    for (nm in names(to_assign)) {
+      if (!is.null(to_assign[[nm]])) assign(nm, to_assign[[nm]], envir = target)
+    }
   }
 
   invisible(result)
