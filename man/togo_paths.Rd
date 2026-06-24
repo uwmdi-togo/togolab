@@ -8,7 +8,8 @@ togo_paths(
   user = Sys.info()[["user"]],
   config = NULL,
   setup_s3 = TRUE,
-  assign_globals = FALSE
+  read_keys = TRUE,
+  assign_globals = TRUE
 )
 }
 \arguments{
@@ -17,22 +18,34 @@ togo_paths(
 \item{config}{Optional path to a YAML config (see \code{\link{togo_config_path}}).}
 
 \item{setup_s3}{If \code{TRUE} (default), also set the AWS/S3 environment
-variables via \code{\link{togo_setup_s3}} using this user's \code{keys} file.}
+variables via \code{\link{togo_setup_s3}} using this user's keys file.}
 
-\item{assign_globals}{If \code{TRUE}, assign \code{root_path}, \code{git_path}, and
-\code{keys} into the calling environment. Defaults to \code{FALSE}.}
+\item{read_keys}{If \code{TRUE} (default), read and parse the user's keys file
+(JSON or CSV) into \code{kopah_keys}. If \code{FALSE}, the file is not read and
+only the path (\code{keys_path}) is returned/assigned.}
+
+\item{assign_globals}{If \code{TRUE} (default), assign \code{root_path},
+\code{git_path}, \code{keys_path}, \code{kopah_keys}, and \code{keys} into the
+calling environment.}
 }
 \value{
 Invisibly, a list with elements \code{user}, \code{root_path}, \code{git_path},
-\code{keys_path}, and \code{keys}.
+\code{keys_path}, \code{kopah_keys} (the parsed Kopah credentials from a
+\code{.json} or \code{.csv} keys file, or \code{NULL}), and \code{keys} (an
+alias of \code{kopah_keys}, kept for backward compatibility).
 }
 \description{
 Reads the external YAML configuration, matches the current OS user, expands
-\code{~}, and returns that user's paths. Optionally configures S3 credentials.
+\code{~}, and returns that user's paths. Reads the keys file (JSON or CSV) and
+optionally configures S3 credentials.
 }
 \examples{
 \dontrun{
 p <- togo_paths()
 p$root_path
+p$kopah_keys
+
+# keep only the path to the keys file, don't read it:
+togo_paths(read_keys = FALSE)$keys_path
 }
 }
