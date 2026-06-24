@@ -22,7 +22,7 @@ users:
     root_path: "~/Library/CloudStorage/OneDrive-UW/BPT SharePoint/Data Science"
     git_path:  "~/GitHub/CHCO-Code/Petter Bjornstad"
     kopah_keys:      "~/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Bjornstad Pyle Lab/keys/keys.json"
-    redcap_tokens:   ""   # optional: path to a CSV with Study,Token columns
+    redcap_tokens:   "~/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Bjornstad Pyle Lab/Keys/redcap_api_tokens.csv"   # optional: path to a CSV with Study,Token columns
 
   yejichoi:                # Ye Ji Choi - Hyak
     root_path: "/mmfs1/gscratch/togo/yejichoi/"
