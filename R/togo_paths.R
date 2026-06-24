@@ -117,7 +117,8 @@ togo_paths <- function(user = Sys.info()[["user"]],
   expand <- function(x) if (is.null(x) || !nzchar(x)) x else path.expand(x)
   root_path <- expand(entry$root_path)
   git_path  <- expand(entry$git_path)
-  keys_path <- expand(entry$kopah_keys)
+  # Accept either field name: `kopah_keys` (new) or `keys` (older configs).
+  keys_path <- expand(entry$kopah_keys %||% entry$keys)
   redcap_token_path <- expand(entry$redcap_tokens)
   
   kopah_keys <- NULL

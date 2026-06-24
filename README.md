@@ -28,12 +28,12 @@ dat <- togo_load_harmonized()
 
 ### Drop-in replacement for the old `source()` workflow
 
-If you have existing scripts that expect `root_path`, `git_path`, and `keys`
-as plain variables:
+If you have existing scripts that expect `root_path`, `git_path`, etc. as plain
+variables:
 
 ```r
 togolab::togo_paths(assign_globals = TRUE)
-# root_path, git_path, keys now exist in your environment
+# root_path, git_path, kopah_keys, redcap_tokens now exist in your environment
 ```
 
 ## Harmonized dataset
@@ -95,15 +95,17 @@ entry**, then commit and push.
 ```yaml
 users:
   yourusername:
-    root_path: "/path/to/data"
-    git_path:  "/path/to/CHCO-Code/Petter Bjornstad"
-    keys:      "/path/to/keys.json"   # .json or .csv both work
+    root_path:     "/path/to/data"
+    git_path:      "/path/to/CHCO-Code/Petter Bjornstad"
+    kopah_keys:    "/path/to/keys.json"   # .json or .csv both work
+    redcap_tokens: "/path/to/tokens.csv"  # optional; omit if you have none
 ```
 
-The `keys` file can be JSON (`{"MY_ACCESS_KEY": "...", "MY_SECRET_KEY": "..."}`)
-or CSV (e.g. the AWS console download with "Access key ID"/"Secret access key"
-columns). `togo_paths()` parses either into `kopah_keys` and configures S3. Pass
-`read_keys = FALSE` to keep only the path (`keys_path`) without reading the file.
+The `kopah_keys` file can be JSON (`{"MY_ACCESS_KEY": "...", "MY_SECRET_KEY":
+"..."}`) or CSV (e.g. the AWS console download with "Access key ID"/"Secret
+access key" columns); `togo_paths()` parses either into `kopah_keys` and
+configures S3. `redcap_tokens` is optional — a CSV with `Study`/`Token` columns,
+returned as `p$redcap_tokens` (or `NULL` if the line is omitted).
 
 Work on more than one machine (e.g. laptop + Hyak)? Add one entry per machine,
 each keyed by that machine's username.

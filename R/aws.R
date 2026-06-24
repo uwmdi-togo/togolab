@@ -3,7 +3,7 @@
 #' Sets the AWS environment variables used by \pkg{aws.s3} from a parsed keys
 #' object (typically `keys.json`). Safe to call repeatedly.
 #'
-#' @param keys A list with `MY_ACCESS_KEY` and `MY_SECRET_KEY`, e.g. the result
+#' @param kopah_keys A list with `MY_ACCESS_KEY` and `MY_SECRET_KEY`, e.g. the result
 #'   of `jsonlite::fromJSON("keys.json")`.
 #' @param aws Optional list with `region` and `endpoint`. Defaults to the
 #'   Kopah endpoint `s3.kopah.uw.edu` with an empty region.
@@ -11,19 +11,19 @@
 #' @export
 #' @examples
 #' \dontrun{
-#' keys <- jsonlite::fromJSON("~/keys.json")
-#' togo_setup_s3(keys)
+#' kopah_keys <- jsonlite::fromJSON("~/keys.json")
+#' togo_setup_s3(kopah_keys)
 #' }
-togo_setup_s3 <- function(keys, aws = NULL) {
-  if (is.null(keys$MY_ACCESS_KEY) || is.null(keys$MY_SECRET_KEY)) {
-    stop("`keys` must contain MY_ACCESS_KEY and MY_SECRET_KEY.", call. = FALSE)
+togo_setup_s3 <- function(kopah_keys, aws = NULL) {
+  if (is.null(kopah_keys$MY_ACCESS_KEY) || is.null(kopah_keys$MY_SECRET_KEY)) {
+    stop("`kopah_keys` must contain MY_ACCESS_KEY and MY_SECRET_KEY.", call. = FALSE)
   }
   region   <- if (!is.null(aws$region))   aws$region   else ""
   endpoint <- if (!is.null(aws$endpoint)) aws$endpoint else "s3.kopah.uw.edu"
 
   Sys.setenv(
-    AWS_ACCESS_KEY_ID     = keys$MY_ACCESS_KEY,
-    AWS_SECRET_ACCESS_KEY = keys$MY_SECRET_KEY,
+    AWS_ACCESS_KEY_ID     = kopah_keys$MY_ACCESS_KEY,
+    AWS_SECRET_ACCESS_KEY = kopah_keys$MY_SECRET_KEY,
     AWS_DEFAULT_REGION    = region,
     AWS_REGION            = region,
     AWS_S3_ENDPOINT       = endpoint
