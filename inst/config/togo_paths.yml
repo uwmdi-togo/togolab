@@ -20,13 +20,13 @@ users:
 
   choiyej:                 # Ye Ji Choi - Mac Studio / MacBook Pro
     root_path: "~/Library/CloudStorage/OneDrive-UW/BPT SharePoint/Data Science"
-    git_path:  "~/GitHub/CHCO-Code/Petter Bjornstad"
+    git_path:  "~/GitHub/projects"
     kopah_keys:      "~/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Bjornstad Pyle Lab/keys/keys.json"
     redcap_tokens:   "~/Library/CloudStorage/OneDrive-TheUniversityofColoradoDenver/Bjornstad Pyle Lab/Keys/redcap_api_tokens.csv"   # optional: path to a CSV with Study,Token columns
 
   yejichoi:                # Ye Ji Choi - Hyak
     root_path: "/mmfs1/gscratch/togo/yejichoi/"
-    git_path:  "/mmfs1/gscratch/togo/yejichoi/CHCO-Code/Petter Bjornstad"
+    git_path:  "/mmfs1/gscratch/togo/yejichoi/CHCO-Code/projects"
     kopah_keys:      "/mmfs1/home/yejichoi/keys.json"
 
   rameshsh:                # Shivani Ramesh
