@@ -4,21 +4,24 @@
 \alias{read_s3_csv}
 \title{Read a CSV directly from the lab S3 store}
 \usage{
-read_s3_csv(object, bucket, ...)
+read_s3_csv(object, bucket, region = "", ...)
 }
 \arguments{
 \item{object}{Object key, e.g. \code{"clean/harmonized_data.csv"}.}
 
 \item{bucket}{Bucket name.}
 
-\item{...}{Passed to \code{\link[utils]{read.csv}}.}
+\item{region}{S3 region. Default \code{""} (Kopah).}
+
+\item{...}{Passed to \code{\link[utils:read.table]{utils::read.csv()}}.}
 }
 \value{
 A \code{data.frame}.
 }
 \description{
-Convenience wrapper around \code{aws.s3::s3read_using()}. Assumes credentials
-are already configured via \code{\link{togo_setup_s3}} or \code{\link{togo_paths}}.
+Convenience wrapper around \code{\link[=s3read_using_region]{s3read_using_region()}}, so \code{region} is always
+passed (Kopah requires \code{region = ""}). Assumes \code{\link[=togo_setup_s3]{togo_setup_s3()}} (or
+\code{\link[=togo_paths]{togo_paths()}}) has already configured credentials.
 }
 \examples{
 \dontrun{

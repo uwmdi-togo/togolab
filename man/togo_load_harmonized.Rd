@@ -2,41 +2,73 @@
 % Please edit documentation in R/data.R
 \name{togo_load_harmonized}
 \alias{togo_load_harmonized}
-\title{Load the togo harmonized dataset}
+\title{Load the togo harmonized dataset from S3}
 \usage{
-togo_load_harmonized(summarize = TRUE, char_fun = "last", num_fun = "mean",
-  by = c("record_id", "visit"), root_path = NULL, path = NULL,
-  na.strings = "", ...)
+togo_load_harmonized(
+  dataset = c("clinical", "olink_plasma", "olink_urine", "soma", "soma_olink"),
+  summarize = TRUE,
+  char_fun = "last",
+  num_fun = "mean",
+  by = c("record_id", "visit"),
+  bucket = "core.data",
+  object = NULL,
+  region = "",
+  na.strings = "",
+  path = NULL,
+  ...
+)
 }
 \arguments{
-\item{summarize}{If \code{TRUE} (default), collapse the data with
-\code{\link{togo_collapse}}. If \code{FALSE}, return the raw rows as read.}
+\item{dataset}{Which harmonized dataset to load. One of:
+\code{"clinical"} (default, the standard \code{harmonized_dataset.csv}),
+\code{"olink_plasma"}, \code{"olink_urine"}, \code{"soma"}, or \code{"soma_olink"} — the larger
+versions that include Olink and/or SomaScan proteomics. Ignored if \code{object}
+or \code{path} is supplied.}
 
-\item{char_fun, num_fun, by}{Passed to \code{\link{togo_collapse}} when
-\code{summarize = TRUE}.}
+\item{summarize}{If \code{TRUE} (default), collapse the data with \code{\link[=togo_collapse]{togo_collapse()}}.
+If \code{FALSE}, return the raw rows as read.}
 
-\item{root_path}{Optional root path. Defaults to the current user's
-\code{root_path} from \code{\link{togo_paths}}.}
+\item{char_fun, num_fun, by}{Passed to \code{\link[=togo_collapse]{togo_collapse()}} when \code{summarize = TRUE}.}
 
-\item{path}{Optional full path to a CSV, overriding \code{root_path} entirely.}
+\item{bucket}{S3 bucket. Default \code{"core.data"}.}
+
+\item{object}{S3 object key. If \code{NULL} (default), derived from \code{dataset}.
+Supply to override the location entirely.}
+
+\item{region}{S3 region. Default \code{""} (Kopah).}
 
 \item{na.strings}{Strings treated as \code{NA} when reading. Defaults to \code{""}.}
 
-\item{...}{Further arguments passed to \code{\link[utils]{read.csv}}.}
+\item{path}{Optional local CSV path; if supplied, reads from disk instead of S3.}
+
+\item{...}{Further arguments passed to \code{\link[utils:read.table]{utils::read.csv()}}.}
 }
 \value{
 A data frame.
 }
 \description{
-Reads \code{harmonized_dataset.csv} from the standard location under the
-current user's \code{root_path}
-(\code{Data Harmonization/Data Clean/harmonized_dataset.csv}) and, by default,
-collapses it to one row per \code{record_id} x \code{visit}.
+Reads \code{harmonized_dataset.csv} from the lab S3 (Kopah) store via
+\code{\link[=s3read_using_region]{s3read_using_region()}} and, by default, collapses it to one row per
+\code{record_id} x \code{visit} via \code{\link[=togo_collapse]{togo_collapse()}}.
+}
+\details{
+Assumes S3 credentials are already configured. Run \code{\link[=togo_paths]{togo_paths()}} (which
+calls \code{\link[=togo_setup_s3]{togo_setup_s3()}}) once per session first; if credentials aren't set,
+this errors with a reminder.
 }
 \examples{
 \dontrun{
+library(togolab)
+togo_paths()                       # sets up S3 for the current user
+
+# clinical harmonized dataset (default), collapsed:
 dat <- togo_load_harmonized()
-raw <- togo_load_harmonized(summarize = FALSE)
+
+# proteomics versions:
+soma <- togo_load_harmonized(dataset = "soma")
+both <- togo_load_harmonized(dataset = "soma_olink", summarize = FALSE)
+
+# median for numerics, grouped only by record_id:
 dat <- togo_load_harmonized(num_fun = "median", by = "record_id")
 }
 }

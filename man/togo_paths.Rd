@@ -14,31 +14,33 @@ togo_paths(
 \arguments{
 \item{user}{OS username to look up. Defaults to the current user.}
 
-\item{config}{Optional path to a YAML config (see \code{\link{togo_config_path}}).}
+\item{config}{Optional path to a YAML config (see \code{\link[=togo_config_path]{togo_config_path()}}).}
 
 \item{setup_s3}{If \code{TRUE} (default), also set the AWS/S3 environment
-variables via \code{\link{togo_setup_s3}} using this user's keys file.}
+variables via \code{\link[=togo_setup_s3]{togo_setup_s3()}} using this user's keys file.}
 
-\item{assign_globals}{If \code{TRUE} (default), assign \code{root_path},
-\code{git_path}, \code{kopah_keys}, and \code{redcap_tokens} into the calling
-environment. The keys \emph{path} is not assigned.}
+\item{assign_globals}{If \code{TRUE} (default), assign \code{root_path}, \code{git_path},
+\code{kopah_keys}, and \code{redcap_tokens} into the calling environment (mimics the
+old \code{source()}-based workflow). Only values that exist are assigned — a
+\code{NULL} (e.g. no keys/REDCap file) creates no variable at all. The keys
+\emph{path} is never assigned.}
 }
 \value{
 Invisibly, a list with elements \code{user}, \code{root_path}, \code{git_path},
-\code{keys_path}, \code{kopah_keys} (parsed Kopah credentials, or \code{NULL}),
-and \code{redcap_tokens} (a data frame of \code{Study}/\code{Token}, or
-\code{NULL} if the user has no REDCap token file configured).
+\code{keys_path}, \code{kopah_keys} (parsed Kopah credentials, or \code{NULL}), and
+\code{redcap_tokens} (a data frame of \code{Study}/\code{Token}, or \code{NULL} if the user
+has no REDCap token file configured).
 }
 \description{
-Reads the external YAML configuration, matches the current OS user, expands
-\code{~}, and returns that user's paths. Reads the Kopah keys file (JSON or
-CSV) and an optional REDCap tokens CSV, and optionally configures S3.
+Reads the external YAML configuration, matches the current operating-system
+user (\code{Sys.info()[["user"]]}), expands \code{~}, and returns that user's paths.
+Optionally configures the lab S3 (Kopah) credentials in one call.
 }
 \examples{
 \dontrun{
 p <- togo_paths()
 p$root_path
-p$kopah_keys
-p$redcap_tokens
+p$kopah_keys          # parsed access/secret keys
+p$redcap_tokens       # Study/Token data frame (NULL if not configured)
 }
 }

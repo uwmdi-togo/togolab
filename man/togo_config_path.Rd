@@ -10,12 +10,21 @@ togo_config_path(path = NULL)
 \item{path}{Optional explicit path to a YAML config file.}
 }
 \value{
-A normalized absolute path to the config file.
+A normalized absolute path to the config file (length-one character).
 }
 \description{
-Resolves which \code{togo_paths.yml} to use, in priority order: the \code{path}
-argument, the \code{togolab.config} option, the \code{TOGO_PATHS_CONFIG} environment
-variable, then the copy shipped inside the installed package.
+Resolves which \code{togo_paths.yml} to use, in priority order:
+\enumerate{
+\item the \code{path} argument, if given;
+\item the \code{togolab.config} R option (\code{getOption("togolab.config")});
+\item the \code{TOGO_PATHS_CONFIG} environment variable;
+\item the copy shipped inside the installed package.
+}
+}
+\details{
+Keeping a canonical \code{togo_paths.yml} in the lab GitHub repo and pointing
+\code{TOGO_PATHS_CONFIG} at it (see the package README) means path edits take
+effect immediately, with no need to reinstall the package.
 }
 \examples{
 \dontrun{

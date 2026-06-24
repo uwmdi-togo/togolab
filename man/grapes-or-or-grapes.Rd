@@ -13,8 +13,8 @@ x \%||\% y
 \code{x} or \code{y}.
 }
 \description{
-Returns \code{x} unless it is \code{NULL} (or length zero), in which case it
-returns \code{y}.
+Returns \code{x} unless it is \code{NULL} (or length zero), in which case it returns
+\code{y}. Handy for default values throughout lab code.
 }
 \examples{
 NULL \%||\% "default"

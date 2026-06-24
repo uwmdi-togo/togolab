@@ -4,23 +4,25 @@
 \alias{togo_setup_s3}
 \title{Configure the lab S3 (Kopah) environment}
 \usage{
-togo_setup_s3(keys, aws = NULL)
+togo_setup_s3(kopah_keys, aws = NULL)
 }
 \arguments{
-\item{keys}{A list with \code{MY_ACCESS_KEY} and \code{MY_SECRET_KEY}.}
+\item{kopah_keys}{A list with \code{MY_ACCESS_KEY} and \code{MY_SECRET_KEY}, e.g. the result
+of \code{jsonlite::fromJSON("keys.json")}.}
 
-\item{aws}{Optional list with \code{region} and \code{endpoint}.}
+\item{aws}{Optional list with \code{region} and \code{endpoint}. Defaults to the
+Kopah endpoint \code{s3.kopah.uw.edu} with an empty region.}
 }
 \value{
 Invisibly \code{TRUE}.
 }
 \description{
 Sets the AWS environment variables used by \pkg{aws.s3} from a parsed keys
-object. Safe to call repeatedly.
+object (typically \code{keys.json}). Safe to call repeatedly.
 }
 \examples{
 \dontrun{
-keys <- jsonlite::fromJSON("~/keys.json")
-togo_setup_s3(keys)
+kopah_keys <- jsonlite::fromJSON("~/keys.json")
+togo_setup_s3(kopah_keys)
 }
 }

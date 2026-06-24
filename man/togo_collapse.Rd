@@ -4,18 +4,21 @@
 \alias{togo_collapse}
 \title{Collapse a data frame to one row per group}
 \usage{
-togo_collapse(data, char_fun = "last", num_fun = "mean", by = c("record_id",
-  "visit"))
+togo_collapse(
+  data,
+  char_fun = "last",
+  num_fun = "mean",
+  by = c("record_id", "visit")
+)
 }
 \arguments{
 \item{data}{A data frame.}
 
-\item{char_fun}{Summary rule for non-numeric columns. One of \code{"last"}
-(default), \code{"first"}, \code{"max"}, \code{"min"}.}
+\item{char_fun}{Summary rule for non-numeric (character/factor) columns. One
+of \code{"last"} (default), \code{"first"}, \code{"max"}, \code{"min"}.}
 
-\item{num_fun}{Summary rule for numeric columns. One of \code{"mean"}
-(default), \code{"median"}, \code{"first"}, \code{"last"}, \code{"max"},
-\code{"min"}, \code{"sum"}.}
+\item{num_fun}{Summary rule for numeric columns. One of \code{"mean"} (default),
+\code{"median"}, \code{"first"}, \code{"last"}, \code{"max"}, \code{"min"}, \code{"sum"}.}
 
 \item{by}{Character vector of grouping columns. Defaults to
 \code{c("record_id", "visit")}.}
@@ -24,9 +27,10 @@ togo_collapse(data, char_fun = "last", num_fun = "mean", by = c("record_id",
 A data frame with one row per unique combination of \code{by}.
 }
 \description{
-Summarises every column down to a single value per group. Missing values are
-dropped before summarising; a group that is entirely missing for a column
-yields \code{NA}.
+Summarises every column down to a single value per group. Non-numeric
+columns and numeric columns can use different summary rules. Missing values
+are dropped before summarising; a group that is entirely missing for a
+column yields \code{NA}.
 }
 \examples{
 df <- data.frame(
