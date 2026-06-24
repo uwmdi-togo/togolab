@@ -83,55 +83,60 @@ togo_config_path <- function(path = NULL) {
 #' @param config Optional path to a YAML config (see [togo_config_path()]).
 #' @param setup_s3 If `TRUE` (default), also set the AWS/S3 environment
 #'   variables via [togo_setup_s3()] using this user's keys file.
-#' @param read_keys If `TRUE` (default), read and parse the user's keys file
-#'   (JSON or CSV) into `kopah_keys`. If `FALSE`, the file is not read and only
-#'   the path (`keys_path`) is returned/assigned.
 #' @param assign_globals If `TRUE` (default), assign `root_path`, `git_path`,
-#'   `keys_path`, `kopah_keys`, and `keys` into the calling environment (mimics
-#'   the old `source()`-based workflow).
+#'   `kopah_keys`, and `redcap_tokens` into the calling environment (mimics the
+#'   old `source()`-based workflow). The keys *path* is not assigned.
 #'
 #' @return Invisibly, a list with elements `user`, `root_path`, `git_path`,
-#'   `keys_path`, `kopah_keys` (the parsed Kopah credentials from a `.json` or
-#'   `.csv` keys file, or `NULL`), and `keys` (an alias of `kopah_keys`, kept
-#'   for backward compatibility).
+#'   `keys_path`, `kopah_keys` (parsed Kopah credentials, or `NULL`), and
+#'   `redcap_tokens` (a data frame of `Study`/`Token`, or `NULL` if the user
+#'   has no REDCap token file configured).
 #' @export
 #' @examples
 #' \dontrun{
 #' p <- togo_paths()
 #' p$root_path
 #' p$kopah_keys          # parsed access/secret keys
-#'
-#' # keep only the path to the keys file, don't read it:
-#' togo_paths(read_keys = FALSE)$keys_path
+#' p$redcap_tokens       # Study/Token data frame (NULL if not configured)
 #' }
 togo_paths <- function(user = Sys.info()[["user"]],
-                      config = NULL,
-                      setup_s3 = TRUE,
-                      read_keys = TRUE,
-                      assign_globals = TRUE) {
-
+                       config = NULL,
+                       setup_s3 = TRUE,
+                       assign_globals = TRUE) {
+  
   cfg_file <- togo_config_path(config)
   cfg <- yaml::read_yaml(cfg_file)
-
+  
   if (is.null(cfg$users) || !user %in% names(cfg$users)) {
     stop("Unknown user '", user, "'. Add an entry to:\n  ", cfg_file,
          "\n(and commit it to GitHub).", call. = FALSE)
   }
-
+  
   entry <- cfg$users[[user]]
-
+  
   expand <- function(x) if (is.null(x) || !nzchar(x)) x else path.expand(x)
   root_path <- expand(entry$root_path)
   git_path  <- expand(entry$git_path)
-  keys_path <- expand(entry$keys)
-
+  keys_path <- expand(entry$kopah_keys)
+  redcap_token_path <- expand(entry$redcap_tokens)
+  
   kopah_keys <- NULL
-  if (isTRUE(read_keys) && !is.null(keys_path) && nzchar(keys_path)) {
+  if (!is.null(keys_path) && nzchar(keys_path)) {
     if (!file.exists(keys_path)) {
-      warning("keys file not found for user '", user, "': ", keys_path,
+      warning("Kopah keys file not found for user '", user, "': ", keys_path,
               call. = FALSE)
     } else {
       kopah_keys <- .togo_read_keys(keys_path)
+    }
+  }
+  
+  redcap_tokens <- NULL
+  if (!is.null(redcap_token_path) && nzchar(redcap_token_path)) {
+    if (!file.exists(redcap_token_path)) {
+      warning("REDCap token file not found for user '", user, "': ", redcap_token_path,
+              call. = FALSE)
+    } else {
+      redcap_tokens <- utils::read.csv(redcap_token_path, stringsAsFactors = FALSE)
     }
   }
 
@@ -141,7 +146,7 @@ togo_paths <- function(user = Sys.info()[["user"]],
     git_path   = git_path,
     keys_path  = keys_path,
     kopah_keys = kopah_keys,
-    keys       = kopah_keys   # backward-compatible alias
+    redcap_tokens = redcap_tokens
   )
 
   if (isTRUE(setup_s3) && !is.null(kopah_keys)) {
@@ -152,9 +157,8 @@ togo_paths <- function(user = Sys.info()[["user"]],
     target <- parent.frame()
     assign("root_path",  root_path,  envir = target)
     assign("git_path",   git_path,   envir = target)
-    assign("keys_path",  keys_path,  envir = target)
     assign("kopah_keys", kopah_keys, envir = target)
-    assign("keys",       kopah_keys, envir = target)
+    assign("redcap_tokens", redcap_tokens, envir = target)
   }
 
   invisible(result)

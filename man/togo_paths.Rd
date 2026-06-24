@@ -8,7 +8,6 @@ togo_paths(
   user = Sys.info()[["user"]],
   config = NULL,
   setup_s3 = TRUE,
-  read_keys = TRUE,
   assign_globals = TRUE
 )
 }
@@ -20,32 +19,26 @@ togo_paths(
 \item{setup_s3}{If \code{TRUE} (default), also set the AWS/S3 environment
 variables via \code{\link{togo_setup_s3}} using this user's keys file.}
 
-\item{read_keys}{If \code{TRUE} (default), read and parse the user's keys file
-(JSON or CSV) into \code{kopah_keys}. If \code{FALSE}, the file is not read and
-only the path (\code{keys_path}) is returned/assigned.}
-
 \item{assign_globals}{If \code{TRUE} (default), assign \code{root_path},
-\code{git_path}, \code{keys_path}, \code{kopah_keys}, and \code{keys} into the
-calling environment.}
+\code{git_path}, \code{kopah_keys}, and \code{redcap_tokens} into the calling
+environment. The keys \emph{path} is not assigned.}
 }
 \value{
 Invisibly, a list with elements \code{user}, \code{root_path}, \code{git_path},
-\code{keys_path}, \code{kopah_keys} (the parsed Kopah credentials from a
-\code{.json} or \code{.csv} keys file, or \code{NULL}), and \code{keys} (an
-alias of \code{kopah_keys}, kept for backward compatibility).
+\code{keys_path}, \code{kopah_keys} (parsed Kopah credentials, or \code{NULL}),
+and \code{redcap_tokens} (a data frame of \code{Study}/\code{Token}, or
+\code{NULL} if the user has no REDCap token file configured).
 }
 \description{
 Reads the external YAML configuration, matches the current OS user, expands
-\code{~}, and returns that user's paths. Reads the keys file (JSON or CSV) and
-optionally configures S3 credentials.
+\code{~}, and returns that user's paths. Reads the Kopah keys file (JSON or
+CSV) and an optional REDCap tokens CSV, and optionally configures S3.
 }
 \examples{
 \dontrun{
 p <- togo_paths()
 p$root_path
 p$kopah_keys
-
-# keep only the path to the keys file, don't read it:
-togo_paths(read_keys = FALSE)$keys_path
+p$redcap_tokens
 }
 }
