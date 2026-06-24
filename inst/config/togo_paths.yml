@@ -43,7 +43,7 @@ users:
 
   kristenmiller:          # Kristen Miller
     root_path: "/Users/kristenmiller/Library/CloudStorage/OneDrive-UW/Laura Pyle's files - Biostatistics Core Shared Drive"
-    git_path:  "/Users/kristenmiller/Documents/GitHub/CHCO-Code/Petter Bjornstad"
+    git_path:  "/Users/kristenmiller/Documents/GitHub/projects"
     keys:      "/Users/kristenmiller/keys.json"
 
   # ---- Add your entry below. Replace USERNAME with your Sys.info()[["user"]] ----
