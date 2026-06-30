@@ -26,7 +26,7 @@ users:
 
   yejichoi:                # Ye Ji Choi - Hyak
     root_path: "/mmfs1/gscratch/togo/yejichoi/"
-    git_path:  "/mmfs1/gscratch/togo/yejichoi/CHCO-Code/projects"
+    git_path:  "/mmfs1/gscratch/togo/yejichoi/projects"
     kopah_keys:      "/mmfs1/home/yejichoi/keys.json"
 
   rameshsh:                # Shivani Ramesh
