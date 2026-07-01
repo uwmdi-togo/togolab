@@ -69,9 +69,9 @@ users:
   savanahleidholt:             # Savanah Leidholt laptop
     root_path: "/Users/savanahleidholt/UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
     git_path:  "/Users/savanahleidholt/Desktop/projects"
-    kopah_keys: "/Users/savanahleidholt/OneDrive - UW/Personal_storage/keys.json"
+    kopah_keys:      "/Users/savanahleidholt/OneDrive - UW/Personal_storage/keys.json"
      
   sleidholt:             # Savanah Leidholt macstudio
     root_path: "/Users/Shared/UW/bjornstad_pyle_tommerdahl_lab - Data Science"
     git_path:  "/Users/sleidholt/Documents/projects"
-    kopah_keys: "/Users/Shared/OneDrive - UW/Personal_storage/keys.json"
+    kopah_keys:      "/Users/Shared/OneDrive - UW/Personal_storage/keys.json"
