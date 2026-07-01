@@ -45,9 +45,10 @@ users:
     kopah_keys:      "/Users/lpyle/Library/CloudStorage/OneDrive-UW/keys.json" 
 
   kristenmiller:          # Kristen Miller
-    root_path: "/Users/kristenmiller/Library/CloudStorage/OneDrive-UW/Laura Pyle's files - Biostatistics Core Shared Drive"
-    git_path:  "/Users/kristenmiller/Documents/GitHub/CHCO-Code/Petter Bjornstad"
-    kopah_keys:      "/Users/kristenmiller/keys.json"
+    root_path: "/Users/kristenmiller/Library/CloudStorage/OneDrive-SharedLibraries-UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
+    git_path:  "/Users/kristenmiller/Documents/GitHub/projects"
+    kopah_keys:      "/Users/kristenmiller/Library/CloudStorage/OneDrive-UW/MillerK/Keys/keys.json"
+    redcap_tokens:   "/Users/kristenmiller/Library/CloudStorage/OneDrive-UW/MillerK/Keys/api_tokens.csv"   # optional: path to a CSV with Study,Token columns
 
   savanahleidholt:             # Savanah Leidholt - laptop
     root_path: "/Users/savanahleidholt/UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
