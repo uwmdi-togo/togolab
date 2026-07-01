@@ -50,7 +50,7 @@ users:
     kopah_keys:      "/Users/kristenmiller/Library/CloudStorage/OneDrive-UW/MillerK/Keys/keys.json"
     redcap_tokens:   "/Users/kristenmiller/Library/CloudStorage/OneDrive-UW/MillerK/Keys/api_tokens.csv"   # optional: path to a CSV with Study,Token columns
 
-  savanahleidholt:             # Savanah Leidholt - laptop
+  savanahleidholt:        # Savanah Leidholt - laptop
     root_path: "/Users/savanahleidholt/UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
     git_path:  "/Users/savanahleidholt/Desktop/projects"
     kopah_keys:      "/Users/savanahleidholt/OneDrive - UW/Personal_storage/keys.json"
