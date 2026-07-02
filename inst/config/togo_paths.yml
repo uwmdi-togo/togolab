@@ -35,13 +35,13 @@ users:
     kopah_keys:      ""
 
   pylell:                  # Laura Pyle
-    root_path: "/Users/pylell/Library/CloudStorage/OneDrive-SharedLibraries-UW/Bjornstad/Biostatistics Core Shared Drive"
-    git_path:  "/Users/pylell/Documents/GitHub/CHCO-Code/Petter Bjornstad"
+    root_path: '/Users/lpyle/Library/CloudStorage/OneDrive-SharedLibraries-UW/bjornstad_pyle_tommerdahl_lab - Documents'
+    git_path:  ""
     kopah_keys:      "/Users/pylell/Library/CloudStorage/OneDrive-UW/keys.json"
 
   lpyle:                  # Laura Pyle
     root_path: "/Users/lpyle/Library/CloudStorage/OneDrive-SharedLibraries-UW/Bjornstad/Biostatistics Core Shared Drive"
-    git_path:  "/Users/lpyle/Documents/GitHub/CHCO-Code/Petter Bjornstad"
+    git_path:  ""
     kopah_keys:      "/Users/lpyle/Library/CloudStorage/OneDrive-UW/keys.json" 
 
   kristenmiller:          # Kristen Miller
