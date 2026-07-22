@@ -60,10 +60,10 @@ users:
     git_path:  "/Users/sleidholt/Documents/projects"
     kopah_keys:      "/Users/Shared/OneDrive - UW/Personal_storage/keys.json"
 
-   mdanto:             # Matteo DAntonio - desktop
-     root_path: "/mnt/c/Users/mdanto/OneDrive - UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
-     git_path:  ""
-     kopah_keys:      "/home/mdanto/keys.json"
+  mdanto:             # Matteo DAntonio - desktop
+    root_path: "/mnt/c/Users/mdanto/OneDrive - UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
+    git_path:  ""
+    kopah_keys:      "/home/mdanto/keys.json"
 
   # ---- Add your entry below. Replace USERNAME with your Sys.info()[["user"]] ----
 
