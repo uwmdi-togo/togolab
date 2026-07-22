@@ -61,7 +61,7 @@ users:
     kopah_keys:      "/Users/Shared/OneDrive - UW/Personal_storage/keys.json"
 
    mdanto:             # Matteo DAntonio - desktop
-     root_path: "/mnt/c/Users/mdanto/OneDrive/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
+     root_path: "/mnt/c/Users/mdanto/OneDrive - UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
      git_path:  ""
      kopah_keys:      "/home/mdanto/keys.json"
 
