@@ -57,7 +57,7 @@ users:
      
   sleidholt:             # Savanah Leidholt - macstudio
     root_path: "/Users/Shared/UW/bjornstad_pyle_tommerdahl_lab - Data Science"
-    git_path:  "/Users/sleidholt/Documents/projects"
+    git_path:  "/Users/sleidholt/Documents/GitHub/projects"
     kopah_keys:      "/Users/Shared/OneDrive - UW/Personal_storage/keys.json"
 
   mdanto:             # Matteo DAntonio - desktop
