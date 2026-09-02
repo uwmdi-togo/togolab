@@ -47,7 +47,7 @@ users:
   laurapyle:                  # Laura Pyle
     root_path: "/Users/laurapyle/Library/CloudStorage/OneDrive-SharedLibraries-UW/bjornstad_pyle_tommerdahl_lab - Documents"
     git_path:  ""
-    kopah_keys:      "/Users/laurapyle/Library/CloudStorage/OneDrive-UW/keys.json" 
+    kopah_keys:      "/Users/laurapyle/Library/CloudStorage/OneDrive-UW/keys.json"
 
   kristenmiller:          # Kristen Miller
     root_path: "/Users/kristenmiller/Library/CloudStorage/OneDrive-SharedLibraries-UW/bjornstad_pyle_tommerdahl_lab - Documents/Data Science"
