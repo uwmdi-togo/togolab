@@ -66,8 +66,8 @@ users:
     kopah_keys:      "/Users/Shared/OneDrive - UW/Personal_storage/keys.json"
 
   leidholt:        # Savanah Leidholt - hyak
-    root_path: "/mmfs1/gscratch/togo/leidholt/"
-    git_path:  "/mmfs1/gscratch/togo/leidholt/github/projects"
+    root_path: "/mmfs1/gscratch/togo/leidholt/leidholt"
+    git_path:  "/mmfs1/gscratch/togo/leidholt/leidholt/github/projects"
     kopah_keys:      "/mmfs1/home/leidholt/keys.json"
 
   mdanto:             # Matteo DAntonio - desktop
